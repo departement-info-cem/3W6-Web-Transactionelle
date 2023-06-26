@@ -1,13 +1,9 @@
 # Rencontre 13.1
 
-🚧 En construction...
-
 ## TP
 Remise [TP2](/tp/tp2) 
+Présentation du [TP3](/tp/tp3)
 
 ## Contenu
-- Autorisations types: 
-  - Par rôle 
-  - Seed rôles (Initializer) 
-- Annotations dans les Controllers  
+- Travail sur le [TP3](/tp/tp3)
 

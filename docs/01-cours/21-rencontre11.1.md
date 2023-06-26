@@ -1,7 +1,5 @@
 # Rencontre 11.1
 
-🚧 En construction...
-
 ## Contenu
 - Tests unitaires avec moq:   
     - Tests de views, viewsModels   
@@ -13,11 +11,8 @@
 
 ## Activités de la séance: 
 
-### Théorie:  
-- 🔗‍💥[S19_Moq.pptx](BRISE)
-
 ### Laboratoire:  
-- 🔗‍💥[Fichier instructions du laboratoire S19](BRISE)
+- Choisir l'assignation 10XX-S011_1_Lab1 dans GitHub Classroom
 
 ### Travail personnel: 
 - Compléter le laboratoire
