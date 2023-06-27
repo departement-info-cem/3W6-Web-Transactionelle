@@ -4,7 +4,9 @@
 [Dossier Partagé](https://cegepedouardmontpetit-my.sharepoint.com/:f:/g/personal/valerie_turgeon_cegepmontpetit_ca/ElbcBszBEZFGleV3zNvtMosBjDi62tWi9pyD7uVZwJk0ig?e=Xhcwya)
 
 ## Génération(scaffolding) d'un contrôleur avec la ligne de commande 
-### Pratique lorsque l'on a des erreurs!!
+#### Pratique lorsque l'on a des erreurs!!
+
+<details>
 
 Vous pouvez prendre le temps de lire les [notes de cours](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/08.1%20VuesControleurs%20autogeneres/S08.1_Generer%20les%20vues%20avec%20console.pptx?d=w25f7099d17b8472baf531cde3223753d&csf=1&web=1&e=XYQLa7) ou alors suivre les directives suivantes
 
@@ -37,13 +39,23 @@ Si vous avez une erreur comme quoi la commande n'est pas trouvée, vous devez in
 dotnet tool install --global dotnet-aspnet-codegenerator --version 6.0.13
 ```
 
+Pour rouler la commande:
+
+![image](/autres/menuTerminal.png)
+
+![image](/autres/terminal.png)
+
 :::warning
 
 Cette commande doit être effectué dans la console de VisualStudio et il faut s'assurer de faire un cd NOM_DU_PROJET (PresseMots_Web dans l'exemple) avant de rouler la commande.
 
 :::
 
+</details>
+
 ## Si vous avez une erreur d'accès causer par un certificat auto généré dans votre navigateur!
+
+<details>
 
 Il y a un problème avec les certificats auto généré qui arrive sur certains postes de travail. Si vous avez un problème de certificat non sécure en localhost avec votre navigateur, vous avec 2 choix:
 
@@ -52,4 +64,4 @@ Il y a un problème avec les certificats auto généré qui arrive sur certains 
 
 ![image](/autres/selectionNavigateurVisualStudio.png)
 
-
+</details>
