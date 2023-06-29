@@ -1,7 +1,5 @@
 # Rencontre 15.2
 
-🚧 En construction...
-
 ## TP
 Remise du [TP3](/tp/tp3)
 
