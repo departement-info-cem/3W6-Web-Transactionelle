@@ -1,11 +1,8 @@
 # Rencontre 13.2
 
-🚧 En construction...
+## TP
+Remise [TP2](/tp/tp2) 
+Présentation du [TP3](/tp/tp3)
 
 ## Contenu
-- Déploiement  
-- Révision: 
-    - Views complexes 
-    - Javascript 
-    - Services (règles d’affaires) 
-    - TU 
+- Travail sur le [TP3](/tp/tp3)

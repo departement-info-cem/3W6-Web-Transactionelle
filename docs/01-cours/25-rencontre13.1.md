@@ -1,9 +1,9 @@
 # Rencontre 13.1
 
-## TP
-Remise [TP2](/tp/tp2) 
-Présentation du [TP3](/tp/tp3)
+### Théorie: 
+- 🔗[S13.1 Interactions_Ajax.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/13.1%20JQuery%20Ajax/S13.1%20Interactions_Ajax.pptx?d=w58a5c6d446a84ba39aade91ef9da87f3&csf=1&web=1&e=omdyfB)
 
-## Contenu
-- Travail sur le [TP3](/tp/tp3)
+## Laboratoire: 
+- Choisir l'assignation 10XX-S013_1_Lab1 dans GitHub Classroom
+- Choisir l'assignation 10XX-S013_1_Lab2 dans GitHub Classroom
 
