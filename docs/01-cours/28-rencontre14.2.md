@@ -5,6 +5,8 @@ Examen final
 
 ### Contenu
 - Entity Framework
+- Services
+- Dependency Injections (DI)
 - Relations
 - Annotations
 - Validations
