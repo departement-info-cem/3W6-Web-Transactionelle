@@ -8,6 +8,7 @@ Examen final
 - Relations
 - Annotations
 - Validations
+- Dependency injections
 - Tests unitaires
 - i18n
 - ViewModels
