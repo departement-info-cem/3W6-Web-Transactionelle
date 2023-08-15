@@ -40,15 +40,17 @@
 
 ### Laboratoires:
 
-#### Groupe 1010
-- 🔗[GitHub Classroom](https://classroom.github.com/classrooms/129973551-e23progwebtrans-1010)
-#### Groupe 1020
-- 🔗[GitHub Classroom](https://classroom.github.com/classrooms/129973551-e23progwebtrans-1020)
+#### Groupe 1030
+- 🔗🚧<!--[GitHub Classroom](https://classroom.github.com/classrooms/129973551-e23progwebtrans-1010)-->
+#### Groupe 1040
+- 🔗🚧<!--[GitHub Classroom](https://classroom.github.com/classrooms/129973551-e23progwebtrans-1020)-->
 
+<!--
 Ces liens sont également toujours facilement accessible au bas de la page
 ![Image Reference](/cours/1_1/LiensGithubClassroom.png)
 
 - Laboratoire 2: Utilisez le lien de votre groupe 10XX pour GitHub Classroom et choisir l'assignation 10XX-S01_1_Lab2
+-->
 
 ### Travail personnel: 
 - Compléter les laboratoires

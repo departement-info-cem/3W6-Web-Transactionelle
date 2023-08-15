@@ -76,7 +76,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
+        /*links: [
           {
             title: "Github Classroom E2023",
             items: [
@@ -90,7 +90,7 @@ const config = {
               },
             ],
           },
-        ],
+        ],*/
         copyright: `Copyright © ${new Date().getFullYear()}. ${siteConfig.nom}. CÉGEP Édouard-Montpetit.`,
       },
       // Décommenter et remplir pour activer l'indexation des pages par le moteur de recherche local
