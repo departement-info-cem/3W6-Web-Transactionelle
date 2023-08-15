@@ -1,3 +1,5 @@
+import Laboratoire from '/laboratoire.mdx';
+
 # Rencontre 6.1
 
 ## Contenu
@@ -7,7 +9,7 @@
 
 ### Laboratoires: Révision le PresseMots 
   - Wooclap!!
-  - Choisir l'assignation 10XX-S05_2_Lab1 dans GitHub Classroom
+<Laboratoire nom="10XX-S05_2_Lab1"/>
 
 ### Travail personnel: 
 - Révision en prévision de l'examen et terminé le TP1

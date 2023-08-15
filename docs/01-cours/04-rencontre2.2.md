@@ -1,3 +1,5 @@
+import Laboratoire from '/laboratoire.mdx';
+
 # Rencontre 2.2
 
 ## Contenu
@@ -19,7 +21,7 @@
 - 🔗[S02.2 B_liaisons propNavigation](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/02.2_EntityFramework/S02.2%20B_liaisons%20propNavigation.pptx?d=w06da3400208c49e2877be8bcdb1ca89f&csf=1&web=1&e=NGzJmI)
 
 ### Laboratoire: 
-- Choisir l'assignation 10XX-S02_2_Lab1 dans GitHub Classroom
+<Laboratoire nom="10XX-S02_2_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire

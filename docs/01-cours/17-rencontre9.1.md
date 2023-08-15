@@ -1,3 +1,5 @@
+import Laboratoire from '/laboratoire.mdx';
+
 # Rencontre 9.1
 
 ## Contenu
@@ -13,7 +15,7 @@
 ### Théorie:  
 
 ### Laboratoire: ZombieParty 
-- Choisir l'assignation 10XX-S09_1_Lab2 dans GitHub Classroom
+<Laboratoire nom="10XX-S09_1_Lab2"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire 

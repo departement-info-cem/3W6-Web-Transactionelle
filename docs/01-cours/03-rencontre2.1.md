@@ -1,3 +1,5 @@
+import Laboratoire from '/laboratoire.mdx';
+
 # Rencontre 2.1
 
 ## Contenu
@@ -17,7 +19,7 @@
 
 
 ### Laboratoire
-- Choisir l'assignation 10XX-S02_1_Lab1 dans GitHub Classroom
+<Laboratoire nom="10XX-S02_1_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire

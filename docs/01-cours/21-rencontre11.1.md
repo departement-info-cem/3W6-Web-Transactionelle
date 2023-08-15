@@ -1,3 +1,5 @@
+import Laboratoire from '/laboratoire.mdx';
+
 # Rencontre 11.1
 
 ## Contenu
@@ -12,7 +14,7 @@
 ## Activités de la séance: 
 
 ### Laboratoire:  
-- Choisir l'assignation 10XX-S011_1_Lab1 dans GitHub Classroom
+<Laboratoire nom="10XX-S011_1_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire
