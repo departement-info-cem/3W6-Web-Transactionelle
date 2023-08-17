@@ -1,3 +1,5 @@
+import Laboratoire from '/laboratoire.mdx';
+
 # Rencontre 10.1
 
 ## Contenu
@@ -23,7 +25,7 @@
 - 🔗[TestsUnitaires_Annotations](https://cegepedouardmontpetit-my.sharepoint.com/:w:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/10.1%20Tests%20Unitaires/TestsUnitaires_Annotations.docx?d=w89373151506f46e8b73c7225722ed5c1&csf=1&web=1&e=0qbGjm)
 - 🔗[Glossaire-des-tests-de-logiciels FR](https://cegepedouardmontpetit-my.sharepoint.com/:b:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/10.1%20Tests%20Unitaires/Glossaire-des-tests-de-logiciels%20FR.pdf?csf=1&web=1&e=UvxIdy)
 ### Laboratoire:  
-- Choisir l'assignation 10XX-S010_1_Lab1 dans GitHub Classroom
+<Laboratoire nom="10XX-S010_1_Lab1"/>
 
 ### Travail personnel: 
 - Compléter les laboratoires 

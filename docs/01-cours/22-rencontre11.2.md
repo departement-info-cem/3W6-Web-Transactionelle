@@ -1,3 +1,5 @@
+import Laboratoire from '/laboratoire.mdx';
+
 # Rencontre 11.2
 
 ## Contenu
@@ -6,4 +8,4 @@
     - Moq 
 
 ### Laboratoire de révision:  
-- Choisir l'assignation 10XX-S011_2_Lab1 dans GitHub Classroom
+<Laboratoire nom="10XX-S011_2_Lab1"/>
