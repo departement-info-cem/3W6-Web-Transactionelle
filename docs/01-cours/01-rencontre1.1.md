@@ -1,21 +1,15 @@
 # Rencontre 1.1
 
 ## Contenu: 
-- Fonctionnement et plan de cours 
-- Explication des logiciels requis et configuration de votre environnement 
-- Git/GitHub (théorie)
+- Plan de cours 
+- Git/GitHub/GitKraken (théorie)
   - Repository 
-  - Commenter commit 
-  - Branches (utilisation) 
-  - Création de branches 
-  - Merge Fusion de branches 
+  - Commit 
+  - Branches
+  - Merge
   - Création d’un Repo GitHub pour les démonstrations 
-- Types d’applications
-  - MVC 
-  - Web API 
-  - Microservices
-- NET Core 6 MVC : Projets 
-  - Création de projet .NET Core 6 MVC  (avec liste comme 2W5) 
+- .NET Core MVC : Projets 
+  - Création de projet .NET Core MVC (avec liste comme en 2W5) 
   - Déclenchement d’action et d’événement au niveau de l’application par l’envoi d’un formulaire ou d’un appel de page.
 
 ## Ressources et documentation: 
@@ -35,10 +29,11 @@
 - [S01.1 C_CreationProjetMVC.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/01.1_Intro_GitKraken/S01C_CreationProjetMVC.pptx?d=w01697b947c244e32959ca241566699de&csf=1&web=1&e=2RoQ28)
 
 ### Démo guidée:
-- Utilisation de Git Kraken (Laboratoire 1)
 - CrazyBooks
 
 ### Laboratoires:
+
+- Utilisation de Git Kraken (Laboratoire 1)
 
 #### Groupe 1030
 - 🔗🚧<!--[GitHub Classroom](https://classroom.github.com/classrooms/129973551-e23progwebtrans-1010)-->
