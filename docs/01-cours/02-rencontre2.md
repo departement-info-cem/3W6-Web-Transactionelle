@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 1.2
+# Rencontre 2
 
 ## Contenu
 - NET Core 6 MVC : Projets suite 
@@ -21,7 +21,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie
-- 🔗[S01.2_Views_ViewModels_annotations.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/01.2_Views_ViewsModels_Annotations/S01.2%20A_Views_ViewModels_annotations.pptx?d=wbed31c95cba640bea31d0a7de519d3ca&csf=1&web=1&e=V0qMEL)
+- 🔗🚧[À venir](BRISE)
 
 ### Laboratoire
 <Laboratoire nom="10XX-S01_2_Lab1"/>

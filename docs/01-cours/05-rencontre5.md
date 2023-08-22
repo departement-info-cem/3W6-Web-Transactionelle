@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 3.1
+# Rencontre 5
 
 ## Contenu
 - Validations supplémentaires :
@@ -15,7 +15,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[S03.1 A_Linq Seed](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/03.1_Linq_Seed/S03.1%20A_Linq%20Seed.pptx?d=wa8a730cef0f34a23914dc2533c96c986&csf=1&web=1&e=jWeAom)
+- 🔗🚧[À venir](BRISE)
 
 ### Laboratoire: 
 <Laboratoire nom="10XX-S03_1_Lab1"/>

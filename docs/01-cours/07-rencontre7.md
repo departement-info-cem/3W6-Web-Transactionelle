@@ -1,4 +1,4 @@
-# Rencontre 4.1
+# Rencontre 7
 
 ## TP
 Présentation du [TP1](/tp/tp1)
@@ -20,7 +20,7 @@ Présentation du [TP1](/tp/tp1)
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[S04.1_Methodes_Asynchrones](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/04.1%20Asynchrones%20TP1/S04.1_Methodes_Asynchrones.pptx?d=w0f6e6609fd09461ebc775aef067062eb&csf=1&web=1&e=4fGvZP)
+- 🔗🚧[À venir](BRISE)
 
 ### Laboratoires: 
 Travail sur le [TP1](/tp/tp1)

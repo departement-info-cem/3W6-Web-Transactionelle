@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 11.2
+# Rencontre 22
 
 ## Contenu
 - Pratique (révision)  

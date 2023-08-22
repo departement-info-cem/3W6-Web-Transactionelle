@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 12.2
+# Rencontre 24
 
 ## Contenu
 - Autorisations types: 
@@ -16,7 +16,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie: 
-- 🔗[12.2 Autorisations.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/12.2%20Autorisations/S12.2_Autorisations.pptx?d=w2ada2c0164024606a3b3beb91e5fdb92&csf=1&web=1&e=2uv3og)
+- 🔗🚧[À venir](BRISE)
 
 ## Laboratoire: 
 <Laboratoire nom="10XX-S012_2_Lab1"/>

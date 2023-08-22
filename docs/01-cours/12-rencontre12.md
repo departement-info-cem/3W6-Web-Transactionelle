@@ -1,4 +1,4 @@
-# Rencontre 6.2
+# Rencontre 12
 
 ## Examen Intra  
 ### Sujets couverts

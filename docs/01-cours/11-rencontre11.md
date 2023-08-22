@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 6.1
+# Rencontre 11
 
 ## Contenu
 - Révision pour l'examen intra

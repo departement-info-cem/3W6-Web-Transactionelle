@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 7.2
+# Rencontre 14
 
 ## Contenu
 - Internationalisation i18n 
@@ -14,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗[S07.2_i18n_ViewsControllers](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/07.2%20i18n_ViewsControllers/S07.2_i18n_ViewsControllers.pptx?d=w85c673d8ebfb43bcb7e1e89d5dbbc900&csf=1&web=1&e=ed5Gsz) 
+- 🔗🚧[À venir](BRISE)
 
 ### Laboratoire: ZombieParty 
 <Laboratoire nom="10XX-S07_2_Lab1"/>

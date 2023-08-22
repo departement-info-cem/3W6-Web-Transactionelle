@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 2.2
+# Rencontre 4
 
 ## Contenu
 - Models: Entity Framework 
@@ -17,8 +17,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[S02.2 A_EntityFramework.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/02.2_EntityFramework/S02.2%20A_EntityFramework.pptx?d=w7d9fd4c3a3c2473bb0be7f11d0babdce&csf=1&web=1&e=kdOeRz)
-- 🔗[S02.2 B_liaisons propNavigation](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/02.2_EntityFramework/S02.2%20B_liaisons%20propNavigation.pptx?d=w06da3400208c49e2877be8bcdb1ca89f&csf=1&web=1&e=NGzJmI)
+- 🔗🚧[À venir](BRISE)
 
 ### Laboratoire: 
 <Laboratoire nom="10XX-S02_2_Lab1"/>

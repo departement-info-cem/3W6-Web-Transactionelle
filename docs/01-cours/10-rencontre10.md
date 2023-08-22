@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 5.2
+# Rencontre 10
 
 ## Contenu
 - Introduction à Javascript 
@@ -19,7 +19,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗[S05.2_Javascript_Intro](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/05.2_Javascript_JQuery/S05.2_Javascript_Intro.pptx?d=w998a8b6d08344a259c5926352d8245db&csf=1&web=1&e=82VsoU)
+- 🔗🚧[À venir](BRISE)
 
 ### Laboratoires:  
 <Laboratoire nom="10XX-S05_2_Demo"/>

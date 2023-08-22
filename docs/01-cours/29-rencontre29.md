@@ -1,4 +1,4 @@
-# Rencontre 15.1
+# Rencontre 29
 
 ## Contenu
 - Travail sur le [TP3](/tp/tp3)

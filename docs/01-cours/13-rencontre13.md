@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 7.1
+# Rencontre 13
 
 ## TP
 Remise [TP1](/tp/tp1) 
@@ -21,7 +21,7 @@ Remise [TP1](/tp/tp1)
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗[S07.1_i18n_Models](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/valerie_turgeon_cegepmontpetit_ca/Documents/Site_3W6_Partage/07.1%20i18n_Models/S07.1_i18n_Models.pptx?d=w809a6809c90843a1b3132dbcda4b1a5c&csf=1&web=1&e=7ePyyn)
+- 🔗🚧[À venir](BRISE)
 
 ### Laboratoire: ZombieParty 
 <Laboratoire nom="10XX-S07_1_Lab1"/>
