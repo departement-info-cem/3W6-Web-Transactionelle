@@ -32,9 +32,9 @@
 
 Révision .NET Core MVC
 #### Groupe 1030
-- 🔗<!--[GitHub Classroom](https://classroom.github.com/classrooms/129973551-e23progwebtrans-1010)-->
+- 🔗[GitHub Classroom](https://classroom.github.com/a/2Eu94XxS)
 #### Groupe 1040
-- 🔗<!--[GitHub Classroom](https://classroom.github.com/classrooms/129973551-e23progwebtrans-1020)-->
+- 🔗[GitHub Classroom](https://classroom.github.com/a/RXX4d0T1)
 
 ### Travail personnel: 
 - Compléter les laboratoires
