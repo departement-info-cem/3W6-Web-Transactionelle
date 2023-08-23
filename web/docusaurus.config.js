@@ -80,34 +80,9 @@ const config = {
       },
       footer: {
         style: "dark",
-        /*links: [
-          {
-            title: "Github Classroom E2023",
-            items: [
-              {
-<<<<<<< HEAD:docusaurus.config.js
-                label: "Groupe 1010",
-                href: `https://classroom.github.com/classrooms/129973551-e23progwebtrans-1010`,
-              },
-              {
-                label: "Groupe 1020",
-                href: `https://classroom.github.com/classrooms/129973551-e23progwebtrans-1020`,
-              },
-            ],
-          },
-        ],*/
-        copyright: `Copyright © ${new Date().getFullYear()}. ${siteConfig.nom}. CÉGEP Édouard-Montpetit.`,
-=======
-                label: "GitHub",
-                href: `https://github.com/departement-info-cem/${siteConfig.nomUrl}`,
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()}. ${
           siteConfig.nom
         }. CÉGEP Édouard-Montpetit.`,
->>>>>>> main:web/docusaurus.config.js
       },
       // Décommenter et remplir pour activer l'indexation des pages par le moteur de recherche local
       // algolia: {
