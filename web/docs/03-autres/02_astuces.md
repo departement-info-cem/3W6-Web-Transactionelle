@@ -1,7 +1,37 @@
 # Astuces
 
 ## Lien vers l'ensemble des documents partagés sur sharepoint:
-[Dossier Partagé](https://cegepedouardmontpetit-my.sharepoint.com/:f:/g/personal/valerie_turgeon_cegepmontpetit_ca/ElbcBszBEZFGleV3zNvtMosBjDi62tWi9pyD7uVZwJk0ig?e=Xhcwya)
+[Dossier Partagé](https://cegepedouardmontpetit-my.sharepoint.com/:f:/r/personal/mathieu_briau_cegepmontpetit_ca/Documents/3W6/Diapos3W6?csf=1&web=1&e=KAXGmC)
+
+## Erreur https au démarrage de votre application (à propos des certificats)
+
+![image](/autres/RisqueCertificat.png)
+
+<details>
+Il faut premièrement ouvrir la console de package NuGet:
+
+![image](/autres/consoleGestionnaireDePackage.png)
+
+Ensuite il faut exécuter les commandes suivantes:
+
+![image](/autres/commandesDotnetDevcerts.png)
+
+</details>
+
+## Si vous avez une erreur d'accès causer par un certificat auto généré dans votre navigateur!
+
+<details>
+
+Il y a un problème avec les certificats auto généré. Si vous avez un problème de certificat non sécure en localhost avec votre navigateur, vous pouvez permettre les certificats invalides.
+
+- Dans **chrome** Utiliser cette ligne  : chrome://flags/#allow-insecure-localhost et mettre Allow invalid certificates for resources loaded from localhost (ça devrait être la première option) à **enable** et redémarrer Chrome.
+- Sur Edge, il y a edge://flags qui permet de gérer les options également. Dans tout les cas, il faut trouver l'option ("Allow invalid certificates"), vous pouvez faire une recherche.
+
+Voici comment changer de navigateur utilisé par Visual Studio:
+
+![image](/autres/selectionNavigateurVisualStudio.png)
+
+</details>
 
 ## Génération(scaffolding) d'un contrôleur avec la ligne de commande 
 #### Pratique lorsque l'on a des erreurs!!
@@ -53,15 +83,4 @@ Cette commande doit être effectué dans la console de VisualStudio et il faut s
 
 </details>
 
-## Si vous avez une erreur d'accès causer par un certificat auto généré dans votre navigateur!
 
-<details>
-
-Il y a un problème avec les certificats auto généré qui arrive sur certains postes de travail. Si vous avez un problème de certificat non sécure en localhost avec votre navigateur, vous avec 2 choix:
-
-- Dans **chrome** Utiliser cette ligne  : chrome://flags/#allow-insecure-localhost et mettre Allow invalid certificates for resources loaded from localhost (ça devrait être la première option) à **enable** et redémarrer Chrome.
-- Sinon vous pouvez également utilisez Firefox à la place et il vous permet de choisir d'ignorer l'avertissement et de vivre dangereusement!! Voici comment changer de navigateur dans Visual Studio:
-
-![image](/autres/selectionNavigateurVisualStudio.png)
-
-</details>
