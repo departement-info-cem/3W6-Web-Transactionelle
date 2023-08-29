@@ -14,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 ### Théorie
 - Wooclap!
-- 🔗🚧[À venir](BRISE)
+- 🔗[Cours3.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/mathieu_briau_cegepmontpetit_ca/Documents/3W6/Diapos3W6/420_3W6_cours_3.pptx?d=w192fec5e3c1f4649920d3a82396e2735&csf=1&web=1&e=doZyG9)
 
 
 ### Laboratoire
