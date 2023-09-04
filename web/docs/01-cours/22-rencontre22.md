@@ -8,4 +8,4 @@ import Laboratoire from '/laboratoire.mdx';
     - Moq 
 
 ### Laboratoire de révision:  
-<Laboratoire nom="10XX-S011_2_Lab1"/>
+<Laboratoire nom="10XX-S22_Lab1"/>

@@ -18,7 +18,7 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗🚧[À venir](BRISE)
 
 ### Laboratoire: 
-<Laboratoire nom="10XX-S03_1_Lab1"/>
+<Laboratoire nom="10XX-S05_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le Laboratoire

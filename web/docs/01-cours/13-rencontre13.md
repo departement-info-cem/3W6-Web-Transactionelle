@@ -24,7 +24,7 @@ Remise [TP1](/tp/tp1)
 - 🔗🚧[À venir](BRISE)
 
 ### Laboratoire: ZombieParty 
-<Laboratoire nom="10XX-S07_1_Lab1"/>
+<Laboratoire nom="10XX-S13_Lab1"/>
 
 ### Travail personnel:
 - Compléter le laboratoire 

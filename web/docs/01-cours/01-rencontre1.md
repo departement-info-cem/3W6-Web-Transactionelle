@@ -24,7 +24,7 @@
 ## Activités de la séance
 
 ### Théorie:
-- 🔗[Cours1.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/mathieu_briau_cegepmontpetit_ca/Documents/3W6/Diapos3W6/420_3W6_cours_1.pptx?d=w88e08bca5be44b26ad85663bbb3a4d12&csf=1&web=1&e=cjAGgb)
+- 🔗[Cours1.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EcqL4IjkWyZLrYVmO7s6TRIB2wWAaJStAHbg8UIgs_0oMQ)
 
 ### Laboratoires:
 

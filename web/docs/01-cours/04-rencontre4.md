@@ -3,11 +3,8 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 4
 
 ## Contenu
-- Models: Entity Framework 
-  - Connexion DB 
-  - DbContext 
-  - Data Annotations (Clés, liaisons) 
-  - Migration/update database
+- ORM
+- Entity Framework 
 
 ## Ressources et documentation: 
 - [Types de données SQL Server](https://docs.microsoft.com/fr-fr/sql/connect/jdbc/understanding-data-type-differences?view=sql-server-ver15)
@@ -17,10 +14,10 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗🚧[À venir](BRISE)
+- 🔗[Cours4.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EXxll5BPh5NGpVt69KYw57MB6MqsRgUAaZUNaw91pS7cuQ?e=0eZLxa)
 
 ### Laboratoire: 
-<Laboratoire nom="10XX-S02_2_Lab1"/>
+<Laboratoire nom="10XX-S04_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire

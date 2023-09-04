@@ -9,7 +9,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoires: Révision le PresseMots 
   - Wooclap!!
-<Laboratoire nom="10XX-S05_2_Lab1"/>
+<Laboratoire nom="10XX-S11_Lab1"/>
 
 ### Travail personnel: 
 - Révision en prévision de l'examen et terminé le TP1

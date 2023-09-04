@@ -22,7 +22,7 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie:  
 - 🔗🚧[À venir](BRISE)
 ### Laboratoire:  
-<Laboratoire nom="10XX-S010_1_Lab1"/>
+<Laboratoire nom="10XX-S19_Lab1"/>
 
 ### Travail personnel: 
 - Compléter les laboratoires 

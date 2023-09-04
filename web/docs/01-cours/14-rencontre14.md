@@ -17,7 +17,7 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗🚧[À venir](BRISE)
 
 ### Laboratoire: ZombieParty 
-<Laboratoire nom="10XX-S07_2_Lab1"/>
+<Laboratoire nom="10XX-S14_Lab1"/>
 
 ### Travail personnel:
 - Compléter le laboratoire 

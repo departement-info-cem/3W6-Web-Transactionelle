@@ -21,10 +21,10 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie
-- 🔗[Cours2](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/mathieu_briau_cegepmontpetit_ca/Documents/3W6/Diapos3W6/420_3W6_cours_2.pptx?d=wd8ae48e105c7402bbdcf883f4ba03d6a&csf=1&web=1&e=qfNDCB)
+- 🔗[Cours2](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EeFIrtjHBStAvc-IP0ugPWoBjJRo6XhBP53vnIytUU-4rQ?e=lbev7U)
 
 ### Laboratoire
-<Laboratoire nom="10XX-S01_2_Lab1"/>
+<Laboratoire nom="10XX-S02_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire

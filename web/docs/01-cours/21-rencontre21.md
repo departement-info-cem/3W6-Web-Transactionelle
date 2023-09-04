@@ -14,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Laboratoire:  
-<Laboratoire nom="10XX-S011_1_Lab1"/>
+<Laboratoire nom="10XX-S21_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire

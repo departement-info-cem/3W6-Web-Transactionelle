@@ -19,7 +19,7 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗🚧[À venir](BRISE)
 
 ## Laboratoire: 
-<Laboratoire nom="10XX-S012_2_Lab1"/>
+<Laboratoire nom="10XX-S24_Lab1"/>
 
 
 

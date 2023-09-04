@@ -14,11 +14,11 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 ### Théorie
 - Wooclap!
-- 🔗[Cours3.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/r/personal/mathieu_briau_cegepmontpetit_ca/Documents/3W6/Diapos3W6/420_3W6_cours_3.pptx?d=w192fec5e3c1f4649920d3a82396e2735&csf=1&web=1&e=doZyG9)
+- 🔗[Cours3.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EV7sLxkfPElGkg06gjluJzUB0Vi1JZUGpSepJ2uODrarHQ?e=jIE2iu)
 
 
 ### Laboratoire
-<Laboratoire nom="10XX-S02_1_Lab1"/>
+<Laboratoire nom="10XX-S03_Lab1"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire

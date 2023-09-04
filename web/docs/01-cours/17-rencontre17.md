@@ -15,7 +15,7 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie:  
 
 ### Laboratoire: ZombieParty 
-<Laboratoire nom="10XX-S09_1_Lab2"/>
+<Laboratoire nom="10XX-S17_Lab2"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire 
