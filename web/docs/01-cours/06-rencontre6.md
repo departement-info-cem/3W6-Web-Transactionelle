@@ -3,11 +3,9 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 6
 
 ## Contenu
-- Modèles de classes complexes (plusieurs plusieurs) :
-  - master/details
-  - Basket
-- Views :  ViewModels 
 - Partial views 
+- ViewModels 
+- Démo Lazy Loading
 
 ## Ressources et documentation: 
 
@@ -20,7 +18,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗🚧[À venir](BRISE)
+- 🔗[Cours_6.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EckFcDKO58dFtbbWBy3R0tYBh2JaVFiWU5pVo9bUuRu2AQ)
 
 ### Laboratoire: 
 <Laboratoire nom="10XX-S06_Lab1"/>
