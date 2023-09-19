@@ -4,15 +4,15 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Contenu
 - Dependency Injections 
+- Logging 
 
 ### Ressources et documentation: 
-- [Bogus: Faker](https://github.com/bchavez/Bogus)
 - [MSDN: Dependency Injection](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-6.0)
 
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗🚧[À venir](BRISE)
+- 🔗[Cours_9.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EWrfJvDmWVVNnYsocbXC7kwBttjv-g-H8-tVNlkrQoKBxw?e=LAUgAi)
 
 ### Laboratoire:
 <Laboratoire nom="10XX-S09_Lab1"/>
