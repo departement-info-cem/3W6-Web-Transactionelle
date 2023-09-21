@@ -3,13 +3,12 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 11
 
 ## Contenu
-- Révision pour l'examen intra
+- Réponses aux questions et aide pour le TP1
 
 ## Activités de la séance
 
 ### Laboratoires: Révision le PresseMots 
-  - Wooclap!!
-<Laboratoire nom="10XX-S11_Lab1"/>
+- Travail sur le TP1
 
 ### Travail personnel: 
-- Révision en prévision de l'examen et terminé le TP1
+- Travail sur le TP1

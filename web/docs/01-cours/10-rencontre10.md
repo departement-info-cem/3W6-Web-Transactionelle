@@ -3,27 +3,25 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 10
 
 ## Contenu
-- Introduction à Javascript 
-- JS et views
-- HotReload 
+- Internationalisation i18n concept 
+  - Globalisation 
+  - Localisation 
+  - Validation 
+- I18n Models 
+  - Traduction: messages erreurs 
+  - Traduction : noms des propriétés•	 
 
 ## Ressources et documentation: 
-- [Exemples W3Schools HTML](https://www.w3schools.com/js/js_examples.asp) 
-- [Exemples W3Schools JS](https://htmlcheatsheet.com/js/) 
-- [HTML DOM Style object (w3schools.com)](https://www.w3schools.com/jsref/dom_obj_style.asp) 
-- [JQuery](https://api.jquery.com/)
-- [jQuery Plugin Registry](https://plugins.jquery.com/)  
-- [DataTables.net](https://datatables.net/)
-- [VS Hot Reload](https://learn.microsoft.com/fr-ca/visualstudio/debugger/hot-reload?view=vs-2022)
+- [Globalisation et localisation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-5.0) 
+- [Liste des cultures](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Language_Culture_Names,_Codes,_and_ISO_Values)
 
 ## Activités de la séance: 
 
 ### Théorie:  
 - 🔗🚧[À venir](BRISE)
 
-### Laboratoires:  
-<Laboratoire nom="10XX-S10_Demo"/>
+### Laboratoire: ZombieParty 
 <Laboratoire nom="10XX-S10_Lab1"/>
 
-### Travail personnel: 
-- Compléter les laboratoires
+### Travail personnel:
+- Compléter le laboratoire 

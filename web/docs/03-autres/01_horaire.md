@@ -4,8 +4,8 @@
 
 | Date |          |
 | :--------------- |:---------------:|
-| Lundi, 2 octobre | Examen intra |
-| Jeudi, 5 octobre | Remise TP1 |
+| Jeudi, 5 octobre | Examen intra |
+| Vendredi, 6 octobre | Remise TP1 |
 | Lundi, 20 novembre | Remise TP2 |
 | À préciser | Examen final |
 | Jeudi, 14 décembre | Remise TP3 |
@@ -21,8 +21,9 @@
 - Séance 9: Jeudi, 21 septembre
 - Séance 10: Lundi, 25 septembre
 - Séance 11: Jeudi, 28 septembre
-- Séance 12: Lundi, 2 octobre (Examen Intra)
-- Séance 13: Jeudi, 5 octobre (Remise TP1)
+- Séance 12: Lundi, 2 octobre
+- Séance 13: Jeudi, 5 octobre (Examen Intra)
+- Vendredi, 6 octobre (Remise TP1)
 - Semaine de relâche
 - Séance 14: Lundi, 16 octobre
 - Séance 15: Jeudi, 19 octobre
