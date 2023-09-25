@@ -2,9 +2,6 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 24
 
-## TP
-Remise [TP2](/tp/tp2) 
-
 ## Contenu
 - AJAX
 - Révision jQuery 

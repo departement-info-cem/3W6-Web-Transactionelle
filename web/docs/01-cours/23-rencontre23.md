@@ -2,6 +2,9 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 23
 
+## TP
+Remise [TP2](/tp/tp2) le dimanche à minuit
+
 ## Contenu
 - Autorisations types: 
   - Par rôle 

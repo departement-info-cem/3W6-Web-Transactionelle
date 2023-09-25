@@ -1,9 +1,15 @@
 # Rencontre 26
 
-- Deuxième cours de JS et AJAX
+Plus de pratique pour
+- JS
+- AJAX
 
-## TP
-Présentation du [TP3](/tp/tp3)
+- Laboratoire récapitulatif
 
-## Contenu
-- Travail sur le [TP3](/tp/tp3)
+## Activités de la séance: 
+
+### Théorie: 
+- 🔗🚧[À venir](BRISE)
+
+## Laboratoire:
+<Laboratoire nom="10XX-S26_Lab1"/>
