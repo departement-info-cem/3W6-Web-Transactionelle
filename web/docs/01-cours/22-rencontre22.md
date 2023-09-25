@@ -3,11 +3,10 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 22
 
 ## Contenu
-- Authentification MS Identity  
-    - Cookie vs Token  
-    - Modification de la page Register  
-- Seed users DbInitializer 
-
+- Autorisations types: 
+  - Par rôle 
+  - Seed rôles (Initializer) 
+- Annotations dans les Controllers  
 
 ## Ressources et documentation: 
 
@@ -19,5 +18,5 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie: 
 - 🔗🚧[À venir](BRISE)
 
-### Laboratoire de révision:  
+## Laboratoire: 
 <Laboratoire nom="10XX-S22_Lab1"/>
