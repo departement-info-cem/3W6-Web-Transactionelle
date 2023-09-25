@@ -1,10 +1,8 @@
 # Rencontre 26
 
-- AJAX
-- Révision jQuery
+- Deuxième cours de JS et AJAX
 
 ## TP
-Remise [TP2](/tp/tp2) 
 Présentation du [TP3](/tp/tp3)
 
 ## Contenu

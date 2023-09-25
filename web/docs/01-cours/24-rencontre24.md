@@ -2,16 +2,14 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 24
 
+## TP
+Remise [TP2](/tp/tp2) 
+
 ## Contenu
-- Autorisations types: 
-  - Par rôle 
-  - Seed rôles (Initializer) 
-- Annotations dans les Controllers  
+- AJAX
+- Révision jQuery 
 
 ## Ressources et documentation: 
-
-#### Complémentaire: 
-- [MSDN Scaffold Identity](https://go.microsoft.com/fwlink/?linkid=2116645)
 
 ## Activités de la séance: 
 
@@ -20,6 +18,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Laboratoire: 
 <Laboratoire nom="10XX-S24_Lab1"/>
+<Laboratoire nom="10XX-S24_Lab2"/>
 
 
 

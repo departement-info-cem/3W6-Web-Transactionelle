@@ -23,7 +23,7 @@
 - Séance 11: Jeudi, 28 septembre
 - Séance 12: Lundi, 2 octobre
 - Séance 13: Jeudi, 5 octobre (Examen Intra)
-- Vendredi, 6 octobre (Remise TP1)
+- Vendredi, 6 octobre minuit (Remise TP1)
 - Semaine de relâche
 - Séance 14: Lundi, 16 octobre
 - Séance 15: Jeudi, 19 octobre
@@ -35,12 +35,13 @@
 - Séance 21: Jeudi, 9 novembre
 - Séance 22: Lundi, 13 novembre
 - Séance 23: Jeudi, 16 novembre
-- Séance 24: Lundi, 20 novembre (Remise TP2)
+- Dimanche, 19 novembre minuit (Remise TP2)
+- Séance 24: Lundi, 20 novembre
 - Séance 25: Jeudi, 23 novembre
 - Séance 26: Lundi, 27 novembre
 - Séance 27: Jeudi, 30 novembre
 - Séance 28: Lundi, 4 décembre
 - Séance 29: Jeudi, 11 décembre
-- Séance 30: Jeudi, 14 décembre (Remise TP3)
+- Séance 30: Jeudi, 14 décembre minuit (Remise TP3)
 
 

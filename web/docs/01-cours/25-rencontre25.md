@@ -2,9 +2,13 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 25
 
-### Théorie: 
-- 🔗🚧[À venir](BRISE)
+## TP
+Présentation du [TP3](/tp/tp3) 
 
-## Laboratoire: 
-<Laboratoire nom="10XX-S25_Lab1"/>
-<Laboratoire nom="10XX-S25_Lab2"/>
+### Laboratoires
+- Travail sur le [TP3](/tp/tp3)
+
+### Travail personnel: 
+- Travail sur le [TP3](/tp/tp3)
+
+
