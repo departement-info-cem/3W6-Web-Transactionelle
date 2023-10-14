@@ -3,6 +3,8 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 14
 
 ## Contenu
+- Retour sur l'examen
+- Retour sur le TP1
 - Internationalisation i18n 
   - Traduction Views
   - Traduction ViewModels
@@ -14,7 +16,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗🚧[À venir](BRISE)
+- 🔗[Cours_14.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EdMfI_y7K8xOj14byiPns8cBSSZVV8kV_5AVRDi3Z-MV-Q?e=VjZfDt)
 
 ### Laboratoire: ZombieParty 
 <Laboratoire nom="10XX-S14_Lab1"/>

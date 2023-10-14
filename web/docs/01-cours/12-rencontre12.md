@@ -5,9 +5,9 @@
 
 ## Activités de la séance
 
-### Laboratoires: Révision le PresseMots 
+### Laboratoires:
   - Wooclap!!
-<Laboratoire nom="10XX-S12_Lab1"/>
+  - Le fichier avec l'examen formatif est partagé dans les fichiers du Teams
 
 ### Travail personnel: 
 - Révision en prévision de l'examen et terminé le TP1
