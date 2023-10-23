@@ -12,7 +12,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗[Cours15.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EX0dge9Zs0JCtURXErOap5MBIBCceGYbsVK8eWVi47UbIg?e=jUuGkj)
+- 🔗[Cours_15.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EX0dge9Zs0JCtURXErOap5MBIBCceGYbsVK8eWVi47UbIg?e=jUuGkj)
 
 ### Laboratoire: ZombieParty 
 <Laboratoire nom="10XX-S15_Lab1"/>
