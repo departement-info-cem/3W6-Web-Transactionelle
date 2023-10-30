@@ -11,8 +11,12 @@ import Laboratoire from '/laboratoire.mdx';
 - [jQuery Plugin Registry](https://plugins.jquery.com/)  
 - [DataTables.net](https://datatables.net/)
 
+### Théorie:  
+- 🔗[Cours_18.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EdyMKgKBxk1AgZy46b-TDzoBCRSxIYtFNvFlCSkUHBdEKg?e=ngaTvh)
+
 ## TP
 Présentation du [TP2](/tp/tp2)
+
 
 ### Laboratoires: 
 <Laboratoire nom="10XX-S18_Lab1"/>
