@@ -6,7 +6,7 @@
 | :--------------- |:---------------:|
 | Jeudi, 5 octobre | Examen intra |
 | Vendredi, 6 octobre | Remise TP1 |
-| Lundi, 20 novembre | Remise TP2 |
+| Dimanche, 19 novembre | Remise TP2 |
 | À préciser | Examen final |
 | Jeudi, 14 décembre | Remise TP3 |
 
