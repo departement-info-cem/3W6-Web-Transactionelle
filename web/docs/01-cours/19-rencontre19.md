@@ -20,7 +20,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗🚧[À venir](BRISE)
+- 🔗[cours_19.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/Eeus5RRqzTRFj2YGFkEN_D8BqmyvT7Ib-DwIXvduJru11g?e=vgaDik)
 ### Laboratoire:  
 <Laboratoire nom="10XX-S19_Lab1"/>
 
