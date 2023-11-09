@@ -4,9 +4,9 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Contenu
 - Authentification MS Identity  
-    - Cookie vs Token  
+    - Cookie vs Token
+    - Les classses principales
     - Modification de la page Register  
-- Seed users DbInitializer 
 
 
 ## Ressources et documentation: 
@@ -17,7 +17,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie: 
-- 🔗🚧[À venir](BRISE)
+- 🔗[Cours_21.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EQt4rlXAa5BIjPpFuwBp9lUBnF9nrjVDRloEj5vA_x7POg?e=b5YaDs)
 
 ### Laboratoire de révision:  
 <Laboratoire nom="10XX-S21_Lab1"/>
