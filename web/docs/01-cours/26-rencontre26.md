@@ -1,10 +1,8 @@
 # Rencontre 26
 
-Plus de pratique pour
-- JS
+Plus d'explications sur:
 - AJAX
-
-- Laboratoire récapitulatif
+- Association de données à un utilisateur
 
 ## Activités de la séance: 
 

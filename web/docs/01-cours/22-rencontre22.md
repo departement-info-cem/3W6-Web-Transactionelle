@@ -3,10 +3,8 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 22
 
 ## Contenu
-- Autorisations types: 
-  - Par rôle 
-  - Seed rôles (Initializer) 
-- Annotations dans les Controllers  
+- Autorisations par rôle 
+- Seed utilisateur avec rôles (DbInitializer) 
 
 ## Ressources et documentation: 
 
@@ -16,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie: 
-- 🔗🚧[À venir](BRISE)
+- 🔗[Cours_22.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EcALrX1mn49OkOA_qYHRIrMBQ7UQjn0vR1xrR65ZjhQtQw?e=TGaUcN)
 
 ## Laboratoire: 
 <Laboratoire nom="10XX-S22_Lab1"/>
