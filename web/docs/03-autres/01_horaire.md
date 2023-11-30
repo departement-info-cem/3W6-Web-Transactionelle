@@ -7,7 +7,7 @@
 | Jeudi, 5 octobre | Examen intra |
 | Vendredi, 6 octobre | Remise TP1 |
 | Dimanche, 19 novembre | Remise TP2 |
-| À préciser | Examen final |
+| Jeudi, 21 décembre | Examen final |
 | Jeudi, 14 décembre | Remise TP3 |
 
 - Séance 1: Jeudi, 24 août
@@ -37,11 +37,13 @@
 - Séance 23: Jeudi, 16 novembre
 - Dimanche, 19 novembre minuit (Remise TP2)
 - Séance 24: Lundi, 20 novembre
-- Séance 25: Jeudi, 23 novembre
-- Séance 26: Lundi, 27 novembre
-- Séance 27: Jeudi, 30 novembre
-- Séance 28: Lundi, 4 décembre
-- Séance 29: Jeudi, 11 décembre
+- Séance annulée: Jeudi, 23 novembre (Grève)
+- Séance 25: Lundi, 27 novembre
+- Séance 26: Jeudi, 30 novembre
+- Séance 27: Lundi, 4 décembre
+- Séance 28: Jeudi, 7 décembre
+- Séance 29: Lundi, 11 décembre
 - Séance 30: Jeudi, 14 décembre minuit (Remise TP3)
+- Examen final: Jeudi, 21 décembre
 
 
