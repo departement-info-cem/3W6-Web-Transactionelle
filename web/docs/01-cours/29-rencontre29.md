@@ -1,9 +1,4 @@
 # Rencontre 29
 
-## Contenu
-- Explications et exemples supplémentaires pour aider avec le TP3
-
-### Théorie: 
-- 🔗🚧[À venir](BRISE)
-
-- Travail sur le [TP3](/tp/tp3)
+## Examen de pratique
+Pratique pour l'examen final

@@ -1,11 +1,7 @@
 # Rencontre 27
 
-## Examen
-Révision pour l'examen final
-
 ## Contenu
+- Explications et exemples supplémentaires pour aider avec le TP3
 
-### Théorie:
-- 🔗🚧[À venir](BRISE)
-
-
+## Laboratoire: (Une semaine en retard)
+<Laboratoire nom="10XX-S26_Lab1"/>

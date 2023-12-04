@@ -1,7 +1,18 @@
 # Rencontre 30
 
-## TP
-Remise du [TP3](/tp/tp3)
+## Examen
+Examen final
 
-## Contenu
-- Travail sur le [TP3](/tp/tp3)
+### Contenu
+- Entity Framework
+- Services
+- Dependency Injections (DI)
+- Relations
+- Annotations
+- Validations
+- Tests unitaires
+- i18n
+- ViewModels
+- Views
+- Authentification
+- Autorisations 
