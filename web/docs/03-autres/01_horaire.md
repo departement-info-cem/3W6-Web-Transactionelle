@@ -41,9 +41,8 @@
 - Séance 25: Lundi, 27 novembre
 - Séance 26: Jeudi, 30 novembre
 - Séance 27: Lundi, 4 décembre
-- Séance 28: Jeudi, 7 décembre
-- Séance 29: Lundi, 11 décembre
-- Séance 30: Jeudi, 14 décembre minuit (Remise TP3)
-- Examen final: Jeudi, 21 décembre
+- Séance annulé: Jeudi, 7 décembre (JR)
+- Séance 29: Jeudi, 21 décembre (Révision). Jusqu'à minuit pour la remise du TP3.
+- Séance 30: Vendredi, 22 décembre (Examen Final)
 
 
