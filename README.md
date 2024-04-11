@@ -1,6 +1,6 @@
 # depinfo-modele
 
-Modèle de base pour un cours du département d'informatique du CÉGEP Édouard-Montpetit. 
+Modèle de base pour un cours du département d'informatique du CÉGEP Édouard-Montpetit.  
 
 L'objectif est de générer un site web pour un cours le plus simplement possible. Les pages de contenu sont écrites en Markdown.
 
