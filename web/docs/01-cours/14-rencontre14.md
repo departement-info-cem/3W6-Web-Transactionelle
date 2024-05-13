@@ -16,7 +16,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗[Cours_14.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EdMfI_y7K8xOj14byiPns8cBSSZVV8kV_5AVRDi3Z-MV-Q?e=VjZfDt)
+- 🔗[Cours_14.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ER7ZV4gj_OJIpJSYzifXDnIB158S0FerqApWZz3VDOn1dw?e=FBvbym)
 
 ### Laboratoire: ZombieParty 
 <Laboratoire nom="10XX-S14_Lab1"/>

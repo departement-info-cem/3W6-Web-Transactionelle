@@ -8,7 +8,7 @@ Présentation du [TP1](/tp/tp1)
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[Cours_7.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EaTz0cMzxadCm8Fmgv_JTNgB9WGJ3gAjHTs7eRQW5Pofwg)
+- 🔗[Cours_7.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EZ3VWcy7vQREg2s19Opr1pMB1_-hNcRh9retA14LwVtS1g?e=wVM8iy)
 
 ### Laboratoires: 
 Travail sur le [TP1](/tp/tp1)

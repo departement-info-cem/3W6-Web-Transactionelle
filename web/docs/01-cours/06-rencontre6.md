@@ -18,7 +18,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[Cours_6.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EckFcDKO58dFtbbWBy3R0tYBh2JaVFiWU5pVo9bUuRu2AQ)
+- 🔗[Cours_6.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EaSEkakctCVArdNFx1KCtqYBoJsaOl0Cilpa3NRfTU2y2A?e=tTg5nf)
 
 ### Laboratoire: 
 <Laboratoire nom="10XX-S06_Lab1"/>

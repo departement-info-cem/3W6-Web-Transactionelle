@@ -1,7 +1,7 @@
 # Astuces
 
 ## Lien vers l'ensemble des documents partagés sur sharepoint:
-[Dossier Partagé](https://cegepedouardmontpetit-my.sharepoint.com/:f:/r/personal/mathieu_briau_cegepmontpetit_ca/Documents/3W6/Diapos3W6?csf=1&web=1&e=KAXGmC)
+[Dossier Partagé](https://cegepedouardmontpetit.sharepoint.com/:f:/s/CMT420InformatiqueComitesCours-3W6/Eu0yqXk-z2ZFmRziNCBj9T8BUyor0JWmTTiUkuNPFe6dDQ?e=teepEP)
 
 ## Erreur https au démarrage de votre application (à propos des certificats)
 

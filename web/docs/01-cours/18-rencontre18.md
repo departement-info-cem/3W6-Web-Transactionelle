@@ -12,7 +12,7 @@ import Laboratoire from '/laboratoire.mdx';
 - [DataTables.net](https://datatables.net/)
 
 ### Théorie:  
-- 🔗[Cours_18.pptx](https://cegepedouardmontpetit-my.sharepoint.com/:p:/g/personal/mathieu_briau_cegepmontpetit_ca/EdyMKgKBxk1AgZy46b-TDzoBCRSxIYtFNvFlCSkUHBdEKg?e=ngaTvh)
+- 🔗[Cours_18.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EURuwKRC2glCg1R1VXX63lIBj0dIaYCGJ1eRSVwiDYoHgA?e=8rIKtv)
 
 ## TP
 Présentation du [TP2](/tp/tp2)
