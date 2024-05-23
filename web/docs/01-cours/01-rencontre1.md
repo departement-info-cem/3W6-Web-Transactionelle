@@ -35,7 +35,7 @@ Révision .NET Core MVC
 - 🔗[GitHub Classroom](https://classroom.github.com/a/2Eu94XxS)
 #### Groupe 1040
 - 🔗[GitHub Classroom](https://classroom.github.com/a/RXX4d0T1)
-- #### Groupe 1010
+#### Groupe 1010
 - 🔗 [GitHub Classroom](https://classroom.github.com/a/1v-17aZU)
 
 ### Travail personnel: 
