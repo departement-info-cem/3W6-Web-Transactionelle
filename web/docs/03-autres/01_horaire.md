@@ -1,14 +1,16 @@
 # Horaire
 
-## Calendrier 3W6 A23
+## Calendrier 3W6 A24
 
+🚧 À venir!
+
+<!--
 | Date |          |
 | :--------------- |:---------------:|
 | Jeudi, 5 octobre | Examen intra |
 | Vendredi, 6 octobre | Remise TP1 |
 | Dimanche, 19 novembre | Remise TP2 |
 | Jeudi, 21 décembre | Examen final |
-| Jeudi, 14 décembre | Remise TP3 |
 
 - Séance 1: Jeudi, 24 août
 - Séance 2: Lundi, 28 août
@@ -42,7 +44,7 @@
 - Séance 26: Jeudi, 30 novembre
 - Séance 27: Lundi, 4 décembre
 - Séance annulé: Jeudi, 7 décembre (JR)
-- Séance 29: Jeudi, 21 décembre (Révision). Jusqu'à minuit pour la remise du TP3.
+- Séance 29: Jeudi, 21 décembre (Révision)
 - Séance 30: Vendredi, 22 décembre (Examen Final)
 
-
+-->
