@@ -3,7 +3,7 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 2
 
 ## Contenu
-- .NET Core 8 MVC : Projets suite 
+- .NET Core MVC : Projets suite 
   - Views 
   - Views Models 
 - Validation de base (rappel de 2W5) 
