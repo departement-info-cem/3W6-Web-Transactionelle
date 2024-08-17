@@ -8,7 +8,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie: 
-- 🚧🔗[Cours_22.pptx](construction)
+- 🚧🔗[Cours_22.pptx](/construction)
 
 ## Laboratoire: 
 <Laboratoire nom="10XX-S22_Lab1_AJAX_2"/>
