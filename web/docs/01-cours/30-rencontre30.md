@@ -13,3 +13,6 @@ Examen final
 - i18n
 - ViewModels
 - Views
+- Javascript
+- jQuery
+- AJAX
