@@ -3,7 +3,7 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 2
 
 ## Contenu
-- NET Core 6 MVC : Projets suite 
+- .NET Core 8 MVC : Projets suite 
   - Views 
   - Views Models 
 - Validation de base (rappel de 2W5) 
@@ -24,7 +24,7 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours2](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EbCMLwYmBRFNj40eH0g613EBR0gyw11u3l6pE1e52MOfIA?e=ZYp5y3)
 
 ### Laboratoire
-<Laboratoire nom="10XX-S02_Lab1"/>
+<Laboratoire nom="10XX-S02_Lab1_ViewModels"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire

@@ -2,12 +2,13 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 23
 
-## TP
-Remise [TP2](/tp/tp2) le dimanche à minuit
+## Contenu
+- AJAX #1
 
-### Laboratoires
-- Travail sur le [TP2](/tp/tp2)
+## Activités de la séance: 
 
-### Travail personnel: 
-- Travail sur le [TP2](/tp/tp2)
+### Théorie: 
+- 🔗[Cours_23.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EVBlK4wFUVpHt7mXrnRxT5QBOMEzCbZVP1xuP0z4ABdwZA)
 
+## Laboratoire: 
+<Laboratoire nom="10XX-S23_Lab1_AJAX"/>

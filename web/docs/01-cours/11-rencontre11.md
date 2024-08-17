@@ -3,12 +3,12 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 11
 
 ## Contenu
-- Réponses aux questions et aide pour le [TP1](/tp/tp1)
+- Révision
 
 ## Activités de la séance
 
 ### Laboratoires
-- Travail sur le [TP1](/tp/tp1)
+<Laboratoire nom="10XX-S11_Lab1_Revision"/>
 
 ### Travail personnel: 
 - Travail sur le [TP1](/tp/tp1)

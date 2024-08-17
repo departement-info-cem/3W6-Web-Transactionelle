@@ -2,7 +2,7 @@
 
 ## Contenu: 
 - Plan de cours 
-- Git/GitHub/GitKraken (théorie)
+- Git/GitHub/Fork (théorie)
   - Repository 
   - Commit 
   - Branches
@@ -28,15 +28,15 @@
 
 ### Laboratoires:
 
-- Utilisation de Git Kraken (Laboratoire 1)
+- Utilisation de Fork (Laboratoire 1)
 
 Révision .NET Core MVC
 #### Groupe 1030
-- 🔗[GitHub Classroom](https://classroom.github.com/a/2Eu94XxS)
+- 🚧🔗[GitHub Classroom](/construction)
 #### Groupe 1040
-- 🔗[GitHub Classroom](https://classroom.github.com/a/RXX4d0T1)
+- 🚧🔗[GitHub Classroom](/construction)
 #### Groupe 1010
-- 🔗 [GitHub Classroom](https://classroom.github.com/a/1v-17aZU)
+- 🚧🔗 [GitHub Classroom](/construction)
 
 ### Travail personnel: 
 - Compléter les laboratoires

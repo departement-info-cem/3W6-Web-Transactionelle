@@ -3,10 +3,9 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 16
 
 ## Contenu
-- Révision Dependency Injection
+- Dependency Injection
 - Service dans les controllers
 - Generics
-
 
 ## Activités de la séance: 
 

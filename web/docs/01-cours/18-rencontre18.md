@@ -19,6 +19,6 @@ Présentation du [TP2](/tp/tp2)
 
 
 ### Laboratoires: 
-<Laboratoire nom="10XX-S18_Lab1"/>
+<Laboratoire nom="10XX-S18_Lab1_jQuery"/>
 
 Travail sur le [TP2](/tp/tp2)

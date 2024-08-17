@@ -1,4 +1,4 @@
 # Rencontre 28
 
 ## Contenu
-- Cours de révision
+Pratique de l'examen final

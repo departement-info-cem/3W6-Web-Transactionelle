@@ -3,21 +3,12 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 24
 
 ## Contenu
-- AJAX
-- Révision jQuery 
-
-## Ressources et documentation: 
+- AJAX #2
 
 ## Activités de la séance: 
 
 ### Théorie: 
-- 🔗[Cours_24.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EVBlK4wFUVpHt7mXrnRxT5QBOMEzCbZVP1xuP0z4ABdwZA?e=b7dYLI)
+- 🚧🔗[Cours_24.pptx](construction)
 
 ## Laboratoire: 
-<Laboratoire nom="10XX-S24_Lab1"/>
-<Laboratoire nom="10XX-S24_Lab2"/>
-
-
-
-
-
+<Laboratoire nom="10XX-S24_Lab1_AJAX_2"/>

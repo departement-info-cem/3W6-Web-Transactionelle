@@ -10,9 +10,6 @@ Examen final
 - Relations
 - Annotations
 - Validations
-- Tests unitaires
 - i18n
 - ViewModels
 - Views
-- Authentification
-- Autorisations 

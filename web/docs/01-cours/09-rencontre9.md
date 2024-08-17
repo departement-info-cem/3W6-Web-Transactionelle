@@ -2,20 +2,18 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 9
 
-## Contenu
-- Dependency Injections 
-- Logging 
+## TP
+Présentation du [TP1](/tp/tp1)
 
-### Ressources et documentation: 
-- [MSDN: Dependency Injection](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-6.0)
+## Contenu
+- Méthodes asynchrones 
 
 ## Activités de la séance: 
-
 ### Théorie:  
-- 🔗[Cours_9.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ESHNY65JlMVOgIdYHxgJ_fEBBRGcSH7uVOa3dqgyTm5rYQ?e=qB5PVG)
+- 🔗[Cours_9.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EZ3VWcy7vQREg2s19Opr1pMB1_-hNcRh9retA14LwVtS1g?e=wVM8iy)
 
-### Laboratoire:
-<Laboratoire nom="10XX-S09_Lab1"/>
+### Laboratoires: 
+Travail sur le [TP1](/tp/tp1)
 
 ### Travail personnel: 
-- Compléter le laboratoire
+- Compléter les laboratoires
