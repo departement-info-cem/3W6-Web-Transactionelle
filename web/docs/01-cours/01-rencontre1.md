@@ -25,10 +25,13 @@
 
 ### Théorie:
 - 🔗[Cours1.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EUgUK0lU0K5NrRnL7hqn7CgBQG9_3pnd2uFLxmyheXzjnQ?e=TNDdUA)
+- 🔗[Aide GitHub](/autres/gitHub)
+- 🔗[Aide Fork](/autres/fork)
 
 ### Laboratoires:
 
-- Utilisation de Fork (Laboratoire 1)
+Toute la classe ensemble:
+Utilisation de Fork (À la fin du document de théorie)
 
 Révision .NET Core MVC
 #### Groupe 1030
