@@ -30,16 +30,13 @@
 
 ### Laboratoires:
 
-Toute la classe ensemble:
-Utilisation de Fork (À la fin du document de théorie)
+Utilisation de Fork (Toute la classe ensemble)
+  - L'exercice est à la fin du document de théorie cours1.pptx
+  - Les deux autres documents de théorie fournissent l'information nécessaire pour faire l'exercice
 
 Révision .NET Core MVC
-#### Groupe 1030
-- 🚧🔗[GitHub Classroom](/construction)
 #### Groupe 1040
-- 🚧🔗[GitHub Classroom](/construction)
-#### Groupe 1010
-- 🚧🔗 [GitHub Classroom](/construction)
+- 🔗[GitHub Classroom](https://classroom.github.com/classrooms/178089526-a24progwebtrans-classroom)
 
 ### Travail personnel: 
 - Compléter les laboratoires

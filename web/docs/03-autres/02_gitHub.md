@@ -55,4 +55,20 @@ On peut ensuite utiliser un logiciel comme **Fork** ou GitKraken pour faire le c
 <details>
 <summary>Partager</summary>
 
+Pour partager un repository, accédez à la section Settings et cliquez sur "Collaborators and teams"
+
+![alt text](GitHubShare1.png)
+
+Cliquez sur "Add People"
+
+![alt text](GitHubShare2.png)
+
+Il faut ensuite chercher l'utilisateur par son username
+
+![alt text](GitHubShare3.png)
+
+Et choisir les droits que l'on donne à l'utilisateur. 
+
+![alt text](GitHubShare4.png)
+
 </details>
