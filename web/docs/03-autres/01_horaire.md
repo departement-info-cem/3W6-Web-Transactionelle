@@ -6,8 +6,9 @@
 | :--------------- |:---------------:|
 | 7 octobre | Examen intra |
 | 10 octobre | Remise TP1 |
-| 16 décembre | Examen final |
-| 19 décembre | Remise TP2 |
+| 16 décembre | Remise TP2 |
+| 19 décembre | Examen final |
+
 
 - Séance 1: Jeudi, 22 août
 - Séance 2: Lundi, 26 août
@@ -38,6 +39,6 @@
 - Séance 26: Jeudi, 28 novembre
 - Séance 27: Lundi, 2 décembre
 - Séance 28: Jeudi, 5 décembre
-- Séance 29: Lundi, 16 décembre (Examen Final)
-- Séance 30: Jeudi, 19 décembre (Remise TP2)
+- Séance 29: Lundi, 16 décembre (Remise TP2)
+- Séance 30: Jeudi, 19 décembre (Examen Final)
 
