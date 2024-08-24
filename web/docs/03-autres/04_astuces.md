@@ -26,6 +26,10 @@ Ensuite il faut exécuter les commandes suivantes:
 
 Il y a un problème avec les certificats auto généré. Si vous avez un problème de certificat non sécure en localhost avec votre navigateur, vous pouvez permettre les certificats invalides.
 
+- Dans **chrome** ou **edge**, tapez simplement: **thisisunsafe**
+:::warning
+Il faut le taper d'un seul mot alors que vous avez le focus sur le navigateur, c'est normal que le texte ne s'écive pas nulle pars
+:::
 - Dans **chrome** Utiliser cette ligne  : **chrome://flags/#allow-insecure-localhost** et mettre Allow invalid certificates for resources loaded from localhost (ça devrait être la première option) à **enable** et redémarrer Chrome.
 - Sur Edge, il y a **edge://flags** qui permet de gérer les options également. Dans tout les cas, il faut trouver l'option (**"Allow invalid certificates"**), vous pouvez faire une recherche.
 
