@@ -142,6 +142,27 @@ Ou faites simplement un **double clique** sur la branche!
 
 La branche courante a un **crochet devant son nom**.
 
+:::warning
+Mais si je ne vois pas ma branche!?
+:::
+
+Si c'est le cas, c'est qu'elle existe sur le serveur, mais pas encore **localement**. Pour l'obtenir, il faut faire un "Checkout".
+
+Il y a plusieurs façon de le faire, en voici une.
+
+Commencez par regardez le contenu de Remotes/origin (C'est ce qui est sur GitHub)
+
+![alt text](image.png)
+
+Double cliquez sur la branche que vous voulez obtenir localement et cliquez sur Track.
+
+![alt text](image-1.png)
+
+Si tout c'est bien passé, la branche est maintenant sur votre ordinateur (localement) et il y a un crochet à côté (pour montrer que c'est la branche active)
+
+![alt text](image-2.png)
+
+
 </details>
 
 <details>
