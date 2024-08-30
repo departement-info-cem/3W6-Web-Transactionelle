@@ -3,11 +3,7 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 5
 
 ## Contenu
-- Validations supplémentaires :
-  - Conventions et annotations de validation 
-  - TagHelpers 
-- CRUD dans Controller
-- Linq 
+- Linq, boucles et constructeurs
 - Seed DB 
 
 ## Ressources et documentation: 
@@ -15,7 +11,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[Cours5.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EWz8mH95dqVErVE32fp27LQBKNwKqxzipy1wDLaoP_oUOw?e=mTNbQ4)
+- 🔗[Cours5.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EWz8mH95dqVErVE32fp27LQBKNwKqxzipy1wDLaoP_oUOw)
 
 ### Laboratoire: 
 <Laboratoire nom="10XX-S05_Lab1"/>
