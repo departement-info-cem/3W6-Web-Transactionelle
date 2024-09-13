@@ -7,8 +7,5 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance
 
-### Laboratoires
-- Travail sur le [TP1](/tp/tp1)
-
 ### Travail personnel: 
 - Travail sur le [TP1](/tp/tp1)

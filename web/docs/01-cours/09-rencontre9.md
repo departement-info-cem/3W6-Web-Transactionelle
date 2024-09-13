@@ -2,9 +2,6 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 9
 
-## TP
-Présentation du [TP1](/tp/tp1)
-
 ## Contenu
 - Méthodes asynchrones 
 
@@ -14,6 +11,3 @@ Présentation du [TP1](/tp/tp1)
 
 ### Laboratoires: 
 Travail sur le [TP1](/tp/tp1)
-
-### Travail personnel: 
-- Compléter les laboratoires

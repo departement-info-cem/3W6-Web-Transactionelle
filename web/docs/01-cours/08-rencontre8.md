@@ -2,4 +2,10 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 8
 
-- 🚧 À venir (plus de pratiques sur les sujets de la rencontre 7)
+## TP
+Présentation du [TP1](/tp/tp1)
+
+## Activités de la séance: 
+### Laboratoires: 
+Travail sur le [TP1](/tp/tp1)
+
