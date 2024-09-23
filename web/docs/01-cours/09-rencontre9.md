@@ -15,6 +15,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoires: 
 <Laboratoire nom="10XX-S09_Lab1"/>
+<Laboratoire nom="10XX-S09_Lab2"/>
 
 ### Travail personnel: 
 - Compléter le laboratoire
