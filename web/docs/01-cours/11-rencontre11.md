@@ -47,10 +47,25 @@ public IActionResult UneAction()
 
 Le modèle d'une vue c'est l'équivalent du paramètre d'une fonction et il est passé dans le contrôleur
 
-```html title="Vue avec modèle"
+```ts title="Vue avec modèle"
 @model Zombie
 
 <span>@Model.Name</span>
+```
+
+OU
+
+```ts title="Vue avec modèle et HtmlHelper"
+@model Zombie
+
+<span>@Html.DisplayFor(model => model.Name)</span>
+```
+
+
+Génère simplement le html
+
+```html
+<span>Puant</span>
 ```
 
 Une vue partielle peut également avoir son propre modèle et on peut fournir la valeur avec le paramètre model
