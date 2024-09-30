@@ -163,7 +163,7 @@ Comprendre le retour de View vs RedirectToAction!
 
 Comprende la validation client VS serveur VS BD
 
-#### Asyncrhone
+#### Asynchrone
 
 Comment transformer un méthode pour qu'elle soit asynchrone et puisse utiliser des méthodes asynchrones
 
