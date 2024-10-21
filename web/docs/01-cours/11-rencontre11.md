@@ -17,10 +17,16 @@ import Laboratoire from '/laboratoire.mdx';
 - Explication d'un contrôleur et de ses vues générées
 - Révision
 
+## Ressources et documentation: 
+- [W3Schools_Input_Types](https://www.w3schools.com/html/html_form_input_types.asp)
+
 ## Activités de la séance
 
 ### Laboratoires
 <Laboratoire nom="10XX-S11_Lab1_Revision"/>
+
+### Théorie:  
+- 🔗[Cours_11.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ET-sz19NyfBMgqyhInqc5IcB7qmBlru8fkV1p9B9OEKJaw)
 
 ### Travail personnel: 
 - Terminer le laboratoire de révision

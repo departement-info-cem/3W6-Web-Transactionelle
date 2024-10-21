@@ -6,7 +6,6 @@ import Laboratoire from '/laboratoire.mdx';
 Remise [TP1](/tp/tp1)
 
 ## Contenu
-- Retour sur l'examen
 - Terminer le TP1
 
 ## Activités de la séance: 

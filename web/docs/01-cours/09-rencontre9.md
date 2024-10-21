@@ -8,6 +8,8 @@ import Laboratoire from '/laboratoire.mdx';
 - Accordéon
 - Lambda avec champ ?
 
+## Ressources et documentation: 
+- [FontAwesome](https://fontawesome.com/)
 
 ## Activités de la séance: 
 ### Théorie:  

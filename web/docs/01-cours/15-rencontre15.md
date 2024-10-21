@@ -3,11 +3,19 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 15
 
 ## Contenu
-- Views et Controllers auto-générés 
-- Validations complexes CRUD Révision: 
-  - ViewsModels vs Models  
-  - Views Spéciales 
-  - Traduction pour les validateurs
+
+- Retour sur l'examen
+- Gestion d'images
+- Librairies JS
+  - Toastr
+
+## Ressources et documentation: 
+- [Toastr (Notifications)](https://codeseven.github.io/toastr/) 
+- [MSDN UploadFiles](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads?view=aspnetcore-5.0) 
+- [W3School_enctype_multipart/form-data](https://www.w3schools.com/tags/att_form_enctype.asp)
+
+#### Complémentaire: 
+- [SweetAlert2(Notifications)](https://sweetalert2.github.io/)
 
 ## Activités de la séance: 
 
