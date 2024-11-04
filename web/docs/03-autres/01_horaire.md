@@ -40,5 +40,5 @@
 - Séance 27: Lundi, 2 décembre
 - Séance 28: Jeudi, 5 décembre
 - Séance 29: Lundi, 16 décembre (Remise TP2)
-- Séance 30: Jeudi, 19 décembre (Examen Final)
+- Séance 30: Examen commun, date à déterminer
 
