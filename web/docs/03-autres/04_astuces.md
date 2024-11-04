@@ -5,12 +5,14 @@
 
 ## Erreur https au démarrage de votre application (à propos des certificats)
 
-![image](/autres/MicrosoftTeams-image.png)
+|![image](/autres/MicrosoftTeams-image.png)|
+|-|
 
 <details>
 Il faut premièrement ouvrir la console de package NuGet:
 
-![image](/autres/consoleGestionnaireDePackage.png)
+|![image](/autres/consoleGestionnaireDePackage.png)|
+|-|
 
 Ensuite il faut exécuter les commandes suivantes:
 
@@ -20,7 +22,8 @@ Ensuite il faut exécuter les commandes suivantes:
 
 ## Si vous avez une erreur d'accès causer par un certificat auto généré dans votre navigateur!
 
-![image](/autres/RisqueCertificat.png)
+|![image](/autres/RisqueCertificat.png)|
+|-|
 
 <details>
 
