@@ -12,3 +12,4 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Laboratoire: 
 <Laboratoire nom="10XX-S21_Lab1_AJAX"/>
+<Laboratoire nom="10XX-S21_Lab2_AJAX"/>
