@@ -39,6 +39,6 @@
 - Séance 26: Jeudi, 28 novembre
 - Séance 27: Lundi, 2 décembre
 - Séance 28: Jeudi, 5 décembre
+- Examen Final: Jeudi, 12 décembre (8h à 11h) Local D-0603
 - Séance 29: Lundi, 16 décembre (Remise TP2)
-- Séance 30: Examen commun, date à déterminer
 
