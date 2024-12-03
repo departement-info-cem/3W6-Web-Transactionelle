@@ -5,9 +5,12 @@ import Laboratoire from '/laboratoire.mdx';
 ## Contenu
 Révision de la matière
 
+Présentation d'un exemple de DI avec AddScoped, AddSingleton et AddTransient:
+- Dependency Injections (DI)
+
+Présentation de comment résoudre le laboratoire:
 - Entity Framework
 - Services
-- Dependency Injections (DI)
 - Relations
 - Javascript
 - jQuery
