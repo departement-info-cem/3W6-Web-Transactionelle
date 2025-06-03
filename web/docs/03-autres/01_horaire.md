@@ -1,44 +1,38 @@
 # Horaire
 
-## Calendrier 3W6 A24
+## Calendrier 3W6 E25 (Groupe 1010)
 
 | Date |          |
 | :--------------- |:---------------:|
-| 7 octobre | Examen intra |
-| 10 octobre | Remise TP1 |
-| 16 décembre | Remise TP2 |
-| 19 décembre | Examen final |
+| 22 juin | Remise TP1 |
+| 23 juin | Examen intra |
+| 7 juillet | Examen final |
+| 8 juillet | Remise TP2 |
 
 
-- Séance 1: Jeudi, 22 août
-- Séance 2: Lundi, 26 août
-- Séance 3: Jeudi, 29 août
-- Séance 4: Jeudi, 5 septembre
-- Séance 5: Lundi, 9 septembre
-- Séance 6: Jeudi, 12 septembre
-- Séance 7: Lundi, 16 septembre
-- Séance 8: Jeudi, 19 septembre
-- Séance 9: Lundi, 23 septembre
-- Séance 10: Jeudi, 26 septembre
-- Séance 11: Lundi, 30 septembre
-- Séance 12: Jeudi, 3 octobre
-- Séance 13: Lundi, 7 octobre (Examen Intra)
-- Séance 14: Jeudi, 10 octobre  (Remise TP1)
-- Semaine de relâche
-- Séance 15: Lundi, 21 octobre
-- Séance 16: Jeudi, 24 octobre
-- Séance 17: Lundi, 28 octobre
-- Séance 18: Jeudi, 31 octobre
-- Séance 19: Lundi, 4 novembre
-- Séance 20: Jeudi, 7 novembre
-- Séance 21: Lundi, 11 novembre
-- Séance 22: Jeudi, 14 novembre
-- Séance 23: Lundi, 18 novembre
-- Séance 24: Jeudi, 21 novembre
-- Séance 25: Lundi, 25 novembre
-- Séance 26: Jeudi, 28 novembre
-- Séance 27: Lundi, 2 décembre
-- Séance 28: Jeudi, 5 décembre
-- Examen Final: Jeudi, 12 décembre **(8h à 11h) Local D-0603**
-- Séance 29: Lundi, 16 décembre (Remise TP2)
+### Semaine 1
+- Séance 1 et 2: Lundi, 9 juin 
+- Séance 3 et 4: Mercredi, 11 juin
+- Séance 5 et 6: Jeudi, 12 juin
+
+### Semaine 2
+- Séance 7 et 8: Lundi, 16 juin
+- Séance 9 et 10: Mercredi, 18 juin
+- Séance 11 et 12: Jeudi, 19 juin
+
+### Semaine 3
+(Il n'y a **PAS** de séance 14 pour le groupe 1010)
+- Séance 13 et 15: Lundi, 23 juin (Examen Intra)
+- Séance 16 et 17: Mecredi, 25 juin
+- Séance 18 et 19: Jeudi, 26 juin
+
+### Semaine 4
+- Séance 20 et 21: Mardi, 1er juillet
+- Séance 22 et 23: Jeudi, 3 juillet
+(Il n'y a **PAS** de séance **25 et 26** pour le groupe 1010)
+- Séance 24 et 27: Vendredi, 4 juillet
+
+### Semaine 5
+- Examen final et aide pour finaliser le TP2: Lundi, 7 juillet
+
 
