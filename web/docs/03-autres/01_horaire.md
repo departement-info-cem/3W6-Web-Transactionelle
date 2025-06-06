@@ -42,10 +42,10 @@
 <details>
 | Date |          |
 | :--------------- |:---------------:|
-| x | Remise TP1 |
-| x | Examen intra |
-| x | Examen final |
-| x | Remise TP2 |
+| 22 juin | Remise TP1 |
+| 23 juin | Examen intra |
+| 10 juillet | Examen final |
+| 10 juillet | Remise TP2 |
 
 
 ### Semaine 1
@@ -69,8 +69,8 @@
 - Séance 23 et 24: Vendredi, 4 juillet
 
 ### Semaine 5
-- Séance 25 et 26: Mardi, 7 juillet
-- Séance 27 et 28: Jeudi, 9 juillet
-- Séance 29 et 30: Vendredi, 11 juillet
+- Séance 25 et 26: Lundi, 7 juillet
+- Séance 27 et 28: Mardi, 8 juillet
+- Séance 29 et 30: Jeudi, 10 juillet
 </details>
 
