@@ -7,6 +7,7 @@ import Laboratoire from '/laboratoire.mdx';
 - FontAwesome
 - Accordéon
 - Lambda avec champ ?
+- Génération de vues et contrôleurs
 
 ## Ressources et documentation: 
 - [FontAwesome](https://fontawesome.com/)
