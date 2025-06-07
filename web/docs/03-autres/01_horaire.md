@@ -42,7 +42,7 @@
 <details>
 | Date |          |
 | :--------------- |:---------------:|
-| 22 juin | Remise TP1 |
+| 23 juin | Remise TP1 |
 | 23 juin | Examen intra |
 | 10 juillet | Examen final |
 | 10 juillet | Remise TP2 |
