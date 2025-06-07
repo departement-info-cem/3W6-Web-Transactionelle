@@ -37,7 +37,7 @@
 - Examen final et aide pour finaliser le TP2: Lundi, 7 juillet
 </details>
 
-## Calendrier 3W6 E25 (Groupe 1020)
+## Calendrier 3W6 E25 (Groupe 1030)
 
 <details>
 | Date |          |
