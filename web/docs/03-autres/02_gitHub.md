@@ -34,11 +34,13 @@ Pour obtenir l'adresse nécessaire pour cloner un projet, on clique sur **Code**
 On peut ensuite utiliser un logiciel comme **Fork** ou GitKraken pour faire le clone avec cette adresse.
 </details>
 
+<!--
 <details>
 <summary>Changer de branche</summary>
 
 ![alt text](GitHubChangeBranch.png)
 </details>
+-->
 
 <details>
 <summary>Voir les commits</summary>

@@ -112,13 +112,15 @@ Appuyez sur le bouton Push
 
 ![alt text](ForkPushButton.png)
 
-Vérifiez que l'on est dans la bonne branche et cliquez sur Push
+Cliquez encore sur Push
 
 ![alt text](ForkPushMenu.png)
 
 </details>
 
+<!--
 <details>
+
 <summary>Créer une branche</summary>
 
 En cliquant sur le bouton + du menu central
@@ -130,7 +132,9 @@ En cliquant sur le bouton + du menu central
 ![alt text](ForkNewBranch3.png)
 
 </details>
+-->
 
+<!--
 <details>
 <summary>Changer de branche</summary>
 
@@ -181,6 +185,8 @@ Il faut maintenant faire un **Push**
 
 </details>
 
+-->
+
 <details>
 <summary>Pull</summary>
 
@@ -188,11 +194,13 @@ Lorsque vous travaillez à la maison et que vous voulez obtenir les changements 
 
 Avant de faire un pull vous **pouvez** faire un **Fetch**. Le **Fetch** permet de connaître les changements du serveur, sans nécessairement les appliquer localement. On peut voir les changements avec une flèche vers le **BAS** et le nombre de commits sur le serveur qui n'ont pas encore obtenus.
 
+<!-- 
 Lorsque vous faites le **Pull**, vous allez obtenir **les changements sur le serveur** dans la **branche** où vous êtes.
+-->
 
 ![alt text](ForkPull.png)
 
-Note: Pourquoi on a seulement besoin de le faire à la maison? Par défaut, lorsque l'on fait un clone, Fork va obtenir la version la plus récente d'une branche!
+Note: Pourquoi on a seulement besoin de le faire à la maison? Par défaut, lorsque l'on fait un clone, Fork va obtenir la version la plus récente!
 
 </details>
 
