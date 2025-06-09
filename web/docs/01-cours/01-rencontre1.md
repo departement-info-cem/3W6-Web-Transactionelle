@@ -5,8 +5,6 @@
 - Git/GitHub/Fork (théorie)
   - Repository 
   - Commit 
-  - Branches
-  - Merge
   - Création d’un Repo GitHub pour les démonstrations 
 - .NET Core MVC : Projets 
   - Création de projet .NET Core MVC (avec liste comme en 2W5) 
