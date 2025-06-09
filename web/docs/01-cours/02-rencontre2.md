@@ -22,6 +22,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Théorie
 - 🔗[Cours2](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EbCMLwYmBRFNj40eH0g613EBR0gyw11u3l6pE1e52MOfIA?e=ZYp5y3)
+- 🔗[Démo Validation](https://github.com/E25ProgWebTrans/DemoValidations)
 
 ### Laboratoire
 <Laboratoire nom="10XX-S02_Lab1_ViewModels"/>
