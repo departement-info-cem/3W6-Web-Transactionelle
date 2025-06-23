@@ -1,8 +1,4 @@
-# Période d'examen commun
-
-:::warning
-L'examen à lieu le 12 décembre de **8h à 11h** au local **D-0603**
-:::
+# Examen
 
 ## Examen
 Examen final

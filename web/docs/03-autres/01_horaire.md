@@ -28,10 +28,12 @@
 - Séance 18 et 19: Jeudi, 26 juin
 
 ### Semaine 4
-- Séance 20 et 21: Mardi, 1er juillet
-- Séance 22 et 23: Jeudi, 3 juillet
+(Il n'y a **PAS** de séance 20 pour le groupe 1010)
+- Séance 21 et 22: Mardi, 1er juillet
+- Séance 23 et 24: Jeudi, 3 juillet
+
 (Il n'y a **PAS** de séance **25 et 26** pour le groupe 1010)
-- Séance 24 et 27: Vendredi, 4 juillet
+- Séance 27 et 28: Vendredi, 4 juillet
 
 ### Semaine 5
 - Examen final et aide pour finaliser le TP2: Lundi, 7 juillet
