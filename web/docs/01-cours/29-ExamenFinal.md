@@ -13,6 +13,7 @@ Examen final
 - i18n
 - ViewModels
 - Views
+- Upload d'images
 - Javascript
 - jQuery
 - AJAX
