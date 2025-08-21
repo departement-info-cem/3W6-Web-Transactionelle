@@ -33,11 +33,13 @@ Utilisation de Fork (Toute la classe ensemble)
   - Les deux autres documents de théorie fournissent l'information nécessaire pour faire l'exercice
 
 Révision .NET Core MVC
-#### Groupe 1010
-- 🔗[GitHub Classroom](https://classroom.github.com/classrooms/214666547-e25progwebtrans-1010)
+#### GItHub Classroom Laboratoire
 
-#### Groupe 1030
-- 🔗[GitHub Classroom](https://classroom.github.com/classrooms/214666547-e25progwebtrans-1030)
+-1010-S01_Lab1_Révision 🔗[1010](https://classroom.github.com/a/Ss_v7FwD)
+-1020-S01_Lab1_Révision 🔗[1020](https://classroom.github.com/a/Enqb2rWM)
+<!-- -1030-S01_Lab1_Révision 🔗[1030](https://classroom.github.com/classrooms/226744417-a25progwebtrans-gr1010)
+-1040-S01_Lab1_Révision 🔗[1040](https://classroom.github.com/classrooms/226744417-a25progwebtrans-gr1010) -->
+
 
 ### Travail personnel: 
 - Compléter les laboratoires

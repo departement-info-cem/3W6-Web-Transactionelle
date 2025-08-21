@@ -7,6 +7,7 @@
 
 ### Laboratoires:
   - Wooclap!!
+  - Trouver l'erreur
   - Pratique d'examen Intra
 
 ### Travail personnel: 
