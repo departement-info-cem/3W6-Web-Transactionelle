@@ -25,7 +25,12 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Démo Validation](https://github.com/E25ProgWebTrans/DemoValidations)
 
 ### Laboratoire
-<Laboratoire nom="10XX-S02_Lab1_ViewModels"/>
+#### GitHub Classroom Laboratoire
+
+- Groupe 1010 🔗[1010 S02_Lab1_ViewModels](https://classroom.github.com/a/edeKiYBQ)
+- Groupe 1020 🔗[1020 S02_Lab1_ViewModels](https://classroom.github.com/a/7V5RYohQ)
+- Groupe 1030 🔗[1030 S02_Lab1_ViewModels](https://classroom.github.com/a/Kec7-xac)
+- Groupe 1040 🔗[1040 S02_Lab1_ViewModels](https://classroom.github.com/a/f0J6Ybxv)
 
 ### Travail personnel: 
 - Compléter le laboratoire

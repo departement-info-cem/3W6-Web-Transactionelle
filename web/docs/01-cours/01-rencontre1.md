@@ -37,8 +37,8 @@ Révision .NET Core MVC
 
 - Groupe 1010 🔗[1010 S01_Lab1_Révision](https://classroom.github.com/a/Ss_v7FwD)
 - Groupe 1020 🔗[1020 S01_Lab1_Révision](https://classroom.github.com/a/Enqb2rWM)
-- Groupe 1030 🔗[1030 S01_Lab1_Révision](https://classroom.github.com/a/nnnnn)
-- Groupe 1040 🔗[1040 S01_Lab1_Révision](https://classroom.github.com/a/nnnn)
+- Groupe 1030 🔗[1030 S01_Lab1_Révision](https://classroom.github.com/a/JsCNSe4s)
+- Groupe 1040 🔗[1040 S01_Lab1_Révision](https://classroom.github.com/a/HB7sA88z)
 
 
 ### Travail personnel: 
