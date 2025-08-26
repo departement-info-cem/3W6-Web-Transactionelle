@@ -16,8 +16,13 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie:  
 - 🔗[Cours4.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ERyRHaH6DaBCsVD_N5GdODAB-NxgzqN6h91-U-INFFwBeg?e=jt92OQ)
 
-### Laboratoire: 
-<Laboratoire nom="10XX-S04_Lab1"/>
+### Laboratoire
+#### GitHub Classroom Laboratoire
+
+- Groupe 1010 🔗[1010 S04_Lab1_EntityFramework](https://classroom.github.com/a/R0i-blO7)
+- Groupe 1020 🔗[1020 S04_Lab1_EntityFramework](https://classroom.github.com/a/XNMyZjo7)
+- Groupe 1030 🔗[1030 S04_Lab1_EntityFramework](https://classroom.github.com/a/JsCNSe4s)
+- Groupe 1040 🔗[1040 S04_Lab1_EntityFramework](https://classroom.github.com/a/9QYYONg4)
 
 ### Travail personnel: 
 - Compléter le laboratoire
