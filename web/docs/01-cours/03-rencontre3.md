@@ -18,8 +18,8 @@ import Laboratoire from '/laboratoire.mdx';
 
 - Groupe 1010 🔗[1010 S03_Lab1_Modelisation](https://classroom.github.com/a/5r5fy-BM)
 - Groupe 1020 🔗[1020 S03_Lab1_Modelisation](https://classroom.github.com/a/JfNkGUwO)
-- Groupe 1030 🔗[1030 S03_Lab1_Modelisation](https://classroom.github.com/a/JsCNSe4s)
-- Groupe 1040 🔗[1040 S03_Lab1_Modelisation](https://classroom.github.com/a/9QYYONg4)
+- Groupe 1030 🔗[1030 S03_Lab1_Modelisation](https://classroom.github.com/a/Cd-gaR8P)
+- Groupe 1040 🔗[1040 S03_Lab1_Modelisation](https://classroom.github.com/a/xaK1G7_P)
 
 ### Travail personnel: 
 - Compléter le laboratoire
