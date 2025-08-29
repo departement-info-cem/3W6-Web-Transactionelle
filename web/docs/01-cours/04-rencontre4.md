@@ -21,8 +21,8 @@ import Laboratoire from '/laboratoire.mdx';
 
 - Groupe 1010 🔗[1010 S04_Lab1_EntityFramework](https://classroom.github.com/a/R0i-blO7)
 - Groupe 1020 🔗[1020 S04_Lab1_EntityFramework](https://classroom.github.com/a/XNMyZjo7)
-- Groupe 1030 🔗[1030 S04_Lab1_EntityFramework](https://classroom.github.com/a/JsCNSe4s)
-- Groupe 1040 🔗[1040 S04_Lab1_EntityFramework](https://classroom.github.com/a/9QYYONg4)
+- Groupe 1030 🔗[1030 S04_Lab1_EntityFramework](https://classroom.github.com/a/4dYicIKk)
+- Groupe 1040 🔗[1040 S04_Lab1_EntityFramework](https://classroom.github.com/a/aMape43g)
 
 ### Travail personnel: 
 - Compléter le laboratoire
