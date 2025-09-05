@@ -14,7 +14,8 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours5.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EWz8mH95dqVErVE32fp27LQBKNwKqxzipy1wDLaoP_oUOw)
 
 ### Laboratoire: 
-<Laboratoire nom="10XX-S05_Lab1"/>
+- Groupe 1010 🔗[1010 S05_Lab1_Linq](https://classroom.github.com/a/fh5U2zDi)
+- Groupe 1020 🔗[1020 S05_Lab1_Linq](https://classroom.github.com/a/ByyBhVOi)
 
 ### Travail personnel: 
 - Compléter le Laboratoire
