@@ -13,6 +13,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Laboratoire: 
 - Groupe 1010 🔗[1010 S06_Lab1_CRUD](https://classroom.github.com/a/UZrYyxtm)
 - Groupe 1020 🔗[1020 S06_Lab1_CRUD](https://classroom.github.com/a/-X4YQ5Yj)
+- Groupe 1030 🔗[1030 S06_Lab1_CRUD](https://classroom.github.com/a/5-3AfypR)
+- Groupe 1040 🔗[1040 S06_Lab1_CRUD](https://classroom.github.com/a/pS88ues0)
 
 ### Travail personnel: 
 - Compléter le Laboratoire
