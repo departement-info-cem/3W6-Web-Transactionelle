@@ -21,7 +21,10 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_7.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EaSEkakctCVArdNFx1KCtqYBoJsaOl0Cilpa3NRfTU2y2A?e=tTg5nf)
 
 ### Laboratoire: 
-<Laboratoire nom="10XX-S07_Lab1"/>
+- Groupe 1010 
+- Groupe 1020 
+- Groupe 1030 🔗[1030 S07_Lab1_PartialViews](https://classroom.github.com/a/THc5GiHQ)
+- Groupe 1040 🔗[1040 S07_Lab1_PartialViews](https://classroom.github.com/a/tB-Gfomu)
 
 ### Travail personnel: 
 - Compléter le laboratoire
