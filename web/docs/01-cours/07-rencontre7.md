@@ -22,7 +22,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoire: 
 - Groupe 1010 🔗[1030 S07_Lab1_PartialViews](https://classroom.github.com/a/wZKw1LV2)
-- Groupe 1020 🔗[1030 S07_Lab1_PartialViews](https://classroom.github.com/a/YVYIS5q)
+- Groupe 1020 🔗[1030 S07_Lab1_PartialViews](https://classroom.github.com/a/YVYIS5q-)
 - Groupe 1030 🔗[1030 S07_Lab1_PartialViews](https://classroom.github.com/a/THc5GiHQ)
 - Groupe 1040 🔗[1040 S07_Lab1_PartialViews](https://classroom.github.com/a/tB-Gfomu)
 
