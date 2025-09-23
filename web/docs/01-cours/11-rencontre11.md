@@ -22,11 +22,18 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance
 
-### Laboratoires
-<Laboratoire nom="10XX-S11_Lab1_Revision"/>
-
 ### Théorie:  
 - 🔗[Cours_11.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ET-sz19NyfBMgqyhInqc5IcB7qmBlru8fkV1p9B9OEKJaw)
+
+
+### Laboratoires
+- Groupe 1010 🔗[1010 S11_Revision](https://classroom.github.com/a/wZKw1LV2)
+- Groupe 1020 🔗[1020 S11_Revision](https://classroom.github.com/a/YVYIS5q-)
+- Groupe 1030 
+- Groupe 1040 
+
+
+
 
 ### Travail personnel: 
 - Terminer le laboratoire de révision
