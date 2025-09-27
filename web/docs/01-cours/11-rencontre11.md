@@ -29,8 +29,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Laboratoires
 - Groupe 1010 🔗[1010 S11_Revision](https://classroom.github.com/a/wZKw1LV2)
 - Groupe 1020 🔗[1020 S11_Revision](https://classroom.github.com/a/YVYIS5q-)
-- Groupe 1030 
-- Groupe 1040 
+- Groupe 1030 🔗[1030 S11_Revision](https://classroom.github.com/a/lYiP97xv)
+- Groupe 1040 🔗[1040 S11_Revision](https://classroom.github.com/a/6U-XO-zO)
 
 
 
