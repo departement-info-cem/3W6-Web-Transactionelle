@@ -5,8 +5,8 @@
 <details>
 | Date |          |
 | :--------------- |:---------------:|
-| 07 octobre | Examen intra |séance 13
-| 10 octobre | Remise TP1 |séance 14
+| 10 octobre | Examen intra |séance 13
+| 16 octobre | Remise TP1 |séance 14
 | à venir | Examen final | Examens Communs
 | 16 décembre | Remise TP2 |séance 30
 
