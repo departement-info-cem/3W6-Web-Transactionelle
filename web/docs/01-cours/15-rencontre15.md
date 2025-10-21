@@ -23,8 +23,8 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_15.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EcQ5AhFz7QhNglzNMFbax-cBZMGTQtc8JyKLENXhjQ3jnQ?e=aVJ19J)
 
 ### Laboratoire: 
-- Groupe 1010
-- Groupe 1020
+- Groupe 1010 🔗[1010 S15_Lab1_Images_Toaster](https://classroom.github.com/a/RuRh1ZAB)
+- Groupe 1020 🔗[1020 S15_Lab1_Images_Toaster](https://classroom.github.com/a/lb_YF6Id)
 - Groupe 1030 🔗[1030 S15_Lab1_Images_Toaster](https://classroom.github.com/a/x9JSintD)
 - Groupe 1040 🔗[1040 S15_Lab1_Images_Toaster](https://classroom.github.com/a/5CFLa5wh)
 
