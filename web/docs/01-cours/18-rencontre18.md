@@ -20,8 +20,14 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_18.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EaokERRlIARHsrC4ntfOHHMBK4MNPccK94eUUVBqtMkHzg?e=AuwaHX)
 
 ### Laboratoires:  
-<Laboratoire nom="10XX-S18_Lab1"/>
-<Laboratoire nom="10XX-S18_Lab2"/>
+- Groupe 1010 
+- Groupe 1010 
+- Groupe 1020 
+- Groupe 1020 
+- Groupe 1030 🔗[1030 S18_Lab1_Javascript](https://classroom.github.com/a/BFeVhrf6)
+- Groupe 1030 🔗[1030 S18_Lab2_Javascript](https://classroom.github.com/a/nLQa_Dv-)
+- Groupe 1040 🔗[1040 S18_Lab1_Javascript](https://classroom.github.com/a/iV31WXDP)
+- Groupe 1040 🔗[1040 S18_Lab2_Javascript](https://classroom.github.com/a/Fq5dWLYX)
 
 ### Travail personnel: 
 - Compléter les laboratoires
