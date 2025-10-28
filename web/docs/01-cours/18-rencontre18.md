@@ -20,10 +20,10 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_18.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EaokERRlIARHsrC4ntfOHHMBK4MNPccK94eUUVBqtMkHzg?e=AuwaHX)
 
 ### Laboratoires:  
-- Groupe 1010 
-- Groupe 1010 
-- Groupe 1020 
-- Groupe 1020 
+- Groupe 1010 🔗[1010 S18_Lab1_Javascript](https://classroom.github.com/a/RlrjeD7P)
+- Groupe 1010 🔗[1020 S18_Lab2_Javascript](https://classroom.github.com/a/lXerG8qi)
+- Groupe 1020 🔗[1020 S18_Lab1_Javascript](https://classroom.github.com/a/DBkWo5rv)
+- Groupe 1020 🔗[1020 S18_Lab2_Javascript](https://classroom.github.com/a/kwN43OiK)
 - Groupe 1030 🔗[1030 S18_Lab1_Javascript](https://classroom.github.com/a/BFeVhrf6)
 - Groupe 1030 🔗[1030 S18_Lab2_Javascript](https://classroom.github.com/a/nLQa_Dv-)
 - Groupe 1040 🔗[1040 S18_Lab1_Javascript](https://classroom.github.com/a/iV31WXDP)
