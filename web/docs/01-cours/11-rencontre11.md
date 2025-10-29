@@ -244,7 +244,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 
 
 ### Étape 3. Ajouter la clé primaire dans chacun des modèles : 
-- Dans l'exemple suivant, nous avons ajouté la **clé primaire Id au modèle Enseignant**. Il faut le faire pour tous les modèles. 
+- Dans l'exemple suivant, nous avons ajouté la **clé primaire Id au modèle Enseignant et l'annotation [key]**. Il faut le faire pour tous les modèles. 
 
 ![alt text](../../static/img/Img_Traduction_Modele_Classe/Cle_primaire.png)
 
@@ -285,6 +285,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 - Dans le diagramme nous avons une relation **Un à Un** entre les modèles **Etudiant** et **CarteEtudiante**. 
 
  ![alt text](../../static/img/Img_Traduction_Modele_Classe/Un_a_Un.png)
+ ![alt text](../../static/img/Img_Traduction_Modele_Classe/Un_Un_Clé_Étrangère.png)
 
  ---
 
