@@ -15,3 +15,7 @@ Ce site vous donne accès au contenu des [séances](cours/rencontre1) du cours d
     2.	Implanter l’interface Web et les mécanismes d’interaction
     3.	Gérer les données de l’application
     4.	Contrôler la qualité de l’application
+
+   :::warning
+- L'utilisation de l'IAG pour créer partiellement ou totalement des éléments des éléments des TPs entrainera automatiquement un zéro
+::: 
