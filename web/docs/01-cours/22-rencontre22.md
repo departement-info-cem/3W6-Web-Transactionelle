@@ -11,5 +11,7 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_22.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EbCNer4Od8NLqOqV8hhdqe4B2LOLqZMTp9oSsq_BTfj0dg?e=Npomf2)
 
 ## Laboratoire: 
+- Groupe 1010 🔗[1010_S22_Lab1_AJAX](https://classroom.github.com/a/wsDbVg4P)
+- Groupe 1020 🔗[1020_S22_Lab1_AJAX](https://classroom.github.com/a/XyzEsJIi)
 - Groupe 1030 🔗[1030_S22_Lab1_AJAX](https://classroom.github.com/a/INxLsZaJ)
 - Groupe 1040 🔗[1040_S22_Lab1_AJAX](https://classroom.github.com/a/C7O-LMBW)
