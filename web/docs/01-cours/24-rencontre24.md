@@ -17,7 +17,8 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_24.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ER7ZV4gj_OJIpJSYzifXDnIB158S0FerqApWZz3VDOn1dw?e=FBvbym)
 
 ### Laboratoire: ZombieParty 
-<Laboratoire nom="10XX-S24_Lab1_i18n_2"/>
+- Groupe 1010 🔗[1010_S24_Lab_i18n_Views](https://classroom.github.com/a/nsjj-UMp)
+- Groupe 1020 🔗[1020_S24_Lab_i18n_Views](https://classroom.github.com/a/KuJfDYcn)
 
 ### Travail personnel:
 - Compléter le laboratoire 
