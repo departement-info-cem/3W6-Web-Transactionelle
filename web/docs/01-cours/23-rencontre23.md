@@ -23,6 +23,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Laboratoire: ZombieParty 
 - Groupe 1010 🔗[1010_S23_Lab_i18n_Models](https://classroom.github.com/a/BXNP6XwM)
 - Groupe 1020 🔗[1020_S23_Lab_i18n_Models](https://classroom.github.com/a/e2vRsO_W)
+- Groupe 1030 🔗[1030_S23_Lab_i18n_Models](https://classroom.github.com/a/UgIXq4Fe)
+- Groupe 1040 🔗[1040_S23_Lab_i18n_Models](https://classroom.github.com/a/PB61q7GX)
 
 ### Travail personnel:
 - Compléter le laboratoire 
