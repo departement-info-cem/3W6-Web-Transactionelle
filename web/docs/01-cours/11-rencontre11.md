@@ -96,20 +96,20 @@ Elle contient généralement:
     - Des statistiques
     - Des listes pour faire des sélections
 - L'état de la page
-    - La valeur courrante d'un champ de recherche
-    - La pagination lorsque l'on peut voir une grande quantité de données
+    - La valeur courante d'un champ de recherche
+    - La pagination lorsque l'on veut voir une grande quantité de données
     - D'autres options
 
 
 #### TagHelper et asp-for 
 
-Le mot "For" utilisé dans les fonctions suivantes fait référence aux propriétés du modèle fournit:
+Le mot "For" utilisé dans les fonctions suivantes fait référence aux propriétés du modèle fourni:
 
 ```ts
 @model X
 ```
 
-Regarder le html généré par les choses suivantes:
+Regardez le html généré par les choses suivantes:
 
 ```ts
 @Html.DisplayNameFor(model => model.Name)
@@ -123,7 +123,7 @@ asp-validation-for="Name"
 
 #### EntityFramework (EF)
 
-- Propriétés de navigations
+- Propriétés de navigation
 - Relations
     - 1 à N
     - N à N
@@ -143,7 +143,7 @@ Exemples:
 
 Révision du ?
 
-Pour les propriétés de navigations avec une clé étrangère, il doit être sur les deux ou pas du tout
+Pour les propriétés de navigation avec une clé étrangère, il doit être sur les deux ou pas du tout
 
 ```csharp title="Relation obligatoire"
 public class Joueur
@@ -174,15 +174,15 @@ ModelState.IsValid
 
 Comprendre le retour de View vs RedirectToAction!
 
-Comprende la validation client VS serveur VS BD
+Comprendre la validation client VS serveur VS BD
 
 #### Asynchrone
 
-Comment transformer un méthode pour qu'elle soit asynchrone et puisse utiliser des méthodes asynchrones
+Comment transformer une méthode pour qu'elle soit asynchrone et puisse utiliser des méthodes asynchrones
 
 3 choses:
 - Rendre la méthode async
-- Changer le type de retour pour une Task&lt;X&gt; où X est le type qui était retourné
+- Changer le type de retour pour une Task&lt;X&gt; où X est le type qui était retourné (ou Task pour un `void`)
 - Ajouter un await devant les appels à des méthodes asynchrones comme ToListAsync()
 
 
@@ -209,7 +209,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 
  ---
 
-### Étape 2. Pour chacun des modèles, ajouter toutes les propriétés et les annotations
+### Étape 2. Ajouter les propriétés et les annotations
 
 #### **Modèle Enseignant** : 
 - On remarque ici **deux utilisations différentes de StringLength** avec une taille minimale ou non.
@@ -299,7 +299,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 
 ### Étape 6. Créer la migration et la base de données :
 
-1. Dans la **console de gestionnaire de package**, faites la commade suivante pour **créer la migration**. 
+1. Dans la **console de gestionnaire de package**, faites la commande suivante pour **créer la migration**. 
 
 ```
 add-migration nom_migration
@@ -313,13 +313,13 @@ add-migration nom_migration
 
 
 
-2. **Créer la base de données** avec la commande suivante 
+2. **Créez la base de données** avec la commande suivante 
 
 ```
 update-database
 ```
 
-- Regardez dans **l'explorateur d'objets SQL** si la base de données a été créées et si les tables existent.
+- Regardez dans **l'explorateur d'objets SQL** si la base de données a été créée et si les tables existent.
 
  ![alt text](../../static/img/Img_Traduction_Modele_Classe/Tables_BD.png)
 
