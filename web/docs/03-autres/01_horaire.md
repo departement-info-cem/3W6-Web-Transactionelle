@@ -20,7 +20,7 @@
 | Date |          |
 | :--------------- |:---------------:|
 | 20 juin | Remise TP1 | 
-| 26 juin | Examen intra | séance 13
+| 25 juin | Examen intra | séance 13
 | 1 juillet | Remise TP2 | 
 | 16 juillet | Examen final | séance 29
 | 16 juillet | Remise TP3 | séance 30
