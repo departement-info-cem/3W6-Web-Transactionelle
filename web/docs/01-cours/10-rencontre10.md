@@ -3,9 +3,25 @@ import Laboratoire from '/laboratoire.mdx';
 # Rencontre 10
 
 ## Contenu
-- Réponses aux questions et aide pour le [TP1](/tp/tp1)
+- Méthodes asynchrones
+- FontAwesome
+- Accordéon
+- Lambda avec champ ?
+- Génération de vues et contrôleurs
 
-## Activités de la séance
+## Ressources et documentation: 
+- [FontAwesome](https://fontawesome.com/)
+
+## Activités de la séance: 
+### Théorie:  
+- 🔗[Cours_10.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EZ3VWcy7vQREg2s19Opr1pMB1_-hNcRh9retA14LwVtS1g?e=wVM8iy)
+
+### Laboratoire: 
+- Groupe 1010 Labo 1 : 🔗[1010 S10_AsyncAndThirdParty]()
+- Groupe 1010 Labo 2 : 🔗[1010 S10_enerateController]()
+- Groupe 1020 Labo 1 : 🔗[1020 S10_AsyncAndThirdParty]()
+- Groupe 1020 Labo 2 :🔗[1020 S10_GenerateController]()
 
 ### Travail personnel: 
-- Travail sur le [TP1](/tp/tp1)
+- Compléter le laboratoire
+Travail sur le [TP2](/tp/tp2)

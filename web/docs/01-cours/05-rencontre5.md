@@ -2,22 +2,9 @@ import Laboratoire from '/laboratoire.mdx';
 
 # Rencontre 5
 
-## Contenu
-- Linq, boucles et constructeurs
-- Seed DB 
-
-## Ressources et documentation: 
-- [Linq](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
+## TP
+Présentation du [TP1](/tp/tp1)
 
 ## Activités de la séance: 
-### Théorie:  
-- 🔗[Cours5.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EWz8mH95dqVErVE32fp27LQBKNwKqxzipy1wDLaoP_oUOw)
-
-### Laboratoire: 
-- Groupe 1010 🔗[1010 S05_Lab1_Linq](https://classroom.github.com/a/fh5U2zDi)
-- Groupe 1020 🔗[1020 S05_Lab1_Linq](https://classroom.github.com/a/ByyBhVOi)
-- Groupe 1030 🔗[1030 S05_Lab1_Linq](https://classroom.github.com/a/MbFYad6B)
-- Groupe 1040 🔗[1040 S05_Lab1_Linq](https://classroom.github.com/a/OAUq6FCL)
-
-### Travail personnel: 
-- Compléter le Laboratoire
+### Laboratoires: 
+Travail sur le [TP1](/tp/tp1)
