@@ -4,11 +4,11 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Contenu
 
-Présentation du [TP2](/tp/tp2)
+Présentation du [TP3](/tp/tp3)
 
 ## Activités de la séance: 
 
-Travail sur le [TP2](/tp/tp2)
+Travail sur le [TP3](/tp/tp3)
 
 ### Travail personnel: 
 - Compléter les laboratoires 

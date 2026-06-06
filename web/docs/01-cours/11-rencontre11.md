@@ -27,17 +27,15 @@ import Laboratoire from '/laboratoire.mdx';
 
 
 ### Laboratoires
-- Groupe 1010 🔗[1010 S11_Revision](https://classroom.github.com/a/W1s1RQKG)
-- Groupe 1020 🔗[1020 S11_Revision](https://classroom.github.com/a/46E1CVLa)
-- Groupe 1030 🔗[1030 S11_Revision](https://classroom.github.com/a/lYiP97xv)
-- Groupe 1040 🔗[1040 S11_Revision](https://classroom.github.com/a/6U-XO-zO)
+- Groupe 1010 🔗[1010 S11_Revision]()
+- Groupe 1020 🔗[1020 S11_Revision]()
 
 
 
 
 ### Travail personnel: 
 - Terminer le laboratoire de révision
-- Travail sur le [TP1](/tp/tp1)
+- Travail sur le [TP2](/tp/tp2)
 
 ### Révision
 

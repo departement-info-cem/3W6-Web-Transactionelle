@@ -4,12 +4,12 @@ import Laboratoire from '/laboratoire.mdx';
 
 
 ## TP
-Remise [TP1](/tp/tp1)
+Remise [TP2](/tp/tp2)
 
 ## Contenu
-- Terminer le TP1
+- Terminer le TP2
 
 ## Activités de la séance: 
 
 ### Travail personnel:
-- Compléter le TP1 
+- Compléter le TP2 
