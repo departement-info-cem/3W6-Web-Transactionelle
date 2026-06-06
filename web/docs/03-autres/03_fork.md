@@ -66,7 +66,7 @@ On peut sélectionner le fichier que l'on veut voir à gauche et voir la différ
 
 ![alt text](ForkLocalChanges2.png)
 
-L'option pour ignore les espaces blancs (et changement de ligne) est souvent intéressante
+L'option pour ignorer les espaces blancs (et changement de ligne) est souvent intéressante
 
 ![alt text](ForkLocalChanges3.png)
 
@@ -85,7 +85,7 @@ Vous pouvez également choisir l'option **Stage All** après un **clique droit**
 
 ![alt text](ForkCommit2.png)
 
-Une fois que les changements sont TOUS dans la section Staged (Sauf si vous voulez ignore certains changements pour l'instant...)
+Une fois que les changements sont TOUS dans la section Staged (Sauf si vous voulez ignorer certains changements pour l'instant...)
 
 Écrivez un nom et une description pour le commit et cliquez sur le bouton **Commit X File**
 
@@ -192,7 +192,7 @@ Il faut maintenant faire un **Push**
 
 Lorsque vous travaillez à la maison et que vous voulez obtenir les changements que vous avez fait à l'école, il faut faire un **Pull**!
 
-Avant de faire un pull vous **pouvez** faire un **Fetch**. Le **Fetch** permet de connaître les changements du serveur, sans nécessairement les appliquer localement. On peut voir les changements avec une flèche vers le **BAS** et le nombre de commits sur le serveur qui n'ont pas encore obtenus.
+Avant de faire un pull vous **pouvez** faire un **Fetch**. Le **Fetch** permet de connaître les changements du serveur, sans les appliquer localement. On peut voir les changements avec une flèche vers le **BAS** et le nombre de commits sur le serveur qui n'ont pas encore été appliqués.
 
 <!-- 
 Lorsque vous faites le **Pull**, vous allez obtenir **les changements sur le serveur** dans la **branche** où vous êtes.
@@ -207,7 +207,7 @@ Note: Pourquoi on a seulement besoin de le faire à la maison? Par défaut, lors
 <details>
 <summary>Retirer un changement</summary>
 
-Si vous ne voules plus les changements que vous avez fait localement dans un fichier (C'était une erreur)
+Si vous ne voulez plus les changements que vous avez fait localement dans un fichier (C'était une erreur)
 
 Faites Discard Changes... et confirmez votre choix
 
