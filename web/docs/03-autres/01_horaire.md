@@ -1,6 +1,6 @@
 # Horaire
 
-## Calendrier 3W6 E26 (Groupes 1010)
+## Calendrier 3W6 E26 (Groupe 1010)
 
 <details>
 | Date |          |
@@ -14,7 +14,7 @@
 
 </details>
 
-## Calendrier 3W6 E26 (Groupes 1020)
+## Calendrier 3W6 E26 (Groupe 1020)
 
 <details>
 | Date |          |
