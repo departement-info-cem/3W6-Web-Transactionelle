@@ -36,7 +36,7 @@ Révision .NET Core MVC
 #### GitHub Classroom Laboratoire
 
 - Groupe 1010 🔗[1010 S01_Lab1_Révision]()
-- Groupe 1020 🔗[1020 S01_Lab1_Révision]()
+- Groupe 1020 🔗[1020 S01_Lab1_Révision](https://classroom.github.com/a/S8OQcZ-P)
 
 
 

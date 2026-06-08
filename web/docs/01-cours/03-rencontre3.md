@@ -17,7 +17,7 @@ import Laboratoire from '/laboratoire.mdx';
 #### GitHub Classroom Laboratoire
 
 - Groupe 1010 🔗[1010 S03_Lab1_Modelisation]()
-- Groupe 1020 🔗[1020 S03_Lab1_Modelisation]()
+- Groupe 1020 🔗[1020 S03_Lab1_Modelisation](https://classroom.github.com/a/ngOCdLu7)
 
 ### Travail personnel: 
 - Compléter le laboratoire

@@ -28,7 +28,7 @@ import Laboratoire from '/laboratoire.mdx';
 #### GitHub Classroom Laboratoire
 
 - Groupe 1010 🔗[1010 S02_Lab1_ViewModels]()
-- Groupe 1020 🔗[1020 S02_Lab1_ViewModels]()
+- Groupe 1020 🔗[1020 S02_Lab1_ViewModels](https://classroom.github.com/a/sKSSJHNL)
 
 ### Travail personnel: 
 - Compléter le laboratoire

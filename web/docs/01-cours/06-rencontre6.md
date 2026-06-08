@@ -15,7 +15,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoire: 
 - Groupe 1010 🔗[1010 S06_Lab1_Linq](https://classroom.github.com/a/fh5U2zDi)
-- Groupe 1020 🔗[1020 S06_Lab1_Linq](https://classroom.github.com/a/ByyBhVOi)
+- Groupe 1020 🔗[1020 S06_Lab1_Linq](https://classroom.github.com/a/ImiUX_Fi)
 
 ### Travail personnel: 
 - Compléter le Laboratoire
