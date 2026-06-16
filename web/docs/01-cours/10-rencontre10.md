@@ -19,8 +19,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Laboratoire: 
 - Groupe 1010 Labo 1 : 🔗[1010 S10_AsyncAndThirdParty]()
 - Groupe 1010 Labo 2 : 🔗[1010 S10_enerateController]()
-- Groupe 1020 Labo 1 : 🔗[1020 S10_AsyncAndThirdParty]()
-- Groupe 1020 Labo 2 :🔗[1020 S10_GenerateController]()
+- Groupe 1020 Labo 1 : 🔗[1020 S10_AsyncAndThirdParty](https://classroom.github.com/a/KDxrMXmF)
+- Groupe 1020 Labo 2 :🔗[1020 S10_GenerateController](https://classroom.github.com/a/hkvW5LZ2)
 
 ### Travail personnel: 
 - Compléter le laboratoire
