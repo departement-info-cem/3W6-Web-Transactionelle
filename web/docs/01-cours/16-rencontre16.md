@@ -83,6 +83,6 @@ import Laboratoire from '/laboratoire.mdx';
 
  ![alt text](../../static/img/Images%20Exemple%20service/Utiliser_Service.png)
 
- ### Étape 7. Valider que le résultat est identique.
+ ### Étape 8. Valider que le résultat est identique.
 
   ![alt text](../../static/img/Images%20Exemple%20service/Validation.png)
