@@ -13,7 +13,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoire: 
 - Groupe 1010 🔗[1010 S16_Lab1_DependencyInjection](https://classroom.github.com/a/hGEtuQcs)
-- Groupe 1020 🔗[1020 S16_Lab1_DependencyInjection]()
+- Groupe 1020 🔗[1020 S16_Lab1_DependencyInjection](https://classroom.github.com/a/emxCc02G)
 
 ### Travail personnel:
 - Compléter le laboratoire 
