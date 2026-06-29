@@ -15,7 +15,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoire: ZombieParty 
 - Groupe 1010 🔗[1010 S17_Lab1_Generic_Services](https://classroom.github.com/a/XWr9dt7-)
-- Groupe 1020 🔗[1020 S17_Lab1_Generic_Services]()
+- Groupe 1020 🔗[1020 S17_Lab1_Generic_Services](https://classroom.github.com/a/Nz6qdQMq)
 
 ### Travail personnel:
 - Compléter le laboratoire 

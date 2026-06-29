@@ -22,8 +22,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Laboratoires:  
 - Groupe 1010 🔗[1010 S18_Lab1_Javascript](https://classroom.github.com/a/BfXPqrY_)
 - Groupe 1010 🔗[1020 S18_Lab2_Javascript]()
-- Groupe 1020 🔗[1020 S18_Lab1_Javascript]()
-- Groupe 1020 🔗[1020 S18_Lab2_Javascript]()
+- Groupe 1020 🔗[1020 S18_Lab1_Javascript](https://classroom.github.com/a/XX4v8Rsz)
+- Groupe 1020 🔗[1020 S18_Lab2_Javascript](https://classroom.github.com/a/_m-dL4Z_)
 
 ### Travail personnel: 
 - Compléter les laboratoires
