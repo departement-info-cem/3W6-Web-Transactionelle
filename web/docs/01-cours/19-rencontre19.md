@@ -15,4 +15,4 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoires: 
 - Groupe 1010 🔗[1010 S19_Lab1_JQuery]()
-- Groupe 1020 🔗[1020 S19_Lab1_JQuery]()
+- Groupe 1020 🔗[1020 S19_Lab1_JQuery](https://classroom.github.com/a/JbJCMM3U)
