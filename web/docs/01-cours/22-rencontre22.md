@@ -12,4 +12,4 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Laboratoire: 
 - Groupe 1010 🔗[1010_S22_Lab1_AJAX](https://classroom.github.com/a/1JZT68zT)
-- Groupe 1020 🔗[1020_S22_Lab1_AJAX]()
+- Groupe 1020 🔗[1020_S22_Lab1_AJAX](https://classroom.github.com/a/yxazZbOr)

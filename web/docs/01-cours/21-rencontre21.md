@@ -13,5 +13,5 @@ import Laboratoire from '/laboratoire.mdx';
 ## Laboratoire: 
 - Groupe 1010 🔗[1010_S21_Lab1_AJAX](https://classroom.github.com/a/A3S4N4Lr)
 - Groupe 1010 🔗[1010_S21_Lab2_AJAX](https://classroom.github.com/a/ZZ9XpvbF)
-- Groupe 1020 🔗[1020_S21_Lab1_AJAX]()
-- Groupe 1020 🔗[1020_S21_Lab2_AJAX]()
+- Groupe 1020 🔗[1020_S21_Lab1_AJAX](https://classroom.github.com/a/5hYFHUgM)
+- Groupe 1020 🔗[1020_S21_Lab2_AJAX](https://classroom.github.com/a/EKPbMVLf)
