@@ -18,5 +18,5 @@ Présentation de comment résoudre le laboratoire:
 - i18n
 
 ### Laboratoire: Révision de fin de session 
-- Groupe 1010 🔗[1010_S27_Revision](https://classroom.github.com/a/Cz40I701)
+- Groupe 1010 🔗[1010_S27_Revision](https://classroom.github.com/a/_GN3Rwn3)
 - Groupe 1020 🔗[1020_S27_Revision]()
