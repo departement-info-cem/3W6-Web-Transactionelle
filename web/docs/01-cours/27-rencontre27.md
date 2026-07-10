@@ -19,4 +19,4 @@ Présentation de comment résoudre le laboratoire:
 
 ### Laboratoire: Révision de fin de session 
 - Groupe 1010 🔗[1010_S27_Revision](https://classroom.github.com/a/_GN3Rwn3)
-- Groupe 1020 🔗[1020_S27_Revision]()
+- Groupe 1020 🔗[1020_S27_Revision](https://classroom.github.com/a/XG3eowhR)
