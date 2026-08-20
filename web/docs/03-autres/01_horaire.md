@@ -1,29 +1,29 @@
 # Horaire
 
-## Calendrier 3W6 E26 (Groupe 1010)
+## Calendrier 3W6 A26 (Groupe 1010-1020)
 
 <details>
 | Date |          |
 | :--------------- |:---------------:|
-| 17 juin | Remise TP1 | 
-| 22 juin | Examen intra | séance 13
-| 29 juin | Remise TP2 | 
-| 13 juillet | Examen final | séance 29
-| 13 juillet | Remise TP3 | séance 30
+| 15 septembre | Remise TP1 | séance 7
+| 01 octobre | Examen intra | séance 12
+| 29 octobre | Remise TP2 | séance 17
+| 17 décembre | Examen final | séance 29
+| 22 décembre | Remise TP3 | séance 30
 
 
 </details>
 
-## Calendrier 3W6 E26 (Groupe 1020)
+## Calendrier 3W6 A26 (Groupe 1030)
 
 <details>
 | Date |          |
 | :--------------- |:---------------:|
-| 20 juin | Remise TP1 | 
-| 25 juin | Examen intra | séance 13
-| 1 juillet | Remise TP2 | 
-| 16 juillet | Examen final | séance 29
-| 16 juillet | Remise TP3 | séance 30
+| dd mmmm | Remise TP1 | séance 7 
+| dd mmmm | Examen intra | séance 12
+| dd mmmm | Remise TP2 | séance 17
+| dd mmmm | Examen final | séance 29
+| dd mmmm | Remise TP3 | séance 30
 
 </details>
 
