@@ -22,13 +22,13 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Théorie
 - 🔗[Cours2](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EbCMLwYmBRFNj40eH0g613EBR0gyw11u3l6pE1e52MOfIA?e=ZYp5y3)
-- 🔗[Démo Validation](https://github.com/E25ProgWebTrans/DemoValidations)
+- 🔗[Démo Validation](https://github.com/A26ProgWebTrans/S02_DemoValidations)
 
 ### Laboratoire
-#### GitHub Classroom Laboratoire
+#### GitHub FORK le repo suivant
 
-- Groupe 1010 🔗[1010 S02_Lab1_ViewModels](https://classroom.github.com/a/IhpHokay)
-- Groupe 1020 🔗[1020 S02_Lab1_ViewModels](https://classroom.github.com/a/sKSSJHNL)
+- Labo 🔗[S02_Lab1_ViewModels](https://github.com/A26ProgWebTrans/S02_Lab1_ViewModels)
+
 
 ### Travail personnel: 
 - Compléter le laboratoire

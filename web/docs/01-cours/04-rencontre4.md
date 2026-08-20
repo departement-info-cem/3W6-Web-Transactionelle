@@ -19,8 +19,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Laboratoire
 #### GitHub Classroom Laboratoire
 
-- Groupe 1010 🔗[1010 S04_Lab1_EntityFramework](https://classroom.github.com/a/VoVxXvPq)
-- Groupe 1020 🔗[1020 S04_Lab1_EntityFramework](https://classroom.github.com/a/KMJHQTO8)
+- Labo 🔗[S04_Lab1_EntityFramework](https://github.com/A26ProgWebTrans/S04_Lab1_EF)
+
 
 ### Travail personnel: 
 - Compléter le laboratoire
