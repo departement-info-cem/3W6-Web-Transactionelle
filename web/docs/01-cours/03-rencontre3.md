@@ -14,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours3.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ERF-b_Tc8ppEmStCQFs5sRcBct67IEmEwHtjezupRgXWCw?e=NF6EFO)
 
 ### Laboratoire
-#### GitHub Classroom Laboratoire
+#### GitHub FORK Laboratoire
 
 - Labo 🔗[S03_Lab1_Modelisation](https://github.com/A26ProgWebTrans/S03_Lab1_Modelisation)
 
