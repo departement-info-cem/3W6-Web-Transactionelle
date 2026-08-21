@@ -20,9 +20,10 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie:  
 - 🔗[Cours_23.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/Ea3rlHReYzJKlb7pVayggsEBBb9PqLRsTIrnvCcI6UZ1uw?e=VYJxgw)
 
-### Laboratoire: ZombieParty 
-- Groupe 1010 🔗[1010_S23_Lab_i18n_Models](https://classroom.github.com/a/Ypsdsmkp)
-- Groupe 1020 🔗[1020_S23_Lab_i18n_Models](https://classroom.github.com/a/IrDCFgFs)
+### Laboratoire
+#### GitHub FORK Laboratoire
+- Labo 🔗[S23_Lab_i18n_Models](https://github.com/A26ProgWebTrans/S23_Lab1_i18n)
+
 
 ### Travail personnel:
 - Compléter le laboratoire 

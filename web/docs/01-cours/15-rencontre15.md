@@ -23,8 +23,9 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_15.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EcQ5AhFz7QhNglzNMFbax-cBZMGTQtc8JyKLENXhjQ3jnQ?e=aVJ19J)
 
 ### Laboratoire: 
-- Groupe 1010 🔗[1010 S15_Lab1_Images_Toaster](https://classroom.github.com/a/DdirmBDE)
-- Groupe 1020 🔗[1020 S15_Lab1_Images_Toaster](https://classroom.github.com/a/phwdyFYz)
+#### GitHub FORK Laboratoire
+- Labo 🔗[S15_Lab1_Images_Toaster](https://github.com/A26ProgWebTrans/S15_Lab1_Upload)
+
 
 ### Travail personnel:
 - Compléter le laboratoire 

@@ -20,8 +20,8 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_8.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EaSEkakctCVArdNFx1KCtqYBoJsaOl0Cilpa3NRfTU2y2A?e=tTg5nf)
 
 ### Laboratoire: 
-- Groupe 1010 🔗[1010 S08_Lab1_PartialViews](https://classroom.github.com/a/m-VJ7ghx)
-- Groupe 1020 🔗[1020 S08_Lab1_PartialViews](https://classroom.github.com/a/io2KLs2h)
+#### GitHub FORK Laboratoire
+- Labo 🔗[S08_Lab1_PartialViews](https://github.com/A26ProgWebTrans/S08_Lab1_PartialViews)
 
 
 ### Travail personnel: 

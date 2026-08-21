@@ -14,8 +14,8 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours6.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EWz8mH95dqVErVE32fp27LQBKNwKqxzipy1wDLaoP_oUOw)
 
 ### Laboratoire: 
-- Groupe 1010 🔗[1010 S06_Lab1_Linq](https://classroom.github.com/a/sjUSx7ej)
-- Groupe 1020 🔗[1020 S06_Lab1_Linq](https://classroom.github.com/a/ImiUX_Fi)
+#### GitHub FORK Laboratoire
+- Labo 🔗[S06_Lab1_Linq](https://github.com/A26ProgWebTrans/S06_Lab1_Linq)
 
 ### Travail personnel: 
 - Compléter le Laboratoire

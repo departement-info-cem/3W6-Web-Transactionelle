@@ -11,8 +11,7 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours7.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EZFuRaoKc55MlH4hWN4E3wIB1eCtUIKXAprR5MSbz5Mhbw?e=GopCLc)
 
 ### Laboratoire: 
-- Groupe 1010 🔗[1010 S07_Lab1_CRUD](https://classroom.github.com/a/v6j9kCAe)
-- Groupe 1020 🔗[1020 S07_Lab1_CRUD](https://classroom.github.com/a/7C2LsLPH)
-
+#### GitHub FORK Laboratoire
+- Labo 🔗[S07_Lab1_CRUD](https://github.com/A26ProgWebTrans/S07_Lab1_CRUD)
 ### Travail personnel: 
 - Compléter le Laboratoire

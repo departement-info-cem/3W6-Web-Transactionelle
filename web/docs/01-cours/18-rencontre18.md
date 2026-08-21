@@ -19,11 +19,11 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie:  
 - 🔗[Cours_18.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EaokERRlIARHsrC4ntfOHHMBK4MNPccK94eUUVBqtMkHzg?e=AuwaHX)
 
-### Laboratoires:  
-- Groupe 1010 🔗[1010 S18_Lab1_Javascript](https://classroom.github.com/a/BfXPqrY_)
-- Groupe 1010 🔗[1010 S18_Lab2_Javascript](https://classroom.github.com/a/W83jgCVv)
-- Groupe 1020 🔗[1020 S18_Lab1_Javascript](https://classroom.github.com/a/XX4v8Rsz)
-- Groupe 1020 🔗[1020 S18_Lab2_Javascript](https://classroom.github.com/a/_m-dL4Z_)
+### Laboratoires
+#### GitHub FORK Laboratoire 
+- Labo 1 🔗[S18_Lab1_Javascript](https://github.com/A26ProgWebTrans/S18_Lab1_JavaScript)
+- Labo 2 🔗[S18_Lab2_Javascript](https://github.com/A26ProgWebTrans/S18_Lab2_JavaScript)
+
 
 ### Travail personnel: 
 - Compléter les laboratoires

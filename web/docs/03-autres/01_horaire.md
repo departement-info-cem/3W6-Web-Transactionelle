@@ -6,7 +6,7 @@
 | Date |          |
 | :--------------- |:---------------:|
 | 15 septembre | Remise TP1 | séance 7
-| 01 octobre | Examen intra | séance 12
+| 08 octobre | Examen intra | séance 13
 | 29 octobre | Remise TP2 | séance 17
 | 17 décembre | Examen final | séance 29
 | 22 décembre | Remise TP3 | séance 30

@@ -26,9 +26,10 @@ import Laboratoire from '/laboratoire.mdx';
 - 🔗[Cours_11.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ET-sz19NyfBMgqyhInqc5IcB7qmBlru8fkV1p9B9OEKJaw)
 
 
-### Laboratoires
-- Groupe 1010 🔗[1010 S11_Revision](https://classroom.github.com/a/8txDl404)
-- Groupe 1020 🔗[1020 S11_Revision](https://classroom.github.com/a/fu9Qb9Ep)
+### Laboratoire
+#### GitHub FORK Laboratoire
+- Labo 🔗[S11_Revision](https://github.com/A26ProgWebTrans/S11_Revision)
+
 
 
 

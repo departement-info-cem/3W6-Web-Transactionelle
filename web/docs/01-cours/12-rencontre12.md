@@ -13,6 +13,7 @@
 ### Travail personnel: 
 - Révision en prévision de l'examen et avancer le TP2
 
-### Laboratoires
-- Groupe 1010 🔗[1010 Intra_formatif](https://classroom.github.com/a/cA13kzws)
-- Groupe 1020 🔗[1020 Intra_formatif](https://classroom.github.com/a/m_iRo1O8)
+### Laboratoire
+#### GitHub FORK Laboratoire
+- Formatif 🔗[Intra_formatif](https://github.com/A26ProgWebTrans/S12_Lab1_TrouverErreurs)
+

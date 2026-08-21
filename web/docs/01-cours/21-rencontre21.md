@@ -10,8 +10,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie: 
 - 🔗[Cours_21.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EVBlK4wFUVpHt7mXrnRxT5QBOMEzCbZVP1xuP0z4ABdwZA)
 
-## Laboratoire: 
-- Groupe 1010 🔗[1010_S21_Lab1_AJAX](https://classroom.github.com/a/A3S4N4Lr)
-- Groupe 1010 🔗[1010_S21_Lab2_AJAX](https://classroom.github.com/a/ZZ9XpvbF)
-- Groupe 1020 🔗[1020_S21_Lab1_AJAX](https://classroom.github.com/a/5hYFHUgM)
-- Groupe 1020 🔗[1020_S21_Lab2_AJAX](https://classroom.github.com/a/EKPbMVLf)
+### Laboratoires
+#### GitHub FORK Laboratoire
+- Labo 1 🔗[S21_Lab1_AJAX](https://github.com/A26ProgWebTrans/S21_Lab1_AJAX)
+- Labo 2 🔗[S21_Lab2_AJAX](https://github.com/A26ProgWebTrans/S21_Lab2_AJAX)
+

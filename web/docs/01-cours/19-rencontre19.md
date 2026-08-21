@@ -13,6 +13,6 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie:  
 - 🔗[Cours_19.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EURuwKRC2glCg1R1VXX63lIBj0dIaYCGJ1eRSVwiDYoHgA?e=8rIKtv)
 
-### Laboratoires: 
-- Groupe 1010 🔗[1010 S19_Lab1_JQuery](https://classroom.github.com/a/qYrYSG7b)
-- Groupe 1020 🔗[1020 S19_Lab1_JQuery](https://classroom.github.com/a/JbJCMM3U)
+### Laboratoire
+#### GitHub FORK Laboratoire
+- Labo 🔗[S19_Lab1_JQuery](https://github.com/A26ProgWebTrans/S19_Lab1_jQuery)
