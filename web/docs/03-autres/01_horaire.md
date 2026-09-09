@@ -5,7 +5,7 @@
 <details>
 | Date |          |
 | :--------------- |:---------------:|
-| 15 septembre | Remise TP1 | séance 7
+| 22 septembre | Remise TP1 | séance 8
 | 08 octobre | Examen intra | séance 13
 | 29 octobre | Remise TP2 | séance 17
 | 17 décembre | Examen final | séance 29
@@ -19,11 +19,10 @@
 <details>
 | Date |          |
 | :--------------- |:---------------:|
-| dd mmmm | Remise TP1 | séance 7 
-| dd mmmm | Examen intra | séance 12
-| dd mmmm | Remise TP2 | séance 17
-| dd mmmm | Examen final | séance 29
-| dd mmmm | Remise TP3 | séance 30
+| 23 septembre | Remise TP1 | séance 8
+| 07 octobre | Examen intra | séance 13
+| 28 octobre | Remise TP2 | séance 17
+| 16 décembre | Examen final | séance 29
+| 21 décembre | Remise TP3 | séance 30
 
 </details>
-
