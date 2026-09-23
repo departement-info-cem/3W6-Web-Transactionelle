@@ -7,9 +7,9 @@ import Laboratoire from '/laboratoire.mdx';
 
 | |
 | --- |
-| ![alt text](image-1.png) |
+| ![alt text](R11_image2.png) |
 <details>
-![alt text](image.png)
+![alt text](R11_image1.png)
 </details>
 
 
