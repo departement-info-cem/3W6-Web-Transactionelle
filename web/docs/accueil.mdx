@@ -1,0 +1,54 @@
+---
+sidebar_position: 1
+slug: /
+hide_table_of_contents: true
+---
+
+# Accueil
+
+Ce site vous donne accès au contenu des [séances](cours/rencontre1) du cours de programmation Web Transactionnelle (3W6) du CÉGEP Édoouard-Montpetit.
+
+## OBJECTIF(S) TERMINAL DU COURS
+À la fin du cours, l’étudiant sera en mesure de développer et déployer une application Web sécurisée.
+
+### OBJECTIFS D'APPRENTISSAGE
+    1.	Contrôler la sécurité de l’application
+    2.	Implanter l’interface Web et les mécanismes d’interaction
+    3.	Gérer les données de l’application
+    4.	Contrôler la qualité de l’application
+
+   :::warning
+- L'utilisation de l'IAG pour créer partiellement ou totalement des éléments des éléments des TPs entrainera automatiquement un zéro
+::: 
+
+<DocsViewer
+    tabs={[
+    {
+        id: "grid",
+        label: "Cours",
+        icon: "📋",
+        component: <MainDocsGrid />,
+        // Les titres et les sous-titres sont définis dans les attributs "title" et "description" de chaque document des cours.
+    }, 
+    {
+        id: "calendar-prof1",
+        label: "Prof 1", // Modifier pour le nom de l'enseignant
+        icon: "📅",
+        component: <MainDocsCalendar professorName="Prof 1" />, // Doit matcher le nom du professeur qui est dans l'attribut "calendrier" des cours qui sont dans sidebar.js
+    },
+    {
+        id: "calendar-prof2",
+        label: "Prof 2",  // Modifier pour le nom de l'enseignant
+        icon: "📅",
+        component: <MainDocsCalendar professorName="Prof 2" />, // Doit matcher le nom du professeur qui est dans l'attribut "calendrier" des cours qui sont dans sidebar.js
+    },
+    //* Ajouter d'autres enseignants ici. Voir sidebar.js pour configurer les calendriers.
+    {
+        id: "horaire-profx",
+        label: "Horaire Prof X",  // Modifier pour le nom de l'enseignant
+        icon: "🎈",
+        component: <WeeklySchedule title="Professeur X" dataUrl="/horaire_profx.json" />
+    },
+    ]}
+    defaultTabId="grid"
+/>
