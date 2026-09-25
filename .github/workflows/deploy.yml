@@ -1,7 +1,3 @@
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 name: Déploiement
 
 on:
