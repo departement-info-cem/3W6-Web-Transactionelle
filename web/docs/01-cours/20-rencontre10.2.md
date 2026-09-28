@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 20
+# Présentation du TP3
 
 ## Contenu
 

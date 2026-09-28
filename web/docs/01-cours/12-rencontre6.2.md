@@ -1,4 +1,4 @@
-# Rencontre 12
+# Révision pour l'examen intra
 
 ## Contenu
 - Révision pour l'examen intra

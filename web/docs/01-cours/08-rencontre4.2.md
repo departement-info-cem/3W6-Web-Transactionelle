@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 8
+# Vues partielles et ViewModels
 
 ## Contenu
 - Partial views 

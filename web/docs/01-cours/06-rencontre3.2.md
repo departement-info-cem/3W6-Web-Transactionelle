@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 6
+# LINQ et seed de la BD
 
 ## Contenu
 - Linq, boucles et constructeurs

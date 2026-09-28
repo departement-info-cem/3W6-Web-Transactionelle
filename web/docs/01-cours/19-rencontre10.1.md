@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 19
+# Introduction à jQuery
 
 ## Contenu
 - Introduction à jQuery

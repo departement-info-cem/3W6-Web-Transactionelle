@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 17
+# Services et génériques
 
 ## Contenu
 

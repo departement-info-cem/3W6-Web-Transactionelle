@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 4
+# ORM et Entity Framework
 
 ## Contenu
 - ORM

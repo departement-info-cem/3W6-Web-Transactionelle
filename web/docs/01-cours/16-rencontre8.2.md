@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 16
+# Injection de dépendances
 
 ## Contenu
 

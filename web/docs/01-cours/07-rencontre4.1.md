@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 7
+# Chargement Eager/Lazy et CRUD
 
 ## Contenu
 - Loading (Eager vs Lazy) 

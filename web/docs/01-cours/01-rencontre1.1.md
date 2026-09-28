@@ -1,4 +1,4 @@
-# Rencontre 1
+# Plan de cours, Git et projets MVC
 
 ## Contenu: 
 - Plan de cours 

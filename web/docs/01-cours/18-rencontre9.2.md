@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 18
+# Introduction à JavaScript
 
 ## Contenu
 - Introduction à Javascript 

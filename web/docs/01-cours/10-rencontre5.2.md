@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 10
+# Méthodes asynchrones et génération de vues
 
 ## Contenu
 - Méthodes asynchrones

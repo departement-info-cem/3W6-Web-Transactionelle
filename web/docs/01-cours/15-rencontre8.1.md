@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 15
+# Retour sur l'intra, images et Toastr
 
 ## Contenu
 

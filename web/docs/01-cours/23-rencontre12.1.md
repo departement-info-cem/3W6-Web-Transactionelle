@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 23
+# Internationalisation : concepts et modèles
 
 ## Contenu
 - Internationalisation i18n concept 

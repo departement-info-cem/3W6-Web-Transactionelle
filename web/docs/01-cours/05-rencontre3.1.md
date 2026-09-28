@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 5
+# Présentation du TP1
 
 ## TP
 Présentation du [TP1](/tp/tp1)

@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 21
+# AJAX (partie 1)
 
 ## Contenu
 - AJAX #1

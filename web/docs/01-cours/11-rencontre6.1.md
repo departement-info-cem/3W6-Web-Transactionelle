@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 11
+# Diagrammes BD et laboratoire de révision
 
 ## Contenu
 - Présentation de Database Diagrams dans SQL Server Management Studio

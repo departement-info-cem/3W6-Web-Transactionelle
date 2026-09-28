@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 27
+# Révision de fin de session
 
 ## Contenu
 Révision de la matière

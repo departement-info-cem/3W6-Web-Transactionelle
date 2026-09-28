@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 14
+# Travail sur le TP2
 
 
 ## TP

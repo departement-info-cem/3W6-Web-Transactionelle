@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 13
+# Examen intra
 
 ## Examen Intra  
 ### Sujets couverts

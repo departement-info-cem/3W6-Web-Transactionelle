@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 3
+# Modélisation BD et UML
 
 ## Contenu
 - Rappel cours de BD et plus : 

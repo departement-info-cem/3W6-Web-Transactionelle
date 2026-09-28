@@ -1,6 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Rencontre 2
+# Vues, ViewModels et validation
 
 ## Contenu
 - .NET Core MVC : Projets suite 
