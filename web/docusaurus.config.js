@@ -1,11 +1,11 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-import { themes } from 'prism-react-renderer';
+import { themes } from "prism-react-renderer";
 
 const siteConfig = require("./config");
 
-const lightCodeTheme = themes.vsLight
-const darkCodeTheme = themes.vsDark
+const lightCodeTheme = themes.vsLight;
+const darkCodeTheme = themes.vsDark;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,7 +14,6 @@ const config = {
   url: "https://info.cegepmontpetit.ca/",
   baseUrl: `/${siteConfig.nomUrl}/`,
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   organizationName: "departement-info-cem",
@@ -26,6 +25,31 @@ const config = {
     defaultLocale: "fr",
     locales: ["fr"],
   },
+
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com',
+      rel: 'preconnect',
+    },
+    {
+      href: 'https://fonts.gstatic.com',
+      rel: 'preconnect',
+      crossorigin: 'anonymous',
+    },
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400..700;1,400..700&display=swap',
+      rel: 'stylesheet',
+    },
+  ],
+
+  markdown: {
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
+
+  themes: ["@docusaurus/theme-mermaid"],
 
   presets: [
     [
@@ -41,6 +65,22 @@ const config = {
           customCss: [require.resolve("./src/css/custom.css")],
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    '@docusaurus/plugin-ideal-image',
+    [
+      require.resolve("./plugins/docs-metadata"),
+      {
+        docsDir: "docs/01-cours",
+      },
+    ],
+    [
+      require.resolve("./plugins/quiz"),
+      {
+        // Par défaut, utilise le serveur de courtage public gratuit de PeerJS.
+      },
     ],
   ],
 
@@ -60,13 +100,17 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "cours/rencontre1",
+            // Mène au prochain cours selon l'horaire du premier prof trouvé dans
+            // sidebars.js, sinon au premier cours de la sidebar
+            type: "custom-prochainCours",
             position: "left",
+            sidebarId: "docs",
             label: "Cours",
           },
           {
-            type: "docSidebar",
+            // Mène au TP dont le nom (ex : « TP1 - ... ») est contenu dans le className
+            // du prochain cours qui en mentionne un (ex : remise-tp1), sinon au premier TP
+            type: "custom-tpCourant",
             position: "left",
             sidebarId: "tp",
             label: "Travaux Pratiques",
@@ -81,9 +125,19 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()}. ${
-          siteConfig.nom
-        }. CÉGEP Édouard-Montpetit.`,
+        links: [
+          {
+            title: "Sources",
+            items: [
+              {
+                label: "GitHub",
+                href: `https://github.com/departement-info-cem/${siteConfig.nomUrl}`,
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()}. ${siteConfig.nom
+          }. CÉGEP Édouard-Montpetit.`,
       },
       // Décommenter et remplir pour activer l'indexation des pages par le moteur de recherche local
       // algolia: {
@@ -96,7 +150,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ["csharp", "java", "dart"],
+        additionalLanguages: ["csharp", "java", "dart", "powershell"],
       },
       metadata: [
         {
