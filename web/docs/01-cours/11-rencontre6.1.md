@@ -23,7 +23,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance
 
 ### Théorie:  
-- 🔗[Cours_11.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ET-sz19NyfBMgqyhInqc5IcB7qmBlru8fkV1p9B9OEKJaw)
+- 🔗[Cours_11.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_11_Revision.pptx?d=w58d4d8b873e142edae7593c4b7914510&csf=1&web=1&e=bMsk64)
 
 
 ### Laboratoire
