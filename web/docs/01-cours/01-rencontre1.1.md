@@ -22,7 +22,7 @@
 ## Activités de la séance
 
 ### Théorie:
-- 🔗[Cours1.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EUgUK0lU0K5NrRnL7hqn7CgBQG9_3pnd2uFLxmyheXzjnQ?e=TNDdUA)
+- 🔗[420_3W6_cours_01_Git_Révision.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_01_Git_R%C3%A9vision.pptx?d=wab857f107b39418d895407217706a39e&csf=1&web=1&e=CyAZb5)
 - 🔗[Aide GitHub](/autres/gitHub)
 - 🔗[Aide Fork](/autres/fork)
 

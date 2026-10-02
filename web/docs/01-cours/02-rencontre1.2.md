@@ -21,7 +21,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie
-- 🔗[Cours2](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EbCMLwYmBRFNj40eH0g613EBR0gyw11u3l6pE1e52MOfIA?e=ZYp5y3)
+- 🔗[420_3W6_cours_02_Data_Validtions_Annotations.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_02_Data_Validtions_Annotations.pptx?d=w296f11aac44d44bf98704f3b037151b8&csf=1&web=1&e=wxEwmi)
 - 🔗[Démo Validation](https://github.com/A26ProgWebTrans/S02_DemoValidations)
 
 ### Laboratoire

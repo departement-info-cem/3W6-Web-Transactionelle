@@ -9,7 +9,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗[Cours_16.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ESHNY65JlMVOgIdYHxgJ_fEBBRGcSH7uVOa3dqgyTm5rYQ)
+- 🔗[420_3W6_cours_16_Injection_Dépendances.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_16_Injection_D%C3%A9pendances.pptx?d=w5f02c67b61914bb1a3c271f161587e58&csf=1&web=1&e=ZrCMo3)
 
 ### Laboratoire
 #### GitHub FORK Laboratoire

@@ -20,7 +20,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie:  
-- 🔗[Cours_15.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/EcQ5AhFz7QhNglzNMFbax-cBZMGTQtc8JyKLENXhjQ3jnQ?e=aVJ19J)
+- 🔗[420_3W6_cours_15_UploadImages_Toastr.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_15_UploadImages_Toastr.pptx?d=w7e62fdded1ec4844b3f9fd2a8db280d4&csf=1&web=1&e=9tdeJd)
 
 ### Laboratoire: 
 #### GitHub FORK Laboratoire

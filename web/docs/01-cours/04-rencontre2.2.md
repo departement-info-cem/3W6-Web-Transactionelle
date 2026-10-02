@@ -14,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[Cours4.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/s/CMT420InformatiqueComitesCours-3W6/ERyRHaH6DaBCsVD_N5GdODAB-NxgzqN6h91-U-INFFwBeg?e=jt92OQ)
+- 🔗[420_3W6_cours_04_Entity_Framework.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_04_Entity_Framework.pptx?d=w257a506db00442e3aada04fd02f1f2d8&csf=1&web=1&e=KrQJgl)
 
 ### Laboratoire
 #### GitHub FORK Laboratoire
