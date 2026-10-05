@@ -1,5 +1,3 @@
-import Laboratoire from '/laboratoire.mdx';
-
 # Examen intra
 
 ## Examen Intra  
@@ -13,6 +11,12 @@ import Laboratoire from '/laboratoire.mdx';
 - Annotations
 - Validation
 - Asynchrones
+- LINQ
+
+### Documentation permise
+- Site de cours
+- Laboratoires
+- TPs
 
 ### Activités de la séance: 
 - Examen intra
