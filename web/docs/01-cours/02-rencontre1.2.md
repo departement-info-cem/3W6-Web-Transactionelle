@@ -21,7 +21,8 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie
-- 🔗[420_3W6_cours_02_Data_Validtions_Annotations.pptx](../assets/cours/presentations/420_3W6_cours_02_Data_Validtions_Annotations.pptx)
+- 🔗[Notes de cours](#notes-de-cours) (ci-dessous)
+- 🔗[420_3W6_cours_02_Data_Validtions_Annotations.pptx](../assets/cours/presentations/420_3W6_cours_02_Data_Validtions_Annotations.pptx) (présentation originale)
 - 🔗[Démo Validation](https://github.com/A26ProgWebTrans/S02_DemoValidations)
 
 ### Laboratoire
@@ -32,6 +33,381 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Travail personnel: 
 - Compléter le laboratoire
+
+## Notes de cours
+
+### Contenu du cours
+- Communiquer des données vers une vue
+- ViewModel
+- Annotations et validations
+- Validation sur le client
+- Plus d’info sur les annotations
+
+### Patron MVC
+
+```mermaid
+flowchart LR
+    U[Utilisateur] -- Déclenche --> C[Contrôleur]
+    C -- Créé/Manipule --> M[Modèle]
+    M -- Envoyé à --> V[Vue]
+    V -- Affiche à --> U
+```
+
+### Communication Contrôleur → Vue
+Il existe 4 techniques pour communiquer des données d’un contrôleur vers une vue :
+- ViewData
+- ViewBag
+- TempData
+- Modèle
+
+Ces techniques peuvent être utilisées en même temps.
+
+#### ViewData
+- C’est la façon originale de communiquer de l’information.
+- Simplement un dictionnaire que l’on remplit avec des données dans le contrôleur.
+- À éviter sauf dans les cas très simples où l’on veut simplement communiquer des strings, car sinon il faut faire des « casts » pour indiquer le type du contenu.
+
+```csharp title="Contrôleur"
+this.ViewData["titre"] = "Un super titre!";
+
+List<string> couleurs = new List<string>()
+{
+    "Rouge",
+    "Vert",
+    "Bleu"
+};
+
+this.ViewData["couleursData"] = couleurs;
+```
+
+```cshtml title="Vue"
+<h1>@ViewData["titre"]</h1>
+
+<h2>Avec @((ViewData["couleursData"] as List<string>).Count) couleurs</h2>
+```
+
+![Résultat : Un super titre! Avec 3 couleurs](../assets/cours/rencontre1.2/ViewData_Resultat.webp)
+
+#### TempData
+- C’est une variation de ViewData avec une durée de vie différente.
+- La donnée est conservée tant qu’elle n’est pas lue. On peut la lire lors d’une prochaine requête ou au travers d’une redirection.
+- Dans ce cours, c’est surtout pratique pour afficher des messages lors d’un évènement.
+
+![Message de succès](../assets/cours/rencontre1.2/TempData_Succes.webp)
+![Message d’erreur](../assets/cours/rencontre1.2/TempData_Erreur.webp)
+
+#### ViewBag
+C’est une amélioration de ViewData qui permet d’éviter d’avoir à faire des « casts » lorsque l’on accède aux objets dans la vue.
+
+```csharp title="Contrôleur"
+this.ViewData["titre"] = "Un super titre!";
+
+this.ViewBag.Couleurs = new List<string>()
+{
+    "Rouge",
+    "Vert",
+    "Bleu"
+};
+```
+
+```cshtml title="Vue"
+<h1>@ViewData["titre"]</h1>
+
+// Avec un @ViewBag, on peut accéder à la propriété Count
+// de la liste Couleurs sans faire de cast
+<h2>Avec @ViewBag.Couleurs.Count couleurs</h2>
+```
+
+#### ViewBag pour un menu de sélection
+Dans ce cours, on l’utilise surtout pour des menus de sélection.
+
+```csharp title="Contrôleur"
+public IActionResult Create()
+{
+    ViewBag.Subjects = new SelectList(_database.Subjects.OrderBy(s => s.Name).ToList(), "Id", "Name", null);
+
+    return View();
+}
+```
+
+```cshtml title="Vue"
+<div class="col-8">
+    <select class="form-control form-select" asp-for="Subject_Id" asp-items="@ViewBag.Subjects"></select>
+    <span asp-validation-for="Subject_Id" class="text-danger"></span>
+</div>
+```
+
+![Menu de sélection généré](../assets/cours/rencontre1.2/ViewBag_Selection.webp)
+
+#### ViewBag n’est pas fortement typé!
+Même si le ViewBag fonctionne mieux que ViewData, il n’est pas fortement typé et ne permet pas de valider l’accès aux données de nos vues. Il ne permet d’ailleurs pas la saisie automatique.
+
+![Saisie automatique avec un modèle](../assets/cours/rencontre1.2/ViewBag_Intellisense.webp)
+
+#### Model
+- L’utilisation de modèle est la technique que nous allons favoriser dans ce cours, car elle offre de nombreux avantages.
+- En utilisant les annotations, il est possible d’afficher et valider correctement les données.
+- On peut utiliser le modèle de façon simple pour lire ses propriétés.
+
+```cshtml
+@model Book
+
+<div>
+    @Model.Name
+</div>
+```
+
+### ViewModel
+L’instruction `@model` peut être utilisée avec une classe qui fait partie de notre modèle de données. Comme la classe `Book` d’une application de gestion de livres ou la classe `Zombie` d’une application de zombies. Dans ce cas, on parle simplement d’un **Modèle** (Model).
+
+Mais il est possible d’utiliser n’importe quelle classe lorsque l’on affiche une vue. Lorsque l’on utilise une classe que l’on a créée spécialement pour afficher une vue, on parle alors d’un **ViewModel**.
+
+```cshtml
+@model UneClassSuperSpecifiqueJustePourCetteVueVM
+```
+
+#### Pourquoi utiliser un ViewModel?
+Très utile quand :
+- La vue nécessite des données qui viennent de plusieurs modèles différents de notre modèle de données. Par exemple : une vue de statistiques.
+- La vue a besoin d’informations supplémentaires pour s’afficher correctement. Par exemple : une vue avec plusieurs pages d’informations.
+- La vue a besoin d’une toute petite partie de l’information ou de gérer de l’information temporaire. Par exemple : le changement d’un mot de passe.
+
+#### Exemple simple de ViewModel
+Si on veut permettre à un utilisateur de modifier un mot de passe avec un formulaire, les seules données que l’on veut récupérer dans cette vue sont l’ancien et le nouveau mot de passe. On peut donc définir un ViewModel simple et efficace qui contiendra nos données.
+
+```csharp title="ChangePasswordViewModel.cs"
+public class ChangePasswordViewModel
+{
+    [DataType(DataType.Password)]
+    public string OldPassword { get; set; }
+
+    [DataType(DataType.Password)]
+    public string NewPassword { get; set; }
+
+    [DataType(DataType.Password)]
+    [Compare(nameof(NewPassword))]
+    public string ConfirmPassword { get; set; }
+}
+```
+
+```cshtml title="Vue"
+@model ChangePasswordViewModel
+```
+
+```csharp title="Contrôleur"
+public IActionResult ChangePassword()
+{
+    return View(new ChangePasswordViewModel());
+}
+
+[HttpPost]
+public IActionResult ChangePassword(ChangePasswordViewModel passwordData)
+{
+    if (ModelState.IsValid)
+    {
+        // Modifier le Mot de passe de l'utilisateur
+    }
+
+    return this.View(passwordData);
+}
+```
+
+### Annotations
+
+#### Les annotations ont une triple fonction
+- Contrôler comment la donnée est affichée
+- Valider la valeur (vide, pas vide, format)
+- Mettre en place les contraintes du modèle
+
+#### Des exemples d’annotations simples
+```csharp
+[StringLength(42, MinimumLength = 4)]
+public string Name { get; set; }
+
+[DataType(DataType.Password)]
+public string NewPassword { get; set; }
+
+[DataType(DataType.Password)]
+[Compare(nameof(NewPassword))]
+public string ConfirmPassword { get; set; }
+```
+
+#### Comment gérer Required
+Dans les versions précédentes de .NET Core MVC, on utilisait l’annotation `[Required]` :
+
+```csharp
+[Required]
+public string Description { get; set; }
+```
+
+Le problème avec cette technique, c’est qu’elle n’est plus à jour. En effet, les propriétés sont maintenant requises (required) par défaut!
+
+La nouvelle façon de faire, c’est d’ajouter un `?` lorsqu’une propriété n’est **PAS** requise. Dans le cas suivant, `Description` est requise et `Description2` est optionnelle.
+
+```csharp
+public string Description { get; set; }
+
+public string? Description2 { get; set; }
+```
+
+#### Les ErrorMessages sont paramétrables
+```csharp
+[Display(Name = "Nombre de pièces")]
+[Range(1, int.MaxValue, ErrorMessage = "Il faut un minimum de 1 pièce.")]
+```
+
+Dans le cas de `Range`, il y a 3 valeurs disponibles pour afficher dans notre message d’erreur :
+- `{0}` : Nombre de pièces (le descriptif de la propriété)
+- `{1}` : 1 (le premier paramètre de l’attribut)
+- `{2}` : 2147483647 (le deuxième paramètre de l’attribut)
+
+On pourrait donc mettre un message comme ceci :
+
+```csharp
+[Display(Name = "Nombre de pièces")]
+[Range(1, int.MaxValue,
+ErrorMessage = "Le champ {0} demande un minimum de {1} pièce et doit être positif.")]
+```
+
+Le message de validation serait alors : « Le champ Nombre de pièces demande un minimum de 1 pièce et doit être positif. »
+
+:::tip
+On évite d’avoir un message d’erreur qui n’est pas à jour!!
+:::
+
+### Validation
+
+#### Les trois niveaux de validation
+- **Navigateur (client)** : pour l’affichage des erreurs et éviter des requêtes inutiles au serveur.
+- **Application Web (serveur)** : pour l’intégrité des données et les règles d’affaires.
+- **BD** : pour l’intégrité des données.
+
+Ce sont les 3 niveaux de protection disponibles pour éviter de corrompre nos données. La validation est faite dans cet ordre et c’est préférable de détecter l’erreur le plus rapidement possible.
+
+#### La validation multi niveaux
+| Niveau | Quand | Outils |
+|---|---|---|
+| Navigateur | Validation avant l’envoi du formulaire | [Types d’entrée](https://www.w3schools.com/tags/att_input_type.asp), [jquery.validation](https://jqueryvalidation.org/documentation/), [Remote Attribute](https://docs.microsoft.com/fr-fr/aspnet/core/mvc/models/validation?view=aspnetcore-6.0#remote-attribute) |
+| Application Web | Validation à la création de l’objet modèle avec le résultat dans le [ModelState](https://docs.microsoft.com/fr-fr/dotnet/api/microsoft.aspnetcore.mvc.modelbinding.modelstatedictionary?view=aspnetcore-6.0)! | ModelState |
+| BD | Contraintes BD | NOT NULL vs NULL, grandeur du champ, clés étrangères, clés primaires |
+
+#### En cas d’erreur
+| Niveau | Ce qui se passe |
+|---|---|
+| Navigateur (client) | Affichage des erreurs. S’il y a une erreur à ce niveau, aucun appel n’est fait vers le serveur. |
+| Application Web (serveur) | Retour de la vue avec le dictionnaire d’erreurs : si `ModelState.IsValid` n’est pas valide, on retourne la vue avec les erreurs dans le [ModelState](https://docs.microsoft.com/fr-fr/dotnet/api/microsoft.aspnetcore.mvc.modelbinding.modelstatedictionary?view=aspnetcore-6.0)! |
+| BD | Exception par rapport aux contraintes BD : `DbUpdateException`, `DbUpdateConcurrencyException` |
+
+#### Validation dans le navigateur
+La logique de validation vient d’une librairie JavaScript et donc d’un script. Cette référence est habituellement sous `/Shared/`, nommée `_ValidationScriptsPartial`. Il faut donc l’ajouter dans les vues avec validation si elle n’est pas là.
+
+```cshtml
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+```
+
+#### Validation sur le serveur
+- Le `ModelState` est populé dans le contrôleur.
+- Le ModelBinding est la création d’un objet et le mapping des informations de la requête dans l’objet.
+- Lorsque c’est invalide, il faut retourner la vue avec le formulaire pour afficher les erreurs!
+
+```csharp
+//GET CREATE
+public IActionResult Create()
+{
+    return View();
+}
+
+//POST CREATE
+[HttpPost]
+public IActionResult Create(Book book)
+{
+    if (ModelState.IsValid)
+    {
+        // Valide
+        _database.Books.Add(book);
+        return this.RedirectToAction("Index");
+    }
+    // Invalide
+    return this.View(book);
+}
+```
+
+#### Validation BD
+Si un appel à `db.SaveChanges();` est fait alors que les données ne sont pas valides, la méthode va émettre une exception.
+
+#### Démo de validation
+Voici le modèle que nous allons utiliser pour comprendre comment l’erreur est gérée dans les 3 niveaux.
+
+```csharp
+public class MonModel
+{
+    public int Id { get; set; }
+
+    [Range(3, 10, ErrorMessage = "Le champ {0} doit être entre {1} et {2}")]
+    public int Valeur { get; set; }
+
+    [Required(ErrorMessage = "Un message spécifique pour dire que c'est requis!")]
+    public string Requis { get; set; }
+
+    [StringLength(30, MinimumLength = 5)]
+    public string? Optionnel { get; set; }
+}
+```
+
+#### Autres validations
+Vous pouvez ajouter des erreurs au `ModelState` « manuellement » dans votre contrôleur pour vous permettre d’afficher un message d’erreur dans une condition particulière.
+
+```csharp
+this.ModelState.AddModelError(e.Property, e.Message);
+```
+
+Dans notre vue, on peut ensuite afficher le message d’erreur d’une propriété de cette façon :
+
+```cshtml
+@Html.ValidationMessageFor(model => Model.Name)
+```
+
+Si c’est une erreur qui n’est pas associée à une propriété du modèle, on l’affiche comme ça :
+
+```cshtml
+@Html.ValidationMessage("ErreurDeMonChoix", new { @class = "text-warning" })
+```
+
+Le 2e paramètre peut être utilisé dans les deux méthodes et permet de spécifier l’attribut « class » de l’élément qui affiche le message.
+
+#### Validation du modèle
+Finalement, vous pouvez faire implémenter l’interface `IValidatableObject` à une classe modèle afin d’écrire votre propre logique de validation.
+
+```csharp
+public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+{
+    if (Genre == Genre.Classic && ReleaseDate.Year > _classicYear)
+    {
+        yield return new ValidationResult(
+            $"Classic movies must have a release year no later than {_classicYear}.",
+            new[] { nameof(ReleaseDate) });
+    }
+}
+```
+
+#### La validation du modèle, étape par étape
+1. Le contrôleur fournit une vue avec un objet null (valide).
+2. Le formulaire a été rempli et envoyé jusqu’au serveur et un objet est créé à partir des données des inputs du formulaire.
+3. Si `ModelState` est valide, l’objet est ajouté à la BD et on navigue vers la page Index.
+4. S’il est invalide, une nouvelle vue est créée avec l’objet `Book`, ce qui permet de conserver les données déjà entrées.
+
+```cshtml title="Vue"
+<div class="col-2">
+    <label asp-for="Name"></label>
+</div>
+
+<div class="col-8">
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+```
 
 ## Raccourcis Visual Studio
 

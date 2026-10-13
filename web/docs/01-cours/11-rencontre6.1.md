@@ -23,8 +23,8 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance
 
 ### Théorie:  
-- 🔗[420_3W6_cours_11_Revision.pptx](../assets/cours/presentations/420_3W6_cours_11_Revision.pptx)
-
+- 🔗[Notes de cours](#notes-de-cours) (ci-dessous)
+- 🔗[420_3W6_cours_11_Revision.pptx](../assets/cours/presentations/420_3W6_cours_11_Revision.pptx) (présentation originale)
 
 ### Laboratoire
 #### GitHub FORK Laboratoire
@@ -188,3 +188,47 @@ Comment transformer une méthode pour qu'elle soit asynchrone et puisse utiliser
 
 </details>
 
+## Notes de cours
+
+### Contenu du cours
+- Révision TagHelpers et types
+- Input type
+- Balises
+
+### Tag helpers
+| Built-in Tag Helper | Utilisation |
+|---|---|
+| `asp-for="propertyName"` | Extrait la propriété du modèle (ex. label ou input) |
+| `asp-controller="Order"` | Identifie le contrôleur associé à l’élément |
+| `asp-action="Upsert"` | Identifie l’action associée à l’élément |
+| `asp-validation-summary="ModelOnly"`<br/>`asp-validation-summary="All"`<br/>`asp-validation-summary="None"` | Section qui affiche les messages de validation liés :<br/>- au modèle de données<br/>- au modèle de données et aux propriétés<br/>- aucun |
+| `asp-validation-for="Name"` | Généralement utilisé dans un `span` pour présenter le message d’erreur lié à un élément du formulaire (input) |
+| `<partial name="_EditAndBackToListButton" model="Model.Id" />` | Identifie la vue partielle<br/>Identifie le modèle passé à la vue partielle |
+| `asp-route-cartId="@item.Id"` | Identifie le paramètre passé au contrôleur (attention, le nom du paramètre du contrôleur doit correspondre : `(int cartId)` ici) |
+
+### Les input types `<input type="xxx"/>`
+| Input Type | Utilisation | Aperçu |
+|---|---|---|
+| `color` | Sélecteur de couleur (varie selon le navigateur) | ![Sélecteur de couleur](../assets/cours/rencontre6.1/Input_Color.webp) |
+| `date` | Affiche un calendrier pour sélectionner une date, valide le format de la date | |
+| `email` | Valide le format `text@text.text` | |
+| `password` | TextBox qui affiche un symbole pour chaque caractère saisi | ![Champ mot de passe](../assets/cours/rencontre6.1/Input_Password.webp) |
+| `radio` | Un seul choix | ![Boutons radio](../assets/cours/rencontre6.1/Input_Radio.webp) |
+| `checkbox` | Aucun ou plusieurs choix | ![Cases à cocher](../assets/cours/rencontre6.1/Input_Checkbox.webp) |
+
+### Balises
+| Type | Utilisation | Aperçu |
+|---|---|---|
+| `<img />` | Image, l’attribut `src` contient la source de données | |
+| `<textarea></textarea>` | Champ extensible qui permet d’écrire plusieurs lignes de texte | ![Textarea](../assets/cours/rencontre6.1/Textarea.webp) |
+
+```cshtml
+@if (Model.TravelImage != null)
+{
+    <img src="@AppContants.ImagePath@Model.TravelImage" width="100%" />
+}
+else
+{
+    <img src="~/images/TravelGeneric.png" width="100%" />
+}
+```
