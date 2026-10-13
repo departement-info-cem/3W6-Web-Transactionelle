@@ -11,7 +11,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 ### Théorie
 - Wooclap!
-- 🔗[420_3W6_cours_03_Modélisation.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_03_Mod%C3%A9lisation.pptx?d=w2b63209a95c94082846d40c560c8f2a6&csf=1&web=1&e=62kx7E)
+- 🔗[420_3W6_cours_03_Modélisation.pptx](../assets/cours/presentations/420_3W6_cours_03_Modélisation.pptx)
 
 ### Laboratoire
 #### GitHub FORK Laboratoire

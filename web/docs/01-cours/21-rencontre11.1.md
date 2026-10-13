@@ -8,7 +8,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance: 
 
 ### Théorie: 
-- 🔗[420_3W6_cours_21_AJAX.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_21_AJAX.pptx?d=w3a91dd8bd0134642af1bb0328b7f620e&csf=1&web=1&e=EW9U9X)
+- 🔗[420_3W6_cours_21_AJAX.pptx](../assets/cours/presentations/420_3W6_cours_21_AJAX.pptx)
 
 ### Laboratoires
 #### GitHub FORK Laboratoire

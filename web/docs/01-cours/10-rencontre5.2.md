@@ -14,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[420_3W6_cours_10_Async.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_10_Async.pptx?d=w16e60a46da4c49ac83e39334d6bc6b09&csf=1&web=1&e=p10Bb5)
+- 🔗[420_3W6_cours_10_Async.pptx](../assets/cours/presentations/420_3W6_cours_10_Async.pptx)
 
 ### Laboratoires: 
 #### GitHub FORK Laboratoire

@@ -11,7 +11,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[420_3W6_cours_06_Linq_Seed.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_06_Linq_Seed.pptx?d=w75267e126638402b872a40d6b0a98b55&csf=1&web=1&e=XYSV33)
+- 🔗[420_3W6_cours_06_Linq_Seed.pptx](../assets/cours/presentations/420_3W6_cours_06_Linq_Seed.pptx)
 
 ### Laboratoire: 
 #### GitHub FORK Laboratoire

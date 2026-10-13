@@ -7,9 +7,9 @@ import Laboratoire from '/laboratoire.mdx';
 
 | |
 | --- |
-| ![alt text](R11_image2.png) |
+| ![alt text](../assets/cours/rencontre6.1/R11_image2.webp) |
 <details>
-![alt text](R11_image1.png)
+![alt text](../assets/cours/rencontre6.1/R11_image1.webp)
 </details>
 
 
@@ -23,7 +23,7 @@ import Laboratoire from '/laboratoire.mdx';
 ## Activités de la séance
 
 ### Théorie:  
-- 🔗[420_3W6_cours_11_Revision.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_11_Revision.pptx?d=w58d4d8b873e142edae7593c4b7914510&csf=1&web=1&e=h5QSsV)
+- 🔗[420_3W6_cours_11_Revision.pptx](../assets/cours/presentations/420_3W6_cours_11_Revision.pptx)
 
 
 ### Laboratoire

@@ -14,7 +14,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ## Activités de la séance: 
 ### Théorie:  
-- 🔗[420_3W6_cours_04_Entity_Framework.pptx](https://cegepedouardmontpetit.sharepoint.com/:p:/r/sites/CMT420InformatiqueComitesCours-3W6/Documents%20partages/3W6/DiaposSite/420_3W6_cours_04_Entity_Framework.pptx?d=w257a506db00442e3aada04fd02f1f2d8&csf=1&web=1&e=KrQJgl)
+- 🔗[420_3W6_cours_04_Entity_Framework.pptx](../assets/cours/presentations/420_3W6_cours_04_Entity_Framework.pptx)
 
 ### Laboratoire
 #### GitHub FORK Laboratoire
@@ -31,7 +31,7 @@ Cette section présente les étapes permettant de créer la base de données en 
 
 Le diagramme que nous allons utiliser est le suivant. On y retrouve les **3 types de relations** (un à un, un à plusieurs et plusieurs à plusieurs). 
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Modele_classe.png)
+![alt text](../assets/cours/rencontre2.2/Modele_classe.webp)
 
 **Note** : Nous avons ajouté peu de propriétés pour alléger le contenu du diagramme. 
 
@@ -41,7 +41,7 @@ Le diagramme que nous allons utiliser est le suivant. On y retrouve les **3 type
 
 Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter les classes**. Nous obtenons alors le résultat suivant :  
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Modeles.png)
+![alt text](../assets/cours/rencontre2.2/Modeles.webp)
 
  ---
 
@@ -50,28 +50,28 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 #### **Modèle Enseignant** : 
 - On remarque ici **deux utilisations différentes de StringLength** avec une taille minimale ou non.
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Modele_Enseignant.png)
+![alt text](../assets/cours/rencontre2.2/Modele_Enseignant.webp)
 
 ---
 
 #### **Modèle Cours** : 
 - Ici, nous utilisons **Range** pour les **int**. 
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Modele_cours.png)
+![alt text](../assets/cours/rencontre2.2/Modele_cours.webp)
 
 ---
 
 #### **Modèle CarteEtudiante** :
 - Ici, nous utilisons **DateTime** pour les dates.  
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Modele_CarteEtudiante.png)
+![alt text](../assets/cours/rencontre2.2/Modele_CarteEtudiante.webp)
 
 ---
 
 #### **Modèle Etudiant** : 
 - Ici, nous faisons la distinction **entre les propriétés obligatoires et celles qui sont optionnelles**. 
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Propriete_Optionnelle.png)
+![alt text](../assets/cours/rencontre2.2/Propriete_Optionnelle.webp)
 
 - **Annotation [Required]** : Pour les **propriétés obligatoires**, vous n'êtes pas obligé d'ajouter **l'annotation [Required]** à vos propriétés. Par défaut, les propriétés non optionnelles sont considérées comme requises. 
 
@@ -82,7 +82,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 ### Étape 3. Ajouter la clé primaire dans chacun des modèles : 
 - Dans l'exemple suivant, nous avons ajouté la **clé primaire Id au modèle Enseignant et l'annotation [key]**. Il faut le faire pour tous les modèles. 
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Cle_primaire.png)
+![alt text](../assets/cours/rencontre2.2/Cle_primaire.webp)
 
 ---
 
@@ -95,7 +95,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 
 - Dans le diagramme nous avons une relation **Un à Plusieurs** entre les modèles **Enseignant** et **Cours**. 
 
-![alt text](../../static/img/Img_Traduction_Modele_Classe/Relation_Un_Plusieurs.png)
+![alt text](../assets/cours/rencontre2.2/Relation_Un_Plusieurs.webp)
 
 - **Attention** : Remarquez **l'annotation [ValidateNever]** sur **les propriétés de navigation**. Il faut ajouter cette annotation sur **chacune des propriétés de navigation** pour éviter des problèmes de validation au niveau du **ModelState.IsValid**. 
 
@@ -106,7 +106,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 
 - Dans le diagramme nous avons une relation **Plusieurs à Plusieurs** entre les modèles **Etudiant** et **Cours**. 
 
- ![alt text](../../static/img/Img_Traduction_Modele_Classe/Plusieurs_a_Plusieurs.png)
+ ![alt text](../assets/cours/rencontre2.2/Plusieurs_a_Plusieurs.webp)
 
 
 - **Clé étrangère** : Dans cette relation, nous n’avons pas à ajouter de clés étrangères. 
@@ -120,8 +120,8 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 
 - Dans le diagramme nous avons une relation **Un à Un** entre les modèles **Etudiant** et **CarteEtudiante**. 
 
- ![alt text](../../static/img/Img_Traduction_Modele_Classe/Un_a_Un.png)
- ![alt text](../../static/img/Img_Traduction_Modele_Classe/Un_Un_Clé_Étrangère.png)
+ ![alt text](../assets/cours/rencontre2.2/Un_a_Un.webp)
+ ![alt text](../assets/cours/rencontre2.2/Un_Un_Clé_Étrangère.webp)
 
  ---
 
@@ -129,7 +129,7 @@ Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter
 
 - **Pour chaque modèle** ajouté, il faut ajouter un **DbSet dans le DbContext**.
 
- ![alt text](../../static/img/Img_Traduction_Modele_Classe/DbSets.png)
+ ![alt text](../assets/cours/rencontre2.2/DbSets.webp)
 
  ---
 
@@ -143,9 +143,9 @@ add-migration nom_migration
 
 -   Assurez-vous que la migration a été créée et qu'elle **n'est pas vide** (exemple du fichier de migration avec contenu partiel). 
 
- ![alt text](../../static/img/Img_Traduction_Modele_Classe/Migration.png)
+ ![alt text](../assets/cours/rencontre2.2/Migration.webp)
 
- ![alt text](../../static/img/Img_Traduction_Modele_Classe/Migration_Contenu_Partiel.png)
+ ![alt text](../assets/cours/rencontre2.2/Migration_Contenu_Partiel.webp)
 
 
 
@@ -157,6 +157,6 @@ update-database
 
 - Regardez dans **l'explorateur d'objets SQL** si la base de données a été créée et si les tables existent.
 
- ![alt text](../../static/img/Img_Traduction_Modele_Classe/Tables_BD.png)
+ ![alt text](../assets/cours/rencontre2.2/Tables_BD.webp)
 
  - Remarquez ici qu'Entity Framework a créé une **table associative CoursEtudiant** puisqu'il y avait une relation **Plusieurs à Plusieurs** entre les tables Cours et Etudiant. 
