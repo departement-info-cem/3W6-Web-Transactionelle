@@ -22,17 +22,19 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel:
 - Compléter le laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Révision Dependency Injection
-- Services
-- Generics
-- Generics avec interface
-- IReadOnlyList
-- Un service CRUD generics
-- Génération de code d’une interface
-- Injecter notre service
+- [Révision Dependency Injection](#révision-dependency-injection-di)
+- [Services](#créer-nos-propres-services)
+- [Generics](#generics)
+- [Generics avec interface](#generics-héritage-et-interfaces)
+- [IReadOnlyList](#démo-de-generics-et-interfaces)
+- [Un service CRUD generics](#un-service-crud-generics)
+- [Génération de code d’une interface](#génération-de-code-dune-interface)
+- [Injecter notre service](#injecter-notre-service)
 
 ### Révision Dependency Injection (DI)
 - On peut ajouter une dépendance (ou service) dans `Program.cs`.

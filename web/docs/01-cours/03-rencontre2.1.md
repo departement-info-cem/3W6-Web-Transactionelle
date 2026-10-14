@@ -23,13 +23,15 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel: 
 - Compléter le laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Code First
-- Modèles de classe
-- Relations
-- Normalisation
+- [Code First](#code-first)
+- [Modèles de classe](#modèles-de-classe)
+- [Relations](#relations-dans-un-diagramme-uml)
+- [Normalisation](#normalisation)
 
 ### Code First
 L’expression « Code First », par opposition à « DB First », indique que l’on écrit d’abord notre code et que l’on génère ensuite la base de données à partir du code écrit.
@@ -48,15 +50,18 @@ On peut représenter nos données de plusieurs façons :
 
 ```mermaid
 classDiagram
-    class Employe["Employé"] {
-        Id : clé primaire, optionnel
-        Nom
-        Prénom
-        DDN
+    class Employé {
+        «PK» Id : int
+        Nom : string
+        Prénom : string
+        DDN : DateTime
     }
+    note for Employé "En haut : le nom de l’entité<br>En dessous : les attributs (nom : type)"
 ```
 
-Dans un diagramme UML, la boîte contient le **nom de l’entité** en haut, puis ses **attributs**.
+:::info
+La clé primaire est identifiée avec le stéréotype `«PK»` (Primary Key) devant l’attribut. On voit aussi parfois la notation `{PK}` après le type. L’attribut `Id` est optionnel dans le diagramme, car Entity Framework le reconnaît par convention.
+:::
 
 ### Relations dans un diagramme UML
 - On peut indiquer les relations entre nos classes dans notre diagramme.
@@ -66,19 +71,21 @@ Dans un diagramme UML, la boîte contient le **nom de l’entité** en haut, pui
 classDiagram
     direction TB
     class Movie {
-        Title : string(250)
+        Title : string, max 250
         ReleaseYear : int
     }
     class Category {
-        Name : string(250)
+        Name : string, max 250
     }
     Movie "0..N" -- "1..N" Category
+    note for Movie "Movie DOIT avoir 1 à N Category"
+    note for Category "Category PEUT avoir 0 à N Movie<br>(PEUT, car 0 est permis)"
 ```
 
 ### La cardinalité
 La cardinalité permet d’identifier le nombre possible d’instances auxquelles une instance est reliée.
 
-On doit la lire de la façon suivante : « Movie peut/doit avoir (le chiffre à l’autre bout de la relation) Category ». Donc dans ce cas, Movie **doit** avoir 1 à N (plusieurs) Category. Et Category **peut** avoir 0 ou plusieurs Movie (on dit PEUT, car 0 est permis).
+On doit la lire de la façon suivante : « Movie peut/doit avoir (le chiffre à l’autre bout de la relation) Category ».
 
 | Symboles | Définition |
 |---|---|
@@ -94,18 +101,19 @@ Si on mettait un 1 à la place du zéro dans notre exemple, il ne serait pas pos
 :::
 
 ### Annotation pour un champ obligatoire
-Pour spécifier qu’un champ est obligatoire, on utilise le symbole `*`. Dans ce cas, la valeur null n’est PAS acceptable pour ce champ.
+Pour spécifier qu’un champ est obligatoire, on utilise le symbole `*`.
 
 ```mermaid
 classDiagram
     class Movie {
-        *Title : string(250)
+        *Title : string, max 250
         ReleaseYear : int
     }
     class Category {
-        *Name : string(250)
+        *Name : string, max 250
     }
     Movie "0..N" -- "1..N" Category
+    note for Movie "*Title : obligatoire, null PAS accepté<br>ReleaseYear : optionnel, peut être null"
 ```
 
 Pour représenter correctement les données dans notre code, on va utiliser un `?` pour les types qui n’ont PAS de `*`. Car le `?` permet justement à une donnée comme un `int` d’avoir la valeur null (vu au cours précédent).
@@ -142,11 +150,10 @@ classDiagram
     Employe "0..N" -- "1..1" Departement
     Etudiant "0..N" -- "1..N" Cours
     Commande "1..1" -- "0..1" Facture
+    note for Employe "Employé DOIT avoir 1 département<br>Département PEUT avoir 0 à N employé(s)"
+    note for Etudiant "Étudiant DOIT avoir 1 à N cours<br>Cours PEUT avoir 0 à N étudiant(s)"
+    note for Commande "Commande PEUT avoir 1 facture<br>Facture DOIT avoir 1 commande"
 ```
-
-- Employé DOIT avoir 1 département. Département PEUT avoir 0 à N employé(s).
-- Étudiant DOIT avoir 1 à N cours. Cours PEUT avoir 0 à N étudiant(s).
-- Commande PEUT avoir 1 facture. Facture DOIT avoir 1 commande.
 
 ### Relation N à N
 - Lorsque l’on a une relation avec `x..N` de CHAQUE côté, on a alors une relation N à N.

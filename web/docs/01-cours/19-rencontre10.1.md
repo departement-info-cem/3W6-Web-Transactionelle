@@ -18,16 +18,18 @@ import Laboratoire from '/laboratoire.mdx';
 #### GitHub FORK Laboratoire
 - Labo 🔗[S19_Lab1_JQuery](https://github.com/A26ProgWebTrans/S19_Lab1_jQuery)
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- jQuery, c’est quoi?
-- Sélecteurs
-- Fonctionnalités
-- Filtres
-- Démo
-- Autres jQuery
-- Requêtes paginées
+- [jQuery, c’est quoi?](#jquery)
+- [Sélecteurs](#sélecteurs-jquery)
+- [Fonctionnalités](#fonctionnalités-jquery)
+- [Filtres](#des-filtres-jquery-liste-incomplète)
+- [Démo](#dom--démo-avec-jquery)
+- [Autres jQuery](#autres-méthodes-importantes)
+- [Requêtes paginées](#requêtes-paginées)
 
 ### jQuery
 - jQuery est une librairie que l’on retrouve partout sur internet. Elle fait presque directement partie de JavaScript, au point où de nombreux programmeurs ne connaissent pas, ou ont du moins oublié, les fonctionnalités de base de JavaScript et utilisent toujours jQuery pour tout.

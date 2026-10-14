@@ -27,12 +27,14 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel: 
 - Compléter le laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Vues partielles
-- Constructeurs
-- View Models
+- [Vues partielles](#vues-partielles-à-quoi-ça-sert)
+- [Constructeurs](#rappel-sur-les-constructeurs)
+- [View Models](#view-models)
 
 ### Vues partielles, à quoi ça sert?
 - On va créer une vue qui va être utilisée à l’intérieur d’autres vues.

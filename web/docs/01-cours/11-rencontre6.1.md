@@ -188,12 +188,14 @@ Comment transformer une méthode pour qu'elle soit asynchrone et puisse utiliser
 
 </details>
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Révision TagHelpers et types
-- Input type
-- Balises
+- [Révision TagHelpers et types](#tag-helpers)
+- [Input type](#les-input-types-input-typexxx)
+- [Balises](#balises)
 
 ### Tag helpers
 | Built-in Tag Helper | Utilisation |

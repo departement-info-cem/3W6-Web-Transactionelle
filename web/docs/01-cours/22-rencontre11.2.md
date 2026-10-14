@@ -15,11 +15,13 @@ import Laboratoire from '/laboratoire.mdx';
 #### GitHub FORK Laboratoire
 - Labo 🔗[S22_Lab1_AJAX](https://github.com/A26ProgWebTrans/S22_Lab1_AJAX_2)
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Appels AJAX
-- Utilisation d’APIs
+- [Appels AJAX](#appels-ajax-ajax)
+- [Utilisation d’APIs](#utilisation-dapis)
 
 ### Appels AJAX, $.ajax
 - On peut faire les mêmes appels avec la méthode `$.ajax`.

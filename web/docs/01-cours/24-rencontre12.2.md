@@ -26,13 +26,15 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel:
 - Compléter le laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Vues et contrôleurs
-- IStringLocalizer
-- IViewLocalizer, TagHelpers et _ViewImports
-- Résumé i18n
+- [Vues et contrôleurs](#vues-et-contrôleurs)
+- [IStringLocalizer](#istringlocalizer)
+- [IViewLocalizer, TagHelpers et _ViewImports](#iviewlocalizer)
+- [Résumé i18n](#résumé-i18n)
 
 ### Vues et contrôleurs
 On a déjà vu comment traduire nos modèles; c’est maintenant le moment d’apprendre comment traduire nos vues et nos contrôleurs.

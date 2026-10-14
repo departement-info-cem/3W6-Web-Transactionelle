@@ -16,15 +16,17 @@ import Laboratoire from '/laboratoire.mdx';
 - Labo 1 🔗[S21_Lab1_AJAX](https://github.com/A26ProgWebTrans/S21_Lab1_AJAX)
 - Labo 2 🔗[S21_Lab2_AJAX](https://github.com/A26ProgWebTrans/S21_Lab2_AJAX)
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Objectif
-- PartialView
-- jQuery pour PartialView
-- JsonResult
-- Appels AJAX
-- jQuery pour JsonResult
+- [Objectif](#objectifs)
+- [PartialView](#partialview)
+- [jQuery pour PartialView](#jquery-partialview)
+- [JsonResult](#jsonresult)
+- [Appels AJAX](#appel-ajax-get)
+- [jQuery pour JsonResult](#jquery-jsonresult)
 
 ### Objectifs
 Générer moins qu’une page entière, ce qui est long et complexe :

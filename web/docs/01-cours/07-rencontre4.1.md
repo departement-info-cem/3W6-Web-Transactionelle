@@ -17,6 +17,8 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel: 
 - Compléter le Laboratoire
 
+---
+
 ## Notes de cours
 
 ### Eager vs Lazy Loading

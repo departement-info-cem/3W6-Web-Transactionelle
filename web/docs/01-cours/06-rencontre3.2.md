@@ -21,14 +21,16 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel: 
 - Compléter le Laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
 - Explications sur le laboratoire 4
-- Révision Linq
-- Quand est-ce que l’on exécute la requête?
-- Utilisation de update-database
-- Seed
+- [Révision Linq](#linq-cest-quoi)
+- [Quand est-ce que l’on exécute la requête?](#quand-est-ce-que-la-requête-est-exécutée)
+- [Utilisation de update-database](#quand-utiliser-add-migration-et-update-database)
+- [Seed](#un-seed-ça-sert-à-quoi)
 
 ### Linq, c’est quoi?
 - Une librairie qui permet d’exécuter des fonctions sur plusieurs éléments contenus dans un `IEnumerable`.

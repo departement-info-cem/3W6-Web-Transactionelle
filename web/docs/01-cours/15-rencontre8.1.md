@@ -31,12 +31,14 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel:
 - Compléter le laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- View Models
-- Upload d’images
-- Toastr
+- [View Models](#view-models)
+- [Upload d’images](#pour-téléverser-uploader-une-image)
+- [Toastr](#librairie-toastr)
 
 ### View Models
 Pour aller plus loin que les vues simples.

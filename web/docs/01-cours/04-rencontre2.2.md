@@ -32,7 +32,29 @@ Cette section présente les étapes permettant de créer la base de données en 
 
 Le diagramme que nous allons utiliser est le suivant. On y retrouve les **3 types de relations** (un à un, un à plusieurs et plusieurs à plusieurs). 
 
-![alt text](../assets/cours/rencontre2.2/Modele_classe.webp)
+```mermaid
+classDiagram
+    class Cours {
+        *Nom : string, max 30
+        *NbCredit : int, 1 à 5
+    }
+    class Enseignant {
+        *Nom : string, max 30
+        *Prenom : string, 2 à 30
+    }
+    class Etudiant {
+        *Nom : string, max 30
+        *Prenom : string, 2 à 30
+        Courriel : email
+    }
+    class CarteEtudiante {
+        *NumEtudiant : int
+        *DateExp : date
+    }
+    Enseignant "1..1" -- "0..N" Cours
+    Cours "1..N" -- "0..N" Etudiant
+    Etudiant "1..1" -- "0..1" CarteEtudiante
+```
 
 **Note** : Nous avons ajouté peu de propriétés pour alléger le contenu du diagramme. 
 
@@ -162,14 +184,16 @@ update-database
 
  - Remarquez ici qu'Entity Framework a créé une **table associative CoursEtudiant** puisqu'il y avait une relation **Plusieurs à Plusieurs** entre les tables Cours et Etudiant.
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- ORM
-- Avantages et inconvénients
-- SQL vs EF
-- Les différents éléments
-- L’utilisation d’Entity Framework
+- [ORM](#un-orm-cest-quoi)
+- [Avantages et inconvénients](#avantages-et-inconvénients)
+- [SQL vs EF](#sql-vs-entity-framework)
+- [Les différents éléments](#les-6-pièces-du-casse-tête)
+- [L’utilisation d’Entity Framework](#le-cycle-dutilisation-dentity-framework)
 
 ### Un ORM, c’est quoi?
 - Un ORM (Object Relational Mapper) est utilisé pour simplifier les interactions entre une base de données (relationnelle) et des objets dans un langage de programmation orienté objet.

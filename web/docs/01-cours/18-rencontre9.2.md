@@ -29,15 +29,17 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel: 
 - Compléter les laboratoires
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- JS, c’est quoi?
-- Document Object Model (DOM)
-- Comment l’ajouter à une page
-- Détails du langage
-- API JavaScript
-- Infos supplémentaires
+- [JS, c’est quoi?](#javascript-cest-quoi)
+- [Document Object Model (DOM)](#une-page-est-composée-dun-dom)
+- [Comment l’ajouter à une page](#comment-ajoute-t-on-un-script-dans-une-page)
+- [Détails du langage](#un-langage-à-part-entière)
+- [API JavaScript](#api-js)
+- [Infos supplémentaires](#langage-au-typage-dynamique)
 
 ### JavaScript, c’est quoi?
 Sur le web :

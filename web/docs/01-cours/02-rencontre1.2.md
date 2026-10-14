@@ -6,7 +6,7 @@ import Laboratoire from '/laboratoire.mdx';
 - .NET Core MVC : Projets suite 
   - Views 
   - Views Models 
-- Validation de base (rappel de 2W5) 
+- Validation de base (rappel de 2W6) 
   - Niveaux 
   - Annotations de validation 
   - TagHelpers 
@@ -34,23 +34,41 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel: 
 - Compléter le laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Communiquer des données vers une vue
-- ViewModel
-- Annotations et validations
-- Validation sur le client
-- Plus d’info sur les annotations
+- [Communiquer des données vers une vue](#communication-contrôleur--vue)
+- [ViewModel](#viewmodel)
+- [Annotations et validations](#annotations)
+- [Validation sur le client](#validation-dans-le-navigateur)
+- [Plus d’info sur les annotations](#les-errormessages-sont-paramétrables)
 
 ### Patron MVC
 
 ```mermaid
-flowchart LR
-    U[Utilisateur] -- Déclenche --> C[Contrôleur]
-    C -- Créé/Manipule --> M[Modèle]
-    M -- Envoyé à --> V[Vue]
-    V -- Affiche à --> U
+flowchart TD
+    Model[Modèle]
+    View[Vue]
+    Controller[Contrôleur]
+    User((Utilisateur))
+
+    %% Retour du Modèle vers le Contrôleur (déclaré en premier pour garder le Contrôleur à droite)
+    Model -- retourne --> Controller
+    %% Lien invisible : place l’Utilisateur en bas
+    Controller ~~~ User
+
+    Model -- met à jour --> View
+    Controller -- manipule --> Model
+    View -- voit --> User
+    User -- utilise --> Controller
+
+    %% Couleurs
+    style Model fill:#4db6a5,stroke:#4db6a5,color:#fff
+    style View fill:#2e5e9e,stroke:#2e5e9e,color:#fff
+    style Controller fill:#f2d466,stroke:#f2d466,color:#000
+    style User fill:#e74c3c,stroke:#e74c3c,color:#fff
 ```
 
 ### Communication Contrôleur → Vue
@@ -278,25 +296,18 @@ On évite d’avoir un message d’erreur qui n’est pas à jour!!
 ### Validation
 
 #### Les trois niveaux de validation
-- **Navigateur (client)** : pour l’affichage des erreurs et éviter des requêtes inutiles au serveur.
-- **Application Web (serveur)** : pour l’intégrité des données et les règles d’affaires.
-- **BD** : pour l’intégrité des données.
+1. **Navigateur (client)** : pour l’affichage des erreurs et éviter des requêtes inutiles au serveur.
+2. **Application Web (serveur)** : pour l’intégrité des données et les règles d’affaires.
+3. **BD** : pour l’intégrité des données.
 
 Ce sont les 3 niveaux de protection disponibles pour éviter de corrompre nos données. La validation est faite dans cet ordre et c’est préférable de détecter l’erreur le plus rapidement possible.
 
 #### La validation multi niveaux
-| Niveau | Quand | Outils |
-|---|---|---|
-| Navigateur | Validation avant l’envoi du formulaire | [Types d’entrée](https://www.w3schools.com/tags/att_input_type.asp), [jquery.validation](https://jqueryvalidation.org/documentation/), [Remote Attribute](https://docs.microsoft.com/fr-fr/aspnet/core/mvc/models/validation?view=aspnetcore-6.0#remote-attribute) |
-| Application Web | Validation à la création de l’objet modèle avec le résultat dans le [ModelState](https://docs.microsoft.com/fr-fr/dotnet/api/microsoft.aspnetcore.mvc.modelbinding.modelstatedictionary?view=aspnetcore-6.0)! | ModelState |
-| BD | Contraintes BD | NOT NULL vs NULL, grandeur du champ, clés étrangères, clés primaires |
-
-#### En cas d’erreur
-| Niveau | Ce qui se passe |
-|---|---|
-| Navigateur (client) | Affichage des erreurs. S’il y a une erreur à ce niveau, aucun appel n’est fait vers le serveur. |
-| Application Web (serveur) | Retour de la vue avec le dictionnaire d’erreurs : si `ModelState.IsValid` n’est pas valide, on retourne la vue avec les erreurs dans le [ModelState](https://docs.microsoft.com/fr-fr/dotnet/api/microsoft.aspnetcore.mvc.modelbinding.modelstatedictionary?view=aspnetcore-6.0)! |
-| BD | Exception par rapport aux contraintes BD : `DbUpdateException`, `DbUpdateConcurrencyException` |
+| Niveau | Quand | Outils | En cas d’erreur |
+|---|---|---|---|
+| Navigateur (client) | Validation avant l’envoi du formulaire | [Types d’entrée](https://www.w3schools.com/tags/att_input_type.asp), [jquery.validation](https://jqueryvalidation.org/documentation/), [Remote Attribute](https://docs.microsoft.com/fr-fr/aspnet/core/mvc/models/validation?view=aspnetcore-10.0#remote-attribute) | Affichage des erreurs. S’il y a une erreur à ce niveau, aucun appel n’est fait vers le serveur. |
+| Application Web (serveur) | Validation à la création de l’objet modèle avec le résultat dans le ModelState! | [ModelState](https://learn.microsoft.com/fr-fr/dotnet/api/microsoft.aspnetcore.mvc.modelbinding.modelstatedictionary?view=aspnetcore-10.0) | Retour de la vue avec le dictionnaire d’erreurs : si `ModelState.IsValid` n’est pas valide, on retourne la vue avec les erreurs dans le ModelState! |
+| BD | Contraintes BD | NOT NULL vs NULL, grandeur du champ, clés étrangères, clés primaires | Exception par rapport aux contraintes BD : `DbUpdateException`, `DbUpdateConcurrencyException` |
 
 #### Validation dans le navigateur
 La logique de validation vient d’une librairie JavaScript et donc d’un script. Cette référence est habituellement sous `/Shared/`, nommée `_ValidationScriptsPartial`. Il faut donc l’ajouter dans les vues avec validation si elle n’est pas là.
@@ -397,6 +408,28 @@ public IEnumerable<ValidationResult> Validate(ValidationContext validationContex
 2. Le formulaire a été rempli et envoyé jusqu’au serveur et un objet est créé à partir des données des inputs du formulaire.
 3. Si `ModelState` est valide, l’objet est ajouté à la BD et on navigue vers la page Index.
 4. S’il est invalide, une nouvelle vue est créée avec l’objet `Book`, ce qui permet de conserver les données déjà entrées.
+
+```csharp title="Contrôleur"
+//GET CREATE
+public IActionResult Create()
+{
+    return View();
+}
+
+//POST CREATE
+[HttpPost]
+public IActionResult Create(Book book)
+{
+    if (ModelState.IsValid)
+    {
+        // Valide
+        _database.Books.Add(book);
+        return this.RedirectToAction("Index");
+    }
+    // Invalide
+    return this.View(book);
+}
+```
 
 ```cshtml title="Vue"
 <div class="col-2">

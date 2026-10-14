@@ -89,13 +89,15 @@ import Laboratoire from '/laboratoire.mdx';
 
   ![alt text](../assets/cours/rencontre8.2/Validation.webp)
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Objectifs
-- Exemple sans DI
-- Comment ça fonctionne
-- Détails de l’API
+- [Objectifs](#injection-de-dépendances-1)
+- [Exemple sans DI](#exemple-sans-dependency-injection)
+- [Comment ça fonctionne](#la-philosophie)
+- [Détails de l’API](#di-container)
 
 ### Injection de dépendances
 - L’injection de dépendances, ou Dependency Injection (DI), est une technologie qui permet de gérer très efficacement les dépendances dans un système.

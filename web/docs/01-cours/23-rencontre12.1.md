@@ -29,12 +29,14 @@ import Laboratoire from '/laboratoire.mdx';
 ### Travail personnel:
 - Compléter le laboratoire
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- i18n, c’est quoi?
-- Les cultures
-- Traduction
+- [i18n, c’est quoi?](#internationalisation-i18n)
+- [Les cultures](#2-cultures)
+- [Traduction](#les-étapes-pour-configurer-la-traduction)
 
 ### Internationalisation (i18n)
 - **Internationalisation (i18n)** : le processus d’ajouter à l’application le support de différentes langues et régions. Entre autres :

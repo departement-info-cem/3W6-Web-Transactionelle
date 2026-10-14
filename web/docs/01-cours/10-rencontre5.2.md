@@ -27,16 +27,18 @@ import Laboratoire from '/laboratoire.mdx';
 - Compléter le laboratoire
 Travail sur le [TP2](/tp/tp2)
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
-- Pourquoi utiliser l’asynchrone
-- La trinité
-- Exemple Sync vs Async
-- Async avec Entity Framework
-- Lambda et ?
-- Bind
-- Font Awesome
+- [Pourquoi utiliser l’asynchrone](#pourquoi-utiliser-lasynchrone)
+- [La trinité](#la-trinité-de-lasync)
+- [Exemple Sync vs Async](#comparaison-sync-et-async-exemple-console)
+- [Async avec Entity Framework](#utilisation-dans-un-contrôleur)
+- [Lambda et ?](#utilisation-de--avec-un-lambda)
+- [Bind](#génération-de-contrôleurs-et-bind)
+- [Font Awesome](#font-awesome)
 
 ### Pourquoi utiliser l’asynchrone
 Sans asynchrone, le processeur est bloqué à ne rien faire lorsqu’il attend une réponse. Ça peut arriver dans de nombreux cas :
