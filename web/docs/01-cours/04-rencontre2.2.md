@@ -16,6 +16,7 @@ import Laboratoire from '/laboratoire.mdx';
 ### Théorie:  
 - 🔗[Notes de cours](#notes-de-cours) (ci-dessous)
 - 🔗[420_3W6_cours_04_Entity_Framework.pptx](../assets/cours/presentations/420_3W6_cours_04_Entity_Framework.pptx) (présentation originale)
+- 🔗[Étapes pour créer la base de données à partir du modèle de classes](/autres/creer-base-de-donnees)
 
 ### Laboratoire
 #### GitHub FORK Laboratoire
@@ -25,164 +26,6 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Travail personnel: 
 - Compléter le laboratoire
-
-## Étapes pour créer la base de données à partir du modèle de classes
-
-Cette section présente les étapes permettant de créer la base de données en utilisant Asp.net Core et Entity Framework. Pour davantage de détails sur la nomenclature utilisée, référez-vous aux rencontres 3 et 4.    
-
-Le diagramme que nous allons utiliser est le suivant. On y retrouve les **3 types de relations** (un à un, un à plusieurs et plusieurs à plusieurs). 
-
-```mermaid
-classDiagram
-    class Cours {
-        *Nom : string, max 30
-        *NbCredit : int, 1 à 5
-    }
-    class Enseignant {
-        *Nom : string, max 30
-        *Prenom : string, 2 à 30
-    }
-    class Etudiant {
-        *Nom : string, max 30
-        *Prenom : string, 2 à 30
-        Courriel : email
-    }
-    class CarteEtudiante {
-        *NumEtudiant : int
-        *DateExp : date
-    }
-    Enseignant "1..1" -- "0..N" Cours
-    Cours "1..N" -- "0..N" Etudiant
-    Etudiant "1..1" -- "0..1" CarteEtudiante
-```
-
-**Note** : Nous avons ajouté peu de propriétés pour alléger le contenu du diagramme. 
-
- ---
-
-### Étape 1. Création des modèles dans l'application 
-
-Dans l'application, faire un clic droit sur le **répertoire Models pour ajouter les classes**. Nous obtenons alors le résultat suivant :  
-
-![alt text](../assets/cours/rencontre2.2/Modeles.webp)
-
- ---
-
-### Étape 2. Ajouter les propriétés et les annotations
-
-#### **Modèle Enseignant** : 
-- On remarque ici **deux utilisations différentes de StringLength** avec une taille minimale ou non.
-
-![alt text](../assets/cours/rencontre2.2/Modele_Enseignant.webp)
-
----
-
-#### **Modèle Cours** : 
-- Ici, nous utilisons **Range** pour les **int**. 
-
-![alt text](../assets/cours/rencontre2.2/Modele_cours.webp)
-
----
-
-#### **Modèle CarteEtudiante** :
-- Ici, nous utilisons **DateTime** pour les dates.  
-
-![alt text](../assets/cours/rencontre2.2/Modele_CarteEtudiante.webp)
-
----
-
-#### **Modèle Etudiant** : 
-- Ici, nous faisons la distinction **entre les propriétés obligatoires et celles qui sont optionnelles**. 
-
-![alt text](../assets/cours/rencontre2.2/Propriete_Optionnelle.webp)
-
-- **Annotation [Required]** : Pour les **propriétés obligatoires**, vous n'êtes pas obligé d'ajouter **l'annotation [Required]** à vos propriétés. Par défaut, les propriétés non optionnelles sont considérées comme requises. 
-
----
-
-
-
-### Étape 3. Ajouter la clé primaire dans chacun des modèles : 
-- Dans l'exemple suivant, nous avons ajouté la **clé primaire Id au modèle Enseignant et l'annotation [key]**. Il faut le faire pour tous les modèles. 
-
-![alt text](../assets/cours/rencontre2.2/Cle_primaire.webp)
-
----
-
-
-### Étape 4. Ajouter les relations entre les modèles et les clés étrangères : 
-
-- Voici une façon de procéder pour représenter les relations 
-
-### 1. Relation Un à Plusieurs : 
-
-- Dans le diagramme nous avons une relation **Un à Plusieurs** entre les modèles **Enseignant** et **Cours**. 
-
-![alt text](../assets/cours/rencontre2.2/Relation_Un_Plusieurs.webp)
-
-- **Attention** : Remarquez **l'annotation [ValidateNever]** sur **les propriétés de navigation**. Il faut ajouter cette annotation sur **chacune des propriétés de navigation** pour éviter des problèmes de validation au niveau du **ModelState.IsValid**. 
-
----
-
-
-### 2. Relation Plusieurs à Plusieurs : 
-
-- Dans le diagramme nous avons une relation **Plusieurs à Plusieurs** entre les modèles **Etudiant** et **Cours**. 
-
- ![alt text](../assets/cours/rencontre2.2/Plusieurs_a_Plusieurs.webp)
-
-
-- **Clé étrangère** : Dans cette relation, nous n’avons pas à ajouter de clés étrangères. 
-
-- **Table associative** : Puisqu’il s’agit d’une relation **Plusieurs à Plusieurs**, Entity Framework va générer pour nous une table associative dans la base de données. Si nous voulions stocker des informations supplémentaires entre ces deux modèles, par exemple la note de l’étudiant, il faudrait nous-même créer un modèle qui représenterait la table associative et qui aurait des relations avec Etudiant et Cours. 
-
----
-
-
-### 3. Relation Un à Un : 
-
-- Dans le diagramme nous avons une relation **Un à Un** entre les modèles **Etudiant** et **CarteEtudiante**. 
-
- ![alt text](../assets/cours/rencontre2.2/Un_a_Un.webp)
- ![alt text](../assets/cours/rencontre2.2/Un_Un_Clé_Étrangère.webp)
-
- ---
-
-### Étape 5. Ajouter les DbSets dans le DbContext: 
-
-- **Pour chaque modèle** ajouté, il faut ajouter un **DbSet dans le DbContext**.
-
- ![alt text](../assets/cours/rencontre2.2/DbSets.webp)
-
- ---
-
-### Étape 6. Créer la migration et la base de données :
-
-1. Dans la **console de gestionnaire de package**, faites la commande suivante pour **créer la migration**. 
-
-```
-add-migration nom_migration
-```
-
--   Assurez-vous que la migration a été créée et qu'elle **n'est pas vide** (exemple du fichier de migration avec contenu partiel). 
-
- ![alt text](../assets/cours/rencontre2.2/Migration.webp)
-
- ![alt text](../assets/cours/rencontre2.2/Migration_Contenu_Partiel.webp)
-
-
-
-2. **Créez la base de données** avec la commande suivante 
-
-```
-update-database
-```
-
-- Regardez dans **l'explorateur d'objets SQL** si la base de données a été créée et si les tables existent.
-
- ![alt text](../assets/cours/rencontre2.2/Tables_BD.webp)
-
- - Remarquez ici qu'Entity Framework a créé une **table associative CoursEtudiant** puisqu'il y avait une relation **Plusieurs à Plusieurs** entre les tables Cours et Etudiant.
 
 ---
 
@@ -232,14 +75,14 @@ Utiliser les fonctionnalités de l’ORM la grande majorité du temps et écrire
 | Système de requêtes SQL | Linq sur des DbSet qui génère du SQL |
 
 ### Les 6 pièces du casse-tête
-- Modèles
-- Relations
-- DbContext
-- DbSet&lt;&gt;
-- Migrations
-- Configuration
+- <iconify-icon icon="mdi:puzzle" style={{color: "#4db6a5"}}></iconify-icon> Modèles
+- <iconify-icon icon="mdi:puzzle" style={{color: "#2e5e9e"}}></iconify-icon> Relations
+- <iconify-icon icon="mdi:puzzle" style={{color: "#f2d466"}}></iconify-icon> DbContext
+- <iconify-icon icon="mdi:puzzle" style={{color: "#e74c3c"}}></iconify-icon> DbSet&lt;&gt;
+- <iconify-icon icon="mdi:puzzle" style={{color: "#8e44ad"}}></iconify-icon> Migrations
+- <iconify-icon icon="mdi:puzzle" style={{color: "#e67e22"}}></iconify-icon> Configuration
 
-### Modèles (règles importantes)
+### <iconify-icon icon="mdi:puzzle" style={{color: "#4db6a5"}}></iconify-icon> Modèles (règles importantes) {#modèles-règles-importantes}
 Pour utiliser Entity Framework, vos classes doivent :
 - Avoir une clé primaire (Id)
 - Avoir des propriétés publiques (c’est valide si elles ne sont pas publiques, mais elles ne seront pas liées à votre BD!)
@@ -262,7 +105,7 @@ public class ConstructeurVideParDefaut
     // Un constructeur vide existe par defaut!
     public int Id { get; set; }
 }
-
+// highlight-start
 // ❌ Invalide car cette classe n'a pas de constructeur public vide!
 public class AutreConstructeur
 {
@@ -273,14 +116,16 @@ public class AutreConstructeur
     public int Id { get; set; }
     public int Valeur { get; set; }
 }
+// highlight-end
 ```
 
 ```csharp title="Version corrigée"
 public class AutreConstructeur
 {
+    // highlight-start
     // Mais il faut le définir si un autre Constructeur existe!
     public AutreConstructeur() { }
-
+    // highlight-end
     public AutreConstructeur(int valeur) {
         Valeur = valeur;
     }
@@ -314,7 +159,7 @@ public class AvecAnnotation
 }
 ```
 
-### Relations
+### <iconify-icon icon="mdi:puzzle" style={{color: "#2e5e9e"}}></iconify-icon> Relations {#relations}
 On peut ajouter des relations entre nos objets de 2 façons : en ajoutant une propriété vers un autre objet ou un `IEnumerable` d’objets. On nomme ces propriétés des **propriétés de navigation**.
 
 Dans cet exemple, on a créé une relation entre 1 Blog et plusieurs Posts.
@@ -326,9 +171,11 @@ public class Post
 
     // Autres propriétés...
 
+    // highlight-start
     // Propriété de navigation
     // Le nom de la propriété n'est pas important ici
     public Blog MonBlog { get; set; }
+    // highlight-end
 }
 
 public class Blog
@@ -337,9 +184,11 @@ public class Blog
 
     // Autres propriétés...
 
+    // highlight-start
     // Propriété de navigation
     // Encore une fois, le nom de la propriété n'est pas important
     IEnumerable<Post> MesPosts { get; set; }
+    // highlight-end
 }
 ```
 
@@ -363,9 +212,11 @@ public class Post
 {
     public int Id { get; set; }
 
+    // highlight-start
     // Sinon, il faut utiliser l'annotation ForeignKey
     [ForeignKey(nameof(MonBlog))] // [ForeignKey("MonBlog")] fonctionne aussi!
     public int AutreChose { get; set; }
+    // highlight-end
     public Blog MonBlog { get; set; }
 }
 ```
@@ -399,10 +250,11 @@ public class Cours
 public class Etudiant
 {
     public int Id { get; set; }
-
+    // highlight-start
     // La classe List hérite de IEnumerable,
     // alors on peut l'utiliser comme propriété de navigation
     public List<Cours> Cours { get; set; }
+    // highlight-end
 }
 ```
 
@@ -422,8 +274,9 @@ public class Joueur
 public class FicheOfficielle
 {
     public int Id { get; set; }
-
+    // highlight-start
     public int JoueurId { get; set; }
+    // highlight-end
     public Joueur Joueur { get; set; }
 }
 ```
@@ -434,8 +287,9 @@ OU
 public class Joueur
 {
     public int Id { get; set; }
-
+    // highlight-start
     public int FicheOfficielleId { get; set; }
+    // highlight-end
     public FicheOfficielle FicheOfficielle { get; set; }
 }
 
@@ -454,15 +308,17 @@ Si un des côtés de la relation est optionnel, on met la clé étrangère du c�
 public class Joueur
 {
     public int Id { get; set; }
-
+    // highlight-start
     public FicheOfficielle? FicheOfficielle { get; set; }
+    // highlight-end
 }
 
 public class FicheOfficielle
 {
     public int Id { get; set; }
-
+    // highlight-start
     public int JoueurId { get; set; }
+    // highlight-end
     public Joueur Joueur { get; set; }
 }
 ```
@@ -497,7 +353,7 @@ protected override void OnModelCreating(ModelBuilder builder)
 }
 ```
 
-### Le DbContext
+### <iconify-icon icon="mdi:puzzle" style={{color: "#f2d466"}}></iconify-icon> Le DbContext {#le-dbcontext}
 - Gère la BD (l’initialisation, par exemple)
 - Gère la connexion à la BD
 - Contient les collections d’entités (DbSet)
@@ -522,7 +378,7 @@ public class BloggingContext : DbContext
 }
 ```
 
-### DbSet&lt;&gt;
+### <iconify-icon icon="mdi:puzzle" style={{color: "#e74c3c"}}></iconify-icon> DbSet&lt;&gt; {#dbset}
 Le `DbSet<>`, c’est une collection qui permet de faire les opérations CRUD sur son type d’élément. Donc `DbSet<Book>` permet de manipuler les données de `Book`.
 - **C**reate (Ajouter)
 - **R**etrieve (Récupérer)
@@ -587,6 +443,8 @@ post.Content = "Nouveau Message";
 _context.SaveChanges();
 ```
 
+OU
+
 ```csharp
 // Sinon, un objet "détaché" (qui n'a pas été retourné à travers le DbContext)
 // et qui a le même Id que l'instance que l'on veut modifier
@@ -609,7 +467,7 @@ _context.Posts.Remove(post);
 _context.SaveChanges();
 ```
 
-### Migrations
+### <iconify-icon icon="mdi:puzzle" style={{color: "#8e44ad"}}></iconify-icon> Migrations {#migrations}
 - Une migration, c’est un fichier qui contient l’information nécessaire pour mettre à jour une base de données.
 - Lors de l’application de la première migration, la base de données est créée avec toutes les tables, attributs, contraintes et relations du modèle de données enregistré au DbContext.
 - Le deuxième fichier de migration contiendra uniquement les changements qui ont été faits au modèle depuis la dernière migration!
@@ -622,7 +480,7 @@ _context.SaveChanges();
 | `update-database` | Mettre à jour la BD jusqu’à la dernière migration |
 | `update-database LastGoodMigration` | Mettre à jour la BD jusqu’à la migration spécifiée |
 
-### Configuration
+### <iconify-icon icon="mdi:puzzle" style={{color: "#e67e22"}}></iconify-icon> Configuration {#configuration}
 La configuration de la connexion à la BD se fait dans le fichier `appsettings.json` qui se trouve à la racine du projet.
 
 ```json title="appsettings.json"
@@ -675,6 +533,32 @@ Faites `add-migration test` et regardez le fichier qui est généré.
   - Faites `add-migration unBonNom`
   - Faites `update-database` pour l’appliquer
 
-:::warning Attention!
+**J’ai cloné/forké un dépôt. Lorsque je veux compiler mon projet, celui-ci plante après quelques secondes au démarrage. Que dois-je faire?**
+
+1. Vérifiez que le code ne contient pas d’erreurs (soulignées en rouge).
+2. Si le code contient des erreurs, validez que tous les paquets NuGet ont été installés :
+   - Microsoft.EntityFrameworkCore
+   - Microsoft.EntityFrameworkCore.Design
+   - Microsoft.EntityFrameworkCore.SqlServer 
+   - Microsoft.EntityFrameworkCore.Tools
+
+   :::warning Version des paquets
+   La version des paquets Entity Framework doit suivre la version de .NET utilisée par le projet :
+   - Projet en **.NET 8** : installez la version **8.x.x**
+   - Projet en **.NET 10** : installez la version **10.x.x**
+
+   Où `x.x` correspond à la dernière version disponible pour cette version majeure. Dans le gestionnaire de paquets NuGet, choisissez la bonne version dans la liste déroulante **Version** avant de cliquer sur **Installer**.
+
+   **Comment trouver la version .NET du projet dans Visual Studio?**
+   - Faites un clic droit sur le projet dans l’**Explorateur de solutions** → **Propriétés** → **Application** → **Général** : la version est indiquée dans **Framework cible** (ex. : .NET 8.0).
+   - Ou double-cliquez sur le projet dans l’**Explorateur de solutions** pour ouvrir le fichier `.csproj` et regardez la balise `TargetFramework` :
+
+   ```xml
+   <TargetFramework>net8.0</TargetFramework>
+   ```
+   :::
+3. Regardez s’il y a des migrations (dossier `Migrations`). Si oui, faites `update-database` pour générer la base de données.
+
+:::danger Attention!
 Si les commandes `update-database` ou `add-migration` ne fonctionnent pas, c’est peut-être parce que votre projet ne compile pas! Prenez le temps de lire les erreurs!
 :::
