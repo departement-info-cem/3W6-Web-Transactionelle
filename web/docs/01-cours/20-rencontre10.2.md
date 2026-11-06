@@ -1,14 +1,17 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# Présentation du TP3
+# AJAX (partie 1)
 
 ## Contenu
-
-Présentation du [TP3](/tp/tp3)
+- AJAX #1
 
 ## Activités de la séance: 
 
-Travail sur le [TP3](/tp/tp3)
+### Théorie: 
+- 🔗[420_3W6_cours_21_AJAX.pptx](../assets/cours/presentations/420_3W6_cours_21_AJAX.pptx)
 
-### Travail personnel: 
-- Compléter les laboratoires 
+### Laboratoires
+#### GitHub FORK Laboratoire
+- Labo 1 🔗[S21_Lab1_AJAX](https://github.com/A26ProgWebTrans/S21_Lab1_AJAX)
+- Labo 2 🔗[S21_Lab2_AJAX](https://github.com/A26ProgWebTrans/S21_Lab2_AJAX)
+

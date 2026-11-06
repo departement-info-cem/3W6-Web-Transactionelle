@@ -1,17 +1,15 @@
 import Laboratoire from '/laboratoire.mdx';
 
-# AJAX (partie 1)
+# AJAX (partie 2)
 
 ## Contenu
-- AJAX #1
+- AJAX #2
 
 ## Activités de la séance: 
 
 ### Théorie: 
-- 🔗[420_3W6_cours_21_AJAX.pptx](../assets/cours/presentations/420_3W6_cours_21_AJAX.pptx)
+- 🔗[420_3W6_cours_22_AJAX_2.pptx](../assets/cours/presentations/420_3W6_cours_22_AJAX_2.pptx)
 
-### Laboratoires
+### Laboratoire
 #### GitHub FORK Laboratoire
-- Labo 1 🔗[S21_Lab1_AJAX](https://github.com/A26ProgWebTrans/S21_Lab1_AJAX)
-- Labo 2 🔗[S21_Lab2_AJAX](https://github.com/A26ProgWebTrans/S21_Lab2_AJAX)
-
+- Labo 🔗[S22_Lab1_AJAX](https://github.com/A26ProgWebTrans/S22_Lab1_AJAX_2)
