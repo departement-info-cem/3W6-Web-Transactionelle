@@ -7,7 +7,7 @@
   - Commit 
   - Création d’un Repo GitHub pour les démonstrations 
 - .NET Core MVC : Projets 
-  - Création de projet .NET Core MVC (avec liste comme en 2W5) 
+  - Création de projet .NET Core MVC (avec liste comme en 2W6) 
   - Déclenchement d’action et d’événement au niveau de l’application par l’envoi d’un formulaire ou d’un appel de page.
 
 ## Ressources et documentation: 
@@ -43,16 +43,18 @@ Utilisation de Fork (Toute la classe ensemble)
 ### Travail personnel: 
 - Compléter les laboratoires
 
+---
+
 ## Notes de cours
 
 ### Contenu du cours
 - Plan de cours
 - Présentation de l’enseignant
-- Les défis du cours
-- Fork
-- Révision MVC
-- Pourquoi .NET MVC?
-- Site Web du cours
+- [Les défis du cours](#les-défis-du-cours)
+- [Fork](#fork)
+- [Révision MVC](#création-dun-projet-net-core-mvc)
+- [Pourquoi .NET MVC?](#pourquoi-net-core-mvc)
+- [Site Web du cours](#communications)
 
 ### Nombre d’heures par semaine
 - 2 heures de théorie
@@ -118,12 +120,37 @@ Après ce cours, vous pourrez créer des applications complètes qui ont de la v
 - Important pour les répertoires temporaires d’un projet (peuvent devenir très gros!)
 - La bonne nouvelle : un fichier `.gitignore` est généré lors de la création d’un projet .NET Core MVC et il exclut déjà les fichiers temporaires
 
-Voici un exemple d’un fichier qui ignore tous les fichiers d’un répertoire, sauf le fichier `.gitignore`. Si vous ajoutez un fichier `.gitignore` avec ce contenu dans un répertoire, son contenu sera ignoré par Git.
+:::tip
+S’il n’y a pas encore de `.gitignore` (par exemple, si le repository a été créé sans en ajouter un), on peut générer celui de .NET avec la commande suivante dans un terminal, à la racine du repository :
+
+```bash
+dotnet new gitignore
+```
+:::
+
+Voici un extrait typique d’un `.gitignore` pour un projet .NET (semblable à ce que génère `dotnet new gitignore`) :
 
 ```gitignore title=".gitignore"
-*
-!.gitignore
+# Fichiers compilés : régénérés à chaque build, inutile de les partager
+[Bb]in/
+[Oo]bj/
+
+# Configuration locale de Visual Studio (propre à chaque développeur)
+.vs/
+*.user
+
+# Paquets NuGet téléchargés : restaurés automatiquement avec dotnet restore
+packages/
+
+# Fichiers de base de données locaux (LocalDB)
+*.mdf
+*.ldf
 ```
+
+- Une ligne qui se termine par `/` ignore un **répertoire** au complet (ex. : `bin/`).
+- `*` remplace n’importe quelle suite de caractères (ex. : `*.user` ignore tous les fichiers qui finissent par `.user`).
+- `[Bb]` accepte l’une ou l’autre des lettres, donc `bin/` et `Bin/` sont ignorés.
+- Une ligne qui commence par `#` est un commentaire.
 
 #### Git 🚫 (À éviter!)
 - Toute opération qui inclut le mot « Force »

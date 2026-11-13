@@ -42,6 +42,14 @@ const config = {
     },
   ],
 
+  // Composant web Iconify : <iconify-icon icon="mdi:puzzle"></iconify-icon> dans les pages
+  scripts: [
+    {
+      src: 'https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js',
+      async: true,
+    },
+  ],
+
   markdown: {
     mermaid: true,
     hooks: {
@@ -132,6 +140,12 @@ const config = {
               {
                 label: "GitHub",
                 href: `https://github.com/departement-info-cem/${siteConfig.nomUrl}`,
+              },
+              {
+                // Seul lien vers cette page, qui n'est ni dans le menu ni
+                // dans les barres latérales.
+                label: "Proposer une correction",
+                to: "/contribuer",
               },
             ],
           },
