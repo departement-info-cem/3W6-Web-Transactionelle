@@ -1,4 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # AJAX (partie 2)
 
@@ -29,6 +31,9 @@ import Laboratoire from '/laboratoire.mdx';
 - Elle permet également de spécifier le format des données.
 - Dans ce cours, nous allons nous contenter d’utiliser `$.get` et `$.post`, mais c’est bon de savoir que `$.ajax` est seulement une version plus configurable.
 
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
+
 ```js
 $.ajax({
     type: "GET",
@@ -44,10 +49,38 @@ $.ajax({
 });
 ```
 
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+fetch('/Zombie/Details?' + new URLSearchParams({"id": id}), {
+    method: "GET",                       // équivalent de "type"
+    headers: { "Accept": "application/json" } // équivalent de "datatype"
+})
+    .then(response => {
+        if (!response.ok) throw new Error(response.status);
+        return response.json();
+    })
+    .then(result => {
+        // Afficher le résultat (équivalent de "success")
+    })
+    .catch(() => {
+        // équivalent de "error"
+        alert("Impossible d'obtenir le details");
+    });
+```
+
+</TabItem>
+</Tabs>
+
+:::info
+`fetch` est l’équivalent vanille de `$.ajax` : son 2e paramètre est un objet d’options (`method`, `headers`, `body`, ...) qui permet aussi les appels `PUT`, `DELETE`, etc.
+:::
+
 ### Utilisation d’APIs
 Il existe de très nombreuses APIs sur le web qui fournissent des données (vu avec beaucoup plus de détails en 4W6).
 
-On peut utiliser `$.get` et `$.post` pour accéder aux APIs de très nombreux sites, comme :
+On peut utiliser `$.get` et `$.post` (ou `fetch` en JavaScript vanille) pour accéder aux APIs de très nombreux sites, comme :
 - Google
 - Twitter
 - Instagram

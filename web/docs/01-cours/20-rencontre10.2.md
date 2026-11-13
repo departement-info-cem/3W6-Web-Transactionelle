@@ -1,4 +1,6 @@
 import Laboratoire from '/laboratoire.mdx';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # AJAX (partie 1)
 
@@ -118,6 +120,9 @@ Voici ce que l’on voit avec « View page source » :
 #### jQuery PartialView
 Lorsqu’une action retourne une vue partielle, on peut ajouter les données retournées à notre page en utilisant un appel AJAX `$.get` :
 
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
+
 ```js
 $.get('/Zombie/Details', { "id": id },
     function (htmlData) {
@@ -129,8 +134,35 @@ $.get('/Zombie/Details', { "id": id },
 );
 ```
 
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+fetch('/Zombie/Details?' + new URLSearchParams({ "id": id }))
+    .then(response => response.text()) // on lit la réponse comme du texte (HTML)
+    .then(htmlData => {
+        // innerHTML est l'équivalent de la fonction .html de jQuery.
+        // Le contenu va être à l'INTÉRIEUR de cet élément.
+        document.getElementById("details").innerHTML = htmlData;
+    });
+```
+
+</TabItem>
+</Tabs>
+
+:::info AJAX sans jQuery : `fetch`
+Le navigateur fournit la fonction `fetch` pour faire des appels AJAX sans librairie. Elle retourne une **Promise** :
+- le premier `.then` reçoit la réponse HTTP; on choisit comment la lire (`.text()` pour du HTML, `.json()` pour du JSON);
+- le second `.then` reçoit le contenu, comme la fonction de rappel de `$.get`.
+
+Pour un GET, les paramètres doivent être ajoutés à l’URL. `new URLSearchParams({...})` s’occupe de les encoder (`?id=2`).
+:::
+
 ### Appel AJAX, $.get
 On peut faire un appel GET vers le serveur et fournir l’URL, les paramètres et une fonction à exécuter pour traiter la réponse lorsque le serveur va avoir répondu.
+
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
 
 ```js
 $.get('/Zombie/Details', { "id": id },
@@ -142,7 +174,26 @@ $.get('/Zombie/Details', { "id": id },
 )
 ```
 
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+fetch('/Zombie/Details?' + new URLSearchParams({ "id": id }))
+    .then(response => response.text())
+    .then(htmlContent => {
+        // Faire quelque chose avec le contenu reçu
+        // On utilise fréquemment innerHTML pour
+        // appliquer le résultat sur un élément
+    });
+```
+
+</TabItem>
+</Tabs>
+
 Les 2e et 3e paramètres sont optionnels, mais il faut mettre `null` au 2e paramètre s’il n’y a pas de data.
+
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
 
 ```js
 $.get(url);
@@ -151,8 +202,24 @@ $.get(url, data, function{});
 $.get(url, null, function{});
 ```
 
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+fetch(url);
+fetch(url + '?' + new URLSearchParams(data));
+fetch(url + '?' + new URLSearchParams(data)).then(r => r.text()).then(function{});
+fetch(url).then(r => r.text()).then(function{});
+```
+
+</TabItem>
+</Tabs>
+
 #### Appel AJAX, $.post
 On peut faire les mêmes appels avec la méthode POST. Évidemment, il faut toujours utiliser le type de requête attendu par le serveur.
+
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
 
 ```js
 $.post(url);
@@ -161,8 +228,28 @@ $.post(url, data, function{});
 $.post(url, null, function{});
 ```
 
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+fetch(url, { method: "POST" });
+fetch(url, { method: "POST", body: new URLSearchParams(data) });
+fetch(url, { method: "POST", body: new URLSearchParams(data) }).then(r => r.text()).then(function{});
+fetch(url, { method: "POST" }).then(r => r.text()).then(function{});
+```
+
+</TabItem>
+</Tabs>
+
+:::tip Pourquoi `URLSearchParams` dans le `body`?
+`$.post` envoie les données comme un formulaire HTML (`application/x-www-form-urlencoded`). En passant un `URLSearchParams` comme `body`, `fetch` utilise le même format, donc les paramètres et les DTO de l’action du contrôleur sont remplis exactement comme avec jQuery.
+:::
+
 #### Gestion d’erreurs pour les appels $.get et $.post
 Pour gérer les erreurs, il est possible d’ajouter un appel à la fonction `.fail` :
+
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
 
 ```js
 $.get('/Zombie/Details', { "id": id },
@@ -175,6 +262,35 @@ $.get('/Zombie/Details', { "id": id },
     console.log(error.responseText);
 });
 ```
+
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+fetch('/Zombie/Details?' + new URLSearchParams({ "id": id }))
+    .then(async response => {
+        if (!response.ok) {
+            // Le serveur a répondu avec une erreur (404, 500, ...)
+            // response.text() contient le message, comme "responseText" en jQuery
+            throw new Error(await response.text());
+        }
+        return response.text();
+    })
+    .then(data => {
+        // Gestion des données
+    })
+    .catch(error => {
+        // Gestion de l'erreur
+        console.log(error.message);
+    });
+```
+
+</TabItem>
+</Tabs>
+
+:::warning Attention
+Contrairement à `.fail` de jQuery, `fetch` ne considère **pas** une réponse 404 ou 500 comme une erreur : le `.catch` n’est appelé que si le serveur est injoignable. Il faut donc vérifier `response.ok` soi-même.
+:::
 
 ### JsonResult
 - L’action d’un contrôleur peut retourner n’importe quel type de données qui peut être représenté par un string.
@@ -223,6 +339,9 @@ public async Task<IActionResult> GetZombie(int id)
 - Dans cet exemple, on veut obtenir la météo à une coordonnée latitude/longitude. On met ensuite les valeurs à jour sur la page.
 - On pourrait penser exécuter cet appel chaque minute, pour que les données de la page soient à jour.
 
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
+
 ```js
 $.get("Meteo/Update/", { "lng": lgn, "lat": lat},
     function (meteoUpdate) {
@@ -232,6 +351,22 @@ $.get("Meteo/Update/", { "lng": lgn, "lat": lat},
     }
 );
 ```
+
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+fetch("Meteo/Update/?" + new URLSearchParams({ "lng": lgn, "lat": lat }))
+    .then(response => response.json()) // .json() transforme le JSON reçu en objet JavaScript
+    .then(meteoUpdate => {
+        document.getElementById("temperature").value = meteoUpdate.temperature;
+        document.getElementById("windSpeed").value = meteoUpdate.windSpeed;
+        document.getElementById("windDirection").value = meteoUpdate.windDirection;
+    });
+```
+
+</TabItem>
+</Tabs>
 
 ### Représentation de relations en JSON
 - Dans nos modèles, il y a très fréquemment des relations bidirectionnelles.
@@ -249,10 +384,26 @@ $.get("Meteo/Update/", { "lng": lgn, "lat": lat},
 ### Exemple POST (DTO – Data Transfer Object)
 Voici une autre façon de passer nos données à une méthode GET ou POST :
 
+<Tabs groupId="ajax">
+<TabItem value="jquery" label="jQuery" default>
+
 ```js
 let data = {"id": 1, "newForce": 1000}; // remarquez que l'on commence par une minuscule en JS
 $.post(url, data, function);
 ```
+
+</TabItem>
+<TabItem value="vanille" label="JavaScript vanille">
+
+```js
+let data = {"id": 1, "newForce": 1000}; // remarquez que l'on commence par une minuscule en JS
+fetch(url, { method: "POST", body: new URLSearchParams(data) })
+    .then(response => response.json())
+    .then(function);
+```
+
+</TabItem>
+</Tabs>
 
 ```csharp
 public class ZombieForceDTO
