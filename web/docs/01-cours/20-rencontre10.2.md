@@ -135,7 +135,7 @@ $.get('/Zombie/Details', { "id": id },
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 fetch('/Zombie/Details?' + new URLSearchParams({ "id": id }))
@@ -175,7 +175,7 @@ $.get('/Zombie/Details', { "id": id },
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 fetch('/Zombie/Details?' + new URLSearchParams({ "id": id }))
@@ -203,7 +203,7 @@ $.get(url, null, function{});
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 fetch(url);
@@ -229,7 +229,7 @@ $.post(url, null, function{});
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 fetch(url, { method: "POST" });
@@ -264,7 +264,7 @@ $.get('/Zombie/Details', { "id": id },
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 fetch('/Zombie/Details?' + new URLSearchParams({ "id": id }))
@@ -353,7 +353,7 @@ $.get("Meteo/Update/", { "lng": lgn, "lat": lat},
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 fetch("Meteo/Update/?" + new URLSearchParams({ "lng": lgn, "lat": lat }))
@@ -393,7 +393,7 @@ $.post(url, data, function);
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 let data = {"id": 1, "newForce": 1000}; // remarquez que l'on commence par une minuscule en JS

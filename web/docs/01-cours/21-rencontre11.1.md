@@ -50,7 +50,7 @@ $.ajax({
 ```
 
 </TabItem>
-<TabItem value="vanille" label="JavaScript vanille">
+<TabItem value="vanille" label="JavaScript">
 
 ```js
 fetch('/Zombie/Details?' + new URLSearchParams({"id": id}), {
