@@ -96,14 +96,13 @@ const docs = [
   { label: "14.1 - Révision de fin de session", id: "cours/rencontre14.1", customProps: { avancementLabel: "TP3", avancement: 0.625 } },
   { label: "14.2 - Préparation à l'examen final", id: "cours/rencontre14.2", customProps: { avancementLabel: "TP3", avancement: 0.750 } },
   { label: "15.1 - Examen final", id: "cours/rencontre15.1", customProps: { avancementLabel: "TP3", avancement: 0.875 }, className: "examen" },
-  { label: "15.2 - Travail et remise du TP3", id: "cours/rencontre15.2", customProps: {avancementLabel: "TP3", avancement: 1}, className: "remise-tp3"},
+  { label: "15.2 - Travail sur le TP3 et correction interactive", id: "cours/rencontre15.2", customProps: {avancementLabel: "TP3", avancement: 1}, className: "remise-tp3"},
 ];
 
 /** @param {string} date1010 @param {string} date1030 */
 function creerCalendrier(date1010, date1030) {
   return {
-    "Valérie": [{ "1010": date1010 }, { "1020": date1010 }],
-    "Tommy": [{ "1030": date1030 }],
+    "Tommy": [{ "1010": date1010 }, { "1020": date1010 }, { "1030": date1030 }],
   };
 }
 
