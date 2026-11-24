@@ -19,7 +19,7 @@ import Laboratoire from '/laboratoire.mdx';
 
 ### Laboratoire
 #### GitHub FORK Laboratoire
-- Labo 🔗[S24_Lab_i18n_Views](https://github.com/valerieturgeon/S24_Lab1_i18n_part2)
+- Labo 🔗[S24_Lab_i18n_Views](https://github.com/A26ProgWebTrans/A26ProgWebTrans-S24_Lab1_i18n_part2)
 
 
 
